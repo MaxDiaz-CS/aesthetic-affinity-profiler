@@ -1,0 +1,370 @@
+[
+  {
+    "id": "sc-coffee",
+    "prompt": "Pick the coffee shop you would spend an afternoon in",
+    "options": [
+      {
+        "id": "a",
+        "label": "Exposed brick, mismatched mugs, chalk menu",
+        "image": null,
+        "vector": {
+          "palette_temperature": 2,
+          "texture": 2,
+          "context": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "White counter, one plant, thin sans signage",
+        "image": null,
+        "vector": {
+          "ornament": -2,
+          "texture": -2,
+          "surface": -1
+        }
+      },
+      {
+        "id": "c",
+        "label": "Neon sign, chrome stools, checkerboard floor",
+        "image": null,
+        "vector": {
+          "saturation": 2,
+          "surface": 2,
+          "time_orientation": -2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Velvet booths, candles, gold mirrors",
+        "image": null,
+        "vector": {
+          "lightness": -2,
+          "ornament": 2,
+          "status": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc-hotel",
+    "prompt": "Pick the hotel lobby you would want to walk into",
+    "options": [
+      {
+        "id": "a",
+        "label": "Pale stone, oak benches, woven pendants",
+        "image": null,
+        "vector": {
+          "lightness": 2,
+          "material": 2,
+          "surface": -2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Dark marble, polished brass, carved arches",
+        "image": null,
+        "vector": {
+          "lightness": -2,
+          "status": 2,
+          "ornament": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Color-block walls, round seats, oversized floor numbers",
+        "image": null,
+        "vector": {
+          "saturation": 2,
+          "geometry": 2,
+          "tone": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Smoked glass, slim metal desks, blue light strips",
+        "image": null,
+        "vector": {
+          "palette_temperature": -2,
+          "surface": 2,
+          "time_orientation": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc-lock-screen",
+    "prompt": "Pick a lock screen for your phone",
+    "options": [
+      {
+        "id": "a",
+        "label": "A quiet gray grid and tiny plain numerals",
+        "image": null,
+        "vector": {
+          "saturation": -2,
+          "geometry": -2,
+          "typography": -2
+        }
+      },
+      {
+        "id": "b",
+        "label": "A close-up of a leaf with pale morning light",
+        "image": null,
+        "vector": {
+          "lightness": 2,
+          "imagery": 2,
+          "material": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Iridescent bubbles on a glowing blue field",
+        "image": null,
+        "vector": {
+          "palette_temperature": -2,
+          "geometry": 2,
+          "surface": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Cutout stars and doodles on ruled paper",
+        "image": null,
+        "vector": {
+          "texture": 2,
+          "tone": 2,
+          "context": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc-living-room",
+    "prompt": "Pick the living room you would want to come home to",
+    "options": [
+      {
+        "id": "a",
+        "label": "Rust-colored cushions, a wood table, and a woven rug",
+        "image": null,
+        "vector": {
+          "palette_temperature": 2,
+          "material": 2,
+          "texture": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "A white sofa, a pale floor, and a single black frame",
+        "image": null,
+        "vector": {
+          "lightness": 2,
+          "ornament": -2,
+          "geometry": -1
+        }
+      },
+      {
+        "id": "c",
+        "label": "A cobalt couch, a curved lamp, and colorful acrylic tables",
+        "image": null,
+        "vector": {
+          "saturation": 2,
+          "geometry": 2,
+          "material": -2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Dark plum walls, floral wallpaper, and a carved sideboard",
+        "image": null,
+        "vector": {
+          "lightness": -2,
+          "ornament": 2,
+          "time_orientation": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc-album",
+    "prompt": "Pick the album cover you would pick up",
+    "options": [
+      {
+        "id": "a",
+        "label": "A black-and-silver grid with small plain lettering",
+        "image": null,
+        "vector": {
+          "palette_temperature": -2,
+          "geometry": -2,
+          "typography": -2
+        }
+      },
+      {
+        "id": "b",
+        "label": "A grainy portrait with hand-cut letters",
+        "image": null,
+        "vector": {
+          "texture": 2,
+          "imagery": 2,
+          "context": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "A bright cartoon moon with wavy bubble lettering",
+        "image": null,
+        "vector": {
+          "saturation": 2,
+          "tone": 2,
+          "typography": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "A gilded landscape in an elaborate border",
+        "image": null,
+        "vector": {
+          "ornament": 2,
+          "time_orientation": -2,
+          "status": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc-invitation",
+    "prompt": "Pick the birthday invitation you would send",
+    "options": [
+      {
+        "id": "a",
+        "label": "Cream paper, a tiny leaf stamp, and a short sincere note",
+        "image": null,
+        "vector": {
+          "surface": -2,
+          "imagery": 1,
+          "tone": -2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Neon shapes, giant lettering, and a silly rhyme",
+        "image": null,
+        "vector": {
+          "saturation": 2,
+          "typography": 2,
+          "tone": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Dark card, embossed foil, and an ornate border",
+        "image": null,
+        "vector": {
+          "lightness": -2,
+          "ornament": 2,
+          "status": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Hand-cut colored paper, taped corners, and felt-tip lettering",
+        "image": null,
+        "vector": {
+          "texture": 2,
+          "context": 2,
+          "material": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc-website",
+    "prompt": "Pick the website you would trust with your email",
+    "options": [
+      {
+        "id": "a",
+        "label": "A white page with dark type and a single clear form",
+        "image": null,
+        "vector": {
+          "lightness": 2,
+          "ornament": -2,
+          "typography": -2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Navy panels, a square grid, and a formal heading",
+        "image": null,
+        "vector": {
+          "palette_temperature": -2,
+          "geometry": -2,
+          "context": -2
+        }
+      },
+      {
+        "id": "c",
+        "label": "A hand-drawn envelope on a warm paper background",
+        "image": null,
+        "vector": {
+          "palette_temperature": 2,
+          "texture": 2,
+          "imagery": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Rounded teal panels with bright illustrated icons",
+        "image": null,
+        "vector": {
+          "geometry": 2,
+          "saturation": 2,
+          "imagery": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc-sneakers",
+    "prompt": "Pick the pair of sneakers you would wear",
+    "options": [
+      {
+        "id": "a",
+        "label": "Cream canvas, gum soles, and simple stitching",
+        "image": null,
+        "vector": {
+          "saturation": -1,
+          "surface": -2,
+          "time_orientation": -1
+        }
+      },
+      {
+        "id": "b",
+        "label": "Silver mesh, reflective trim, and sculpted rubber soles",
+        "image": null,
+        "vector": {
+          "palette_temperature": -2,
+          "surface": 2,
+          "time_orientation": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Purple and lime panels with oversized curved soles",
+        "image": null,
+        "vector": {
+          "saturation": 2,
+          "geometry": 2,
+          "tone": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Brown suede, visible repairs, and mismatched laces",
+        "image": null,
+        "vector": {
+          "palette_temperature": 2,
+          "texture": 2,
+          "context": 2
+        }
+      }
+    ]
+  }
+]
