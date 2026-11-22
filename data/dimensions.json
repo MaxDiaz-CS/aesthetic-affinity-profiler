@@ -1,0 +1,159 @@
+[
+  {
+    "id": "decades",
+    "kind": "multi_hot",
+    "role": "era_prior",
+    "values": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "id": "saturation",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Muted",
+    "positive": "Vivid"
+  },
+  {
+    "id": "temperature",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Warm",
+    "positive": "Cool"
+  },
+  {
+    "id": "value",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Dark",
+    "positive": "Light"
+  },
+  {
+    "id": "surface",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Matte",
+    "positive": "Glossy"
+  },
+  {
+    "id": "complexity",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Minimal",
+    "positive": "Maximal"
+  },
+  {
+    "id": "geometry",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Organic",
+    "positive": "Geometric"
+  },
+  {
+    "id": "energy",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Calm",
+    "positive": "Hype"
+  },
+  {
+    "id": "tone",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Wholesome",
+    "positive": "Edgy"
+  },
+  {
+    "id": "outlook",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Utopian",
+    "positive": "Dystopian"
+  },
+  {
+    "id": "comfort",
+    "kind": "ordinal",
+    "min": -2,
+    "max": 2,
+    "negative": "Cozy",
+    "positive": "Sleek"
+  },
+  {
+    "id": "palette",
+    "kind": "multi_hot",
+    "values": [
+      "neon",
+      "pastel",
+      "earth",
+      "chrome",
+      "primary",
+      "jewel",
+      "mono"
+    ]
+  },
+  {
+    "id": "texture",
+    "kind": "multi_hot",
+    "values": [
+      "organic",
+      "plastic_translucent",
+      "analog_grainy",
+      "digital_pixel",
+      "metallic"
+    ]
+  },
+  {
+    "id": "typography",
+    "kind": "multi_hot",
+    "values": [
+      "classic_serif",
+      "humanist_sans",
+      "techno",
+      "script",
+      "brutal",
+      "jumbled"
+    ]
+  },
+  {
+    "id": "subject",
+    "kind": "multi_hot",
+    "values": [
+      "tech",
+      "nature",
+      "corporate",
+      "domestic",
+      "youth",
+      "luxury",
+      "mystical",
+      "global",
+      "sport",
+      "academic"
+    ]
+  },
+  {
+    "id": "context",
+    "kind": "multi_hot",
+    "values": [
+      "ui",
+      "fashion",
+      "interiors",
+      "print",
+      "music",
+      "retail"
+    ]
+  }
+]

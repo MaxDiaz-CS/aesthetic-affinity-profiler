@@ -4,11 +4,17 @@
   "type": "module",
   "scripts": {
     "scrape:cari": "node scripts/scrape-cari.ts",
-    "check:scraper": "tsc --noEmit --strict --target es2022 --module nodenext --lib esnext,dom,dom.iterable --types node scripts/scrape-cari.ts"
+    "check:scraper": "tsc --noEmit --strict --target es2022 --module nodenext --lib esnext,dom,dom.iterable --types node scripts/scrape-cari.ts",
+    "tags:draft": "node scripts/draft-tags.ts draft",
+    "tags:check": "node scripts/draft-tags.ts check",
+    "tags:publish": "node scripts/draft-tags.ts publish",
+    "check:tags": "tsc --noEmit --strict --target es2022 --module nodenext --lib esnext --types node scripts/draft-tags.ts"
   },
   "devDependencies": {
     "@types/jsdom": "^30.0.0",
     "@types/node": "^26.6.6",
+    "csv-parse": "^7.0.3",
+    "csv-stringify": "^6.9.0",
     "jsdom": "^31.0.1",
     "playwright": "^1.65.1",
     "typescript": "^7.0.2"

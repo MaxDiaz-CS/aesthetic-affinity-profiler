@@ -1,0 +1,1963 @@
+{
+  "acidgrafix": {
+    "decades": [],
+    "complexity": 2,
+    "tone": 1,
+    "palette": [
+      "chrome"
+    ],
+    "texture": [
+      "metallic"
+    ],
+    "typography": [
+      "jumbled"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "horror vacui",
+      "chrome type",
+      "oddball textures",
+      "self-referentialism"
+    ]
+  },
+  "airbrush-surrealism": {
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "saturation": 2,
+    "surface": 1,
+    "complexity": 1,
+    "energy": 1,
+    "palette": [
+      "chrome"
+    ],
+    "texture": [
+      "metallic"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "Supersaturated colors",
+      "floating objects",
+      "chrome textures",
+      "lightning",
+      "technical illustration"
+    ]
+  },
+  "austurbane": {
+    "decades": [],
+    "saturation": -2,
+    "temperature": -1,
+    "surface": -1,
+    "complexity": -2,
+    "energy": -1,
+    "comfort": 1,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [
+      "corporate",
+      "luxury"
+    ],
+    "context": [
+      "retail"
+    ],
+    "signature_motifs": [
+      "muted colours",
+      "whitespace",
+      "Plant and branch shadows",
+      "granite and marble",
+      "rough stones",
+      "Fabric"
+    ]
+  },
+  "blob-world": {
+    "decades": [],
+    "complexity": 2,
+    "geometry": -2,
+    "energy": 1,
+    "tone": 1,
+    "subject": [
+      "tech"
+    ],
+    "signature_motifs": [
+      "3D renders",
+      "playful textures",
+      "uncanny forms",
+      "surrealist compositions",
+      "body horror"
+    ]
+  },
+  "boho-chic": {
+    "decades": [
+      "2010s"
+    ],
+    "saturation": -2,
+    "value": 1,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": 1,
+    "energy": -1,
+    "comfort": -1,
+    "palette": [
+      "pastel"
+    ],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [
+      "script"
+    ],
+    "subject": [
+      "mystical",
+      "youth"
+    ],
+    "context": [
+      "interiors",
+      "print"
+    ],
+    "signature_motifs": [
+      "geometric line motifs",
+      "mandalas",
+      "watercolours",
+      "washed out colours",
+      "galaxies",
+      "tapestries"
+    ]
+  },
+  "bubblegum-bling": {
+    "decades": [],
+    "energy": 1,
+    "context": [
+      "music"
+    ],
+    "signature_motifs": [
+      "Hyperpop"
+    ]
+  },
+  "cassette-futurism": {
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "complexity": 1,
+    "geometry": 2,
+    "subject": [
+      "tech"
+    ],
+    "signature_motifs": [
+      "bulky, angular scifi",
+      "hardware"
+    ]
+  },
+  "contempo-eclectic": {
+    "decades": [
+      "1980s"
+    ],
+    "complexity": 2,
+    "energy": 1,
+    "context": [
+      "interiors",
+      "print"
+    ],
+    "signature_motifs": [
+      "furniture design experimentation",
+      "abstract & surrealist art",
+      "New Wave/ Pacific Punk Wave graphic design"
+    ]
+  },
+  "corporate-cyberspace": {
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": 2,
+    "surface": 1,
+    "complexity": 1,
+    "energy": 1,
+    "comfort": 1,
+    "palette": [
+      "neon"
+    ],
+    "texture": [
+      "plastic_translucent"
+    ],
+    "subject": [
+      "tech",
+      "corporate"
+    ],
+    "context": [
+      "print",
+      "ui"
+    ],
+    "signature_motifs": [
+      "translucency",
+      "distorted stroke",
+      "motion blur",
+      "computer-generated and manipulated imagery",
+      "early 1990s rave flyer graphics"
+    ]
+  },
+  "corporate-grunge": {
+    "decades": [],
+    "energy": 1,
+    "tone": 1,
+    "subject": [
+      "corporate"
+    ],
+    "context": [
+      "music",
+      "print"
+    ],
+    "signature_motifs": [
+      "Pacific Northwest 'grunge' music scene",
+      "Raygun & Emigre"
+    ]
+  },
+  "corporate-hippie": {
+    "decades": [],
+    "subject": [
+      "corporate"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "psychedelic graphic styles"
+    ]
+  },
+  "corporate-memphis": {
+    "decades": [
+      "2010s"
+    ],
+    "saturation": -1,
+    "value": 2,
+    "surface": -1,
+    "complexity": -1,
+    "geometry": 2,
+    "energy": -1,
+    "tone": -1,
+    "palette": [
+      "pastel"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "subject": [
+      "corporate",
+      "nature"
+    ],
+    "context": [
+      "print",
+      "interiors"
+    ],
+    "signature_motifs": [
+      "pastel colors",
+      "geometric sans typefaces",
+      "Monstera plants",
+      "exposed plywood",
+      "white walls",
+      "Matisse-influenced graphics"
+    ]
+  },
+  "corporate-scene": {
+    "decades": [],
+    "energy": 1,
+    "tone": 2,
+    "subject": [
+      "youth"
+    ],
+    "context": [
+      "fashion",
+      "retail",
+      "music"
+    ],
+    "signature_motifs": [
+      "edgy grunge aesthetics",
+      "pop punk",
+      "Hot Topic"
+    ]
+  },
+  "corporate-synthwave": {
+    "decades": [],
+    "saturation": 2,
+    "surface": 1,
+    "geometry": 1,
+    "energy": 1,
+    "comfort": 1,
+    "palette": [
+      "neon"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "signature_motifs": [
+      "neon colors",
+      "airbrush-style imagery",
+      "laser grids"
+    ]
+  },
+  "corporate-vaporwave": {
+    "decades": [],
+    "tone": 1,
+    "context": [
+      "music"
+    ],
+    "signature_motifs": [
+      "post-internet movement",
+      "postmodern irony"
+    ]
+  },
+  "curly-girly": {
+    "decades": [],
+    "complexity": 2,
+    "energy": 1,
+    "tone": -1,
+    "subject": [
+      "youth",
+      "luxury"
+    ],
+    "signature_motifs": [
+      "Ornate",
+      "frilly aesthetics",
+      "'Diva' motifs",
+      "2000s celebrity & pop culture",
+      "aspirational wealth"
+    ]
+  },
+  "cyberbougie": {
+    "decades": [],
+    "value": -2,
+    "complexity": -1,
+    "energy": -1,
+    "comfort": 2,
+    "subject": [
+      "tech",
+      "corporate"
+    ],
+    "context": [
+      "ui"
+    ],
+    "signature_motifs": [
+      "Monospaced fonts",
+      "gradients",
+      "black backgrounds",
+      "sleekness"
+    ]
+  },
+  "cyberdelia": {
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": 2,
+    "complexity": 2,
+    "geometry": 1,
+    "energy": 2,
+    "palette": [
+      "neon"
+    ],
+    "typography": [
+      "techno"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "print",
+      "music"
+    ],
+    "signature_motifs": [
+      "kaleidoscopic palettes",
+      "acid colors",
+      "fractal forms",
+      "expressive early 3D typography",
+      "rave flyers"
+    ]
+  },
+  "deco-luxe": {
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "complexity": 1,
+    "subject": [
+      "luxury"
+    ],
+    "signature_motifs": [
+      "Art Deco",
+      "Streamline Moderne",
+      "Roaring '20s"
+    ]
+  },
+  "decoplex": {
+    "decades": [
+      "1990s"
+    ],
+    "complexity": 1,
+    "energy": 1,
+    "subject": [
+      "global"
+    ],
+    "signature_motifs": [
+      "golden age of Hollywood",
+      "early air travel",
+      "WPA murals",
+      "exaggerated version of art deco tropes"
+    ]
+  },
+  "diner-kitsch": {
+    "decades": [],
+    "saturation": 2,
+    "surface": 2,
+    "complexity": 1,
+    "energy": 1,
+    "palette": [
+      "neon",
+      "chrome"
+    ],
+    "texture": [
+      "metallic"
+    ],
+    "context": [
+      "fashion",
+      "interiors",
+      "retail",
+      "print"
+    ],
+    "signature_motifs": [
+      "Jukeboxes",
+      "poodle skirts",
+      "1950s advertising kitsch",
+      "neon",
+      "chromed-out automobiles",
+      "metallic paneling"
+    ]
+  },
+  "disco-deco": {
+    "decades": [],
+    "saturation": 2,
+    "value": 1,
+    "complexity": 1,
+    "geometry": 2,
+    "energy": 2,
+    "context": [
+      "music"
+    ],
+    "signature_motifs": [
+      "vibrant colors",
+      "geometric typefaces",
+      "psychedelic imagery",
+      "Studio 54"
+    ]
+  },
+  "dollar-store-vernacular": {
+    "decades": [],
+    "context": [
+      "retail",
+      "print",
+      "ui"
+    ],
+    "signature_motifs": [
+      "knock-off products",
+      "word art",
+      "spammy internet sites",
+      "personal websites"
+    ]
+  },
+  "early-cyber": {
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "complexity": 1,
+    "geometry": 1,
+    "energy": 1,
+    "texture": [
+      "digital_pixel"
+    ],
+    "typography": [
+      "jumbled"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "print",
+      "ui",
+      "music"
+    ],
+    "signature_motifs": [
+      "rave flyer graphics",
+      "harsh pixelated thermographic imagery",
+      "warped fonts",
+      "desktop publishing"
+    ]
+  },
+  "eco-beige": {
+    "decades": [
+      "1990s"
+    ],
+    "saturation": -2,
+    "temperature": -1,
+    "value": 1,
+    "surface": -2,
+    "complexity": -2,
+    "geometry": -2,
+    "energy": -2,
+    "comfort": -1,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "subject": [
+      "nature"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "Beige",
+      "twigs",
+      "raffia straw",
+      "linens",
+      "wood",
+      "textured walls",
+      "simple handcrafted forms"
+    ]
+  },
+  "electroclash": {
+    "decades": [],
+    "saturation": 2,
+    "complexity": 1,
+    "energy": 2,
+    "tone": 1,
+    "context": [
+      "fashion",
+      "print"
+    ],
+    "signature_motifs": [
+      "clashing makeup palettes",
+      "androgynous glam fashion",
+      "Pacific Punk Wave graphic design"
+    ]
+  },
+  "factory-pomo": {
+    "decades": [
+      "1980s"
+    ],
+    "complexity": -1,
+    "geometry": 2,
+    "comfort": 1,
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "clean, simple, referential forms",
+      "CAD technology",
+      "Bauhaus",
+      "Russian Constructivism",
+      "WPA graphics",
+      "industrial vernacular"
+    ]
+  },
+  "festival-marketplace": {
+    "decades": [],
+    "saturation": 2,
+    "complexity": 0,
+    "geometry": 1,
+    "energy": 2,
+    "tone": -1,
+    "comfort": -1,
+    "typography": [
+      "classic_serif",
+      "script"
+    ],
+    "context": [
+      "retail",
+      "print"
+    ],
+    "signature_motifs": [
+      "picnic checkerboards",
+      "balloons",
+      "banners",
+      "confetti",
+      "festival carts",
+      "circular logos",
+      "simple colorful graphics"
+    ]
+  },
+  "four-colors": {
+    "decades": [
+      "2000s"
+    ],
+    "saturation": 2,
+    "value": 1,
+    "energy": 1,
+    "palette": [
+      "neon"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "retail"
+    ],
+    "signature_motifs": [
+      "Electric Lime",
+      "Sky Blue",
+      "Hot Pink",
+      "Tangerine Orange",
+      "personalization of products through color"
+    ]
+  },
+  "frasurbane": {
+    "decades": [
+      "1990s"
+    ],
+    "saturation": -2,
+    "temperature": -2,
+    "surface": -1,
+    "complexity": -1,
+    "energy": -2,
+    "comfort": -1,
+    "palette": [
+      "earth",
+      "mono"
+    ],
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [
+      "academic",
+      "nature",
+      "luxury"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "warm sepia",
+      "Astrolabes",
+      "globes",
+      "textured paper",
+      "scientific illustrations",
+      "earthy warm tones"
+    ]
+  },
+  "frutiger-aero": {
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "surface": 2,
+    "comfort": 1,
+    "texture": [
+      "plastic_translucent"
+    ],
+    "typography": [
+      "humanist_sans"
+    ],
+    "subject": [
+      "tech",
+      "corporate",
+      "nature"
+    ],
+    "context": [
+      "ui"
+    ],
+    "signature_motifs": [
+      "Skeumorphism in UI/UX design",
+      "Glossy design",
+      "Frutiger/humanist sans-serif typefaces",
+      "Tertiary color palettes",
+      "Glassy/transparent materials",
+      "Photographs of aurora borealis",
+      "Bokeh photography",
+      "Macro photographs of grass"
+    ]
+  },
+  "gay-nineties-revival": {
+    "decades": [
+      "1970s"
+    ],
+    "saturation": 0,
+    "temperature": -2,
+    "surface": 1,
+    "complexity": 1,
+    "energy": -1,
+    "comfort": -2,
+    "palette": [
+      "earth",
+      "jewel"
+    ],
+    "texture": [
+      "organic",
+      "metallic"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "ferns as indoor decor",
+      "fake Tiffany lamps",
+      "brass and gold accents",
+      "medium-stained oak woods",
+      "old gold"
+    ]
+  },
+  "gen-x-home": {
+    "decades": [],
+    "energy": -1,
+    "subject": [
+      "domestic",
+      "corporate"
+    ],
+    "signature_motifs": [
+      "softer home marketing"
+    ]
+  },
+  "gen-x-soft-club": {
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "saturation": -2,
+    "temperature": -1,
+    "value": -1,
+    "surface": -1,
+    "complexity": -2,
+    "energy": -1,
+    "comfort": 0,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "context": [
+      "fashion",
+      "print"
+    ],
+    "signature_motifs": [
+      "nude lipstick",
+      "natural textured hair",
+      "natural leathers",
+      "knee high boots",
+      "duster jackets",
+      "muted colors",
+      "Helvetica"
+    ]
+  },
+  "genericana": {
+    "decades": [],
+    "surface": -1,
+    "complexity": -1,
+    "subject": [
+      "luxury"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "packaging",
+      "sign painting fonts",
+      "skeuomorphisms",
+      "negative space"
+    ]
+  },
+  "global-village-coffeehouse": {
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": 0,
+    "temperature": -2,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": -2,
+    "energy": -1,
+    "tone": -1,
+    "comfort": -1,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "subject": [
+      "corporate",
+      "nature",
+      "mystical"
+    ],
+    "context": [
+      "retail",
+      "print"
+    ],
+    "signature_motifs": [
+      "woodcuts",
+      "spirals",
+      "aroma swirls",
+      "coffee cups",
+      "earth tones",
+      "hand-drawn look",
+      "rough irregular borders"
+    ]
+  },
+  "googie-kitsch": {
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "saturation": 1,
+    "complexity": 1,
+    "geometry": -1,
+    "energy": 1,
+    "context": [
+      "interiors",
+      "print"
+    ],
+    "signature_motifs": [
+      "colorful George Nelson clocks",
+      "boomerang tables",
+      "Googie motifs",
+      "1950's advertising vernacular"
+    ]
+  },
+  "graffiti-pop": {
+    "decades": [],
+    "energy": 1,
+    "tone": 1,
+    "subject": [
+      "corporate",
+      "youth"
+    ],
+    "context": [
+      "music"
+    ],
+    "signature_motifs": [
+      "trash cans",
+      "brick walls",
+      "chain link fencing",
+      "street lamps",
+      "urban decay"
+    ]
+  },
+  "groovival": {
+    "decades": [
+      "1990s"
+    ],
+    "saturation": 2,
+    "value": 1,
+    "complexity": 1,
+    "energy": 2,
+    "tone": -1,
+    "subject": [
+      "youth"
+    ],
+    "signature_motifs": [
+      "flower power",
+      "bright psychedelic shapes and colors"
+    ]
+  },
+  "hexatron": {
+    "decades": [
+      "2010s"
+    ],
+    "saturation": 1,
+    "temperature": 2,
+    "surface": 1,
+    "complexity": 2,
+    "geometry": 2,
+    "energy": 1,
+    "tone": 1,
+    "comfort": 2,
+    "palette": [
+      "neon"
+    ],
+    "typography": [
+      "techno"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "ui"
+    ],
+    "signature_motifs": [
+      "Hexagons",
+      "Neon Blue",
+      "Holograms",
+      "Terminal-inspired UIs",
+      "Angular technology"
+    ]
+  },
+  "hipness-purgatory": {
+    "decades": [],
+    "surface": -1,
+    "geometry": -1,
+    "energy": -1,
+    "comfort": -1,
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "signature_motifs": [
+      "loose drawings",
+      "handcrafted with everyday objects",
+      "twee"
+    ]
+  },
+  "indie-sleaze": {
+    "decades": [
+      "2000s"
+    ],
+    "saturation": 1,
+    "complexity": 1,
+    "geometry": 1,
+    "energy": 2,
+    "tone": 2,
+    "typography": [
+      "script"
+    ],
+    "context": [
+      "fashion",
+      "music"
+    ],
+    "signature_motifs": [
+      "shutter shades",
+      "colorful blocky handrawn lettering",
+      "NYC party scene & photography",
+      "bloghaus"
+    ]
+  },
+  "indiecraft": {
+    "decades": [],
+    "surface": -1,
+    "geometry": -1,
+    "energy": -1,
+    "tone": -1,
+    "comfort": -1,
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "context": [
+      "music"
+    ],
+    "signature_motifs": [
+      "handcrafted imagery",
+      "music videos with puppets"
+    ]
+  },
+  "industrial-americana": {
+    "decades": [],
+    "saturation": -2,
+    "value": -1,
+    "surface": -1,
+    "geometry": 1,
+    "energy": -1,
+    "texture": [
+      "analog_grainy",
+      "metallic"
+    ],
+    "context": [
+      "interiors",
+      "print"
+    ],
+    "signature_motifs": [
+      "rusted steel beams",
+      "heavy metals textures",
+      "mesh",
+      "concrete",
+      "brick"
+    ]
+  },
+  "industrial-gothic": {
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": -2,
+    "value": -2,
+    "surface": -1,
+    "complexity": 1,
+    "energy": -1,
+    "tone": 2,
+    "outlook": 1,
+    "comfort": 1,
+    "palette": [
+      "mono"
+    ],
+    "texture": [
+      "metallic",
+      "analog_grainy"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "signature_motifs": [
+      "cabling",
+      "piping",
+      "Peeling paint",
+      "strange dark machines",
+      "monochrome"
+    ]
+  },
+  "internet-awesomesauce": {
+    "decades": [
+      "2010s"
+    ],
+    "saturation": 2,
+    "complexity": 2,
+    "energy": 2,
+    "texture": [
+      "digital_pixel"
+    ],
+    "context": [
+      "ui"
+    ],
+    "signature_motifs": [
+      "Rainbows",
+      "unicorns",
+      "galaxies and space",
+      "lasers",
+      "junk food",
+      "absurd compositions"
+    ]
+  },
+  "jumbled-font": {
+    "decades": [],
+    "saturation": 1,
+    "complexity": 2,
+    "energy": 1,
+    "typography": [
+      "jumbled"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "Stretched letters",
+      "mixing of fonts & colors",
+      "objects substituted for letters",
+      "calligrams"
+    ]
+  },
+  "laser-grid": {
+    "decades": [
+      "1980s"
+    ],
+    "saturation": 1,
+    "surface": 2,
+    "complexity": -1,
+    "geometry": 2,
+    "comfort": 2,
+    "palette": [
+      "chrome",
+      "neon"
+    ],
+    "texture": [
+      "metallic",
+      "plastic_translucent"
+    ],
+    "subject": [
+      "tech",
+      "corporate"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "Laser grids",
+      "glass blocks",
+      "sleek metallic surfaces",
+      "reflective glass",
+      "glowing neon",
+      "robots"
+    ]
+  },
+  "live-laugh-love": {
+    "decades": [],
+    "surface": -1,
+    "energy": -1,
+    "comfort": -2,
+    "texture": [
+      "organic"
+    ],
+    "typography": [
+      "script"
+    ],
+    "subject": [
+      "domestic"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "Wood grain",
+      "brush script fonts",
+      "snarky slogans"
+    ]
+  },
+  "mcbling": {
+    "decades": [
+      "2000s"
+    ],
+    "saturation": 1,
+    "surface": 2,
+    "complexity": 2,
+    "energy": 2,
+    "tone": 2,
+    "outlook": 1,
+    "comfort": 0,
+    "texture": [
+      "metallic"
+    ],
+    "typography": [
+      "jumbled"
+    ],
+    "subject": [
+      "luxury",
+      "tech"
+    ],
+    "context": [
+      "fashion",
+      "interiors"
+    ],
+    "signature_motifs": [
+      "oversized designer glasses",
+      "designer ripped jeans",
+      "pink hummers",
+      "bedazzled electronics",
+      "fashion phones",
+      "overly-flourishy vector art",
+      "spinning rims"
+    ]
+  },
+  "memphis-jr": {
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "energy": 1,
+    "tone": -1,
+    "subject": [
+      "youth"
+    ],
+    "signature_motifs": [
+      "children's version",
+      "postmodernism"
+    ]
+  },
+  "memphis-milano": {
+    "decades": [
+      "1980s"
+    ],
+    "saturation": 1,
+    "complexity": 1,
+    "geometry": 2,
+    "energy": 1,
+    "signature_motifs": [
+      "geometric, colorful designs",
+      "Memphis Group",
+      "Studio Alchimia"
+    ]
+  },
+  "metalheart": {
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "Metalheart / Transformer / Depthcore",
+      "design collection books"
+    ]
+  },
+  "mid-century-medieval": {
+    "decades": [
+      "1970s"
+    ],
+    "complexity": 1,
+    "subject": [
+      "domestic"
+    ],
+    "context": [
+      "interiors",
+      "retail"
+    ],
+    "signature_motifs": [
+      "Renaissance Faires",
+      "Tudor-style and Fairytale suburban architecture",
+      "Sword-and-Sorcery movies",
+      "themed hotels"
+    ]
+  },
+  "millennium-disco": {
+    "decades": [],
+    "surface": 1,
+    "geometry": 1,
+    "energy": 1,
+    "comfort": 2,
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "fashion",
+      "music"
+    ],
+    "signature_motifs": [
+      "Bauhaus typography",
+      "70s-throwback photography",
+      "disco revival"
+    ]
+  },
+  "mission-school": {
+    "decades": [],
+    "saturation": -2,
+    "surface": -1,
+    "complexity": 1,
+    "texture": [
+      "analog_grainy"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "muted colors",
+      "faux-weathered textures",
+      "Americana imagery",
+      "collage and painting"
+    ]
+  },
+  "neo-vectorheart": {
+    "decades": [],
+    "saturation": 2,
+    "complexity": 2,
+    "geometry": 2,
+    "energy": 2,
+    "tone": 1,
+    "subject": [
+      "tech"
+    ],
+    "signature_motifs": [
+      "maximalist \"gamer-grunge\"",
+      "45-degree angles",
+      "punchy colors",
+      "contrast"
+    ]
+  },
+  "neo-y2k": {
+    "decades": [],
+    "saturation": 2,
+    "subject": [
+      "global"
+    ],
+    "signature_motifs": [
+      "Eastern graphic design influences",
+      "saturated colors",
+      "Metalheart forms"
+    ]
+  },
+  "neoclassical-pomo": {
+    "decades": [],
+    "geometry": 1,
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "Roman/Greek features",
+      "Neoclassical architecture"
+    ]
+  },
+  "neon-ooze": {
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": 2,
+    "surface": 1,
+    "complexity": 1,
+    "geometry": -2,
+    "energy": 2,
+    "tone": 2,
+    "outlook": 1,
+    "palette": [
+      "neon"
+    ],
+    "texture": [
+      "plastic_translucent"
+    ],
+    "subject": [
+      "youth"
+    ],
+    "signature_motifs": [
+      "toxic waste",
+      "sludge",
+      "slime",
+      "ooze",
+      "Mad scientists",
+      "gross-out content"
+    ]
+  },
+  "new-wave-tropical": {
+    "decades": [],
+    "saturation": 2,
+    "value": 1,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": -1,
+    "energy": 2,
+    "subject": [
+      "nature",
+      "global"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "rainforest imagery",
+      "Colorful Cutout",
+      "chunky irregular color shapes",
+      "construction paper collage"
+    ]
+  },
+  "nouveau-organic": {
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "geometry": -2,
+    "energy": -1,
+    "texture": [
+      "organic"
+    ],
+    "subject": [
+      "nature"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "Gaudi-Catalan Modernisme",
+      "organic architecture",
+      "under-the-sea vibes"
+    ]
+  },
+  "nu-brutalism": {
+    "decades": [],
+    "complexity": -1,
+    "geometry": 2,
+    "typography": [
+      "brutal"
+    ],
+    "signature_motifs": [
+      "heavily contrasting colors",
+      "Grotesque typefaces",
+      "structure of typography"
+    ]
+  },
+  "pacific-punk-wave": {
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "complexity": 1,
+    "energy": 1,
+    "tone": 1,
+    "context": [
+      "print",
+      "retail"
+    ],
+    "signature_motifs": [
+      "swiss new wave",
+      "italian radical design",
+      "1950s diner/googie/populuxe"
+    ]
+  },
+  "paperback-chic": {
+    "decades": [
+      "2010s"
+    ],
+    "saturation": -1,
+    "value": 1,
+    "complexity": -1,
+    "energy": -1,
+    "comfort": -1,
+    "palette": [
+      "pastel"
+    ],
+    "typography": [
+      "classic_serif"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "Natural, soft colors",
+      "didone",
+      "retro display typefaces",
+      "airy composition style"
+    ]
+  },
+  "pastel-southwestern": {
+    "decades": [
+      "1980s"
+    ],
+    "saturation": -1,
+    "temperature": -1,
+    "value": 1,
+    "surface": -1,
+    "geometry": 1,
+    "energy": -1,
+    "comfort": -2,
+    "palette": [
+      "pastel"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "plush furnishings",
+      "light wood accents",
+      "adobe accents",
+      "Kokopelli",
+      "geometric patterns"
+    ]
+  },
+  "pixelscape": {
+    "decades": [],
+    "complexity": 2,
+    "geometry": 2,
+    "texture": [
+      "digital_pixel"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "ui"
+    ],
+    "signature_motifs": [
+      "isometric",
+      "elaborate pixel art",
+      "web design"
+    ]
+  },
+  "polychrome": {
+    "decades": [],
+    "saturation": 2,
+    "complexity": 1,
+    "geometry": -2,
+    "signature_motifs": [
+      "Ink in water",
+      "smoke",
+      "liquids",
+      "oils",
+      "paint explosions",
+      "melding colours"
+    ]
+  },
+  "pomo-faux-ruins": {
+    "decades": [],
+    "surface": -2,
+    "complexity": 1,
+    "tone": 1,
+    "outlook": 1,
+    "texture": [
+      "analog_grainy"
+    ],
+    "context": [
+      "retail",
+      "interiors"
+    ],
+    "signature_motifs": [
+      "crumbling structures",
+      "distressed, crumbling, ripped, or decayed elements",
+      "Classical antiquity"
+    ]
+  },
+  "preschool-pop": {
+    "decades": [],
+    "saturation": 1,
+    "surface": -1,
+    "complexity": -1,
+    "energy": 1,
+    "tone": -2,
+    "comfort": -1,
+    "texture": [
+      "analog_grainy"
+    ],
+    "subject": [
+      "youth"
+    ],
+    "signature_motifs": [
+      "Crayons",
+      "pencils",
+      "stick figures",
+      "oversized versions of toys",
+      "alphabet blocks"
+    ]
+  },
+  "pulp-fantasy": {
+    "decades": [
+      "1970s"
+    ],
+    "surface": -1,
+    "complexity": 1,
+    "energy": -1,
+    "texture": [
+      "analog_grainy"
+    ],
+    "subject": [
+      "tech",
+      "mystical"
+    ],
+    "context": [
+      "music",
+      "print"
+    ],
+    "signature_motifs": [
+      "dreamy, surreal paintings",
+      "imaginative illustration",
+      "Sci-Fi & Fantasy",
+      "Prog Rock"
+    ]
+  },
+  "rad-dog-neon-surf": {
+    "decades": [],
+    "saturation": 2,
+    "complexity": 2,
+    "energy": 2,
+    "tone": 2,
+    "palette": [
+      "neon"
+    ],
+    "subject": [
+      "youth",
+      "sport"
+    ],
+    "context": [
+      "fashion"
+    ],
+    "signature_motifs": [
+      "Neon paint splatters",
+      "hypercolors",
+      "tribal motifs",
+      "surf / skate imagery"
+    ]
+  },
+  "radical-surrealism": {
+    "decades": [
+      "1970s"
+    ],
+    "complexity": 1,
+    "energy": 1,
+    "subject": [
+      "domestic"
+    ],
+    "context": [
+      "interiors",
+      "print"
+    ],
+    "signature_motifs": [
+      "Pop Art",
+      "oversized 'Pop' object versions",
+      "everyday household items"
+    ]
+  },
+  "renaissance-revival": {
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "complexity": 1,
+    "subject": [
+      "mystical"
+    ],
+    "context": [
+      "fashion",
+      "print"
+    ],
+    "signature_motifs": [
+      "antique gothic",
+      "Shakespearean/Elizabethan",
+      "Greco-Roman art",
+      "magick",
+      "faerie tale"
+    ]
+  },
+  "silicon-dreams": {
+    "decades": [],
+    "subject": [
+      "tech"
+    ],
+    "signature_motifs": [
+      "3D animation",
+      "surrealist aesthetics"
+    ]
+  },
+  "soft-colonial-wanderlust": {
+    "decades": [],
+    "complexity": 1,
+    "energy": -1,
+    "comfort": -1,
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "subject": [
+      "global",
+      "nature"
+    ],
+    "context": [
+      "music",
+      "interiors"
+    ],
+    "signature_motifs": [
+      "Maps",
+      "hot air balloons",
+      "phonographs",
+      "typewriters",
+      "floral wallpapers",
+      "mail art"
+    ]
+  },
+  "sportsbrut": {
+    "decades": [],
+    "surface": -1,
+    "complexity": -1,
+    "geometry": 2,
+    "energy": 2,
+    "tone": 1,
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [
+      "brutal"
+    ],
+    "subject": [
+      "sport"
+    ],
+    "signature_motifs": [
+      "coarse grids",
+      "high-impact typography",
+      "grunge elements"
+    ]
+  },
+  "superflat-pop": {
+    "decades": [],
+    "saturation": 2,
+    "value": 1,
+    "energy": 2,
+    "context": [
+      "fashion"
+    ],
+    "signature_motifs": [
+      "bright and poppy graphics",
+      "motion graphics",
+      "animation"
+    ]
+  },
+  "supergraphic-ultramodern": {
+    "decades": [],
+    "saturation": 2,
+    "surface": 2,
+    "complexity": 1,
+    "geometry": -2,
+    "energy": 1,
+    "texture": [
+      "plastic_translucent",
+      "metallic"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "Plastics",
+      "curves",
+      "plush materials",
+      "rainbows",
+      "inflatables",
+      "shiny metals",
+      "supergraphics",
+      "helvetica"
+    ]
+  },
+  "themed-spaces": {
+    "decades": [
+      "1990s"
+    ],
+    "complexity": 2,
+    "context": [
+      "interiors",
+      "retail",
+      "music",
+      "fashion"
+    ],
+    "signature_motifs": [
+      "Highly stylized exterior & interior spaces",
+      "specially-designed collateral",
+      "total immersive package"
+    ]
+  },
+  "ultramodern-revival": {
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "saturation": 2,
+    "complexity": 1,
+    "energy": 1,
+    "comfort": 2,
+    "signature_motifs": [
+      "Supergraphics",
+      "bright color palettes",
+      "sleek forms",
+      "Millennium Disco kitsch"
+    ]
+  },
+  "urban-grunge": {
+    "decades": [],
+    "saturation": 0,
+    "temperature": -1,
+    "value": -1,
+    "surface": -1,
+    "complexity": 2,
+    "energy": 1,
+    "tone": 2,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [
+      "brutal"
+    ],
+    "signature_motifs": [
+      "Silhouetted streetlights",
+      "power lines",
+      "highways",
+      "crests",
+      "flames",
+      "paint splatters/drips",
+      "graffiti and stencil motifs"
+    ]
+  },
+  "utopian-scholastic": {
+    "decades": [],
+    "complexity": 1,
+    "tone": -1,
+    "outlook": -1,
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [
+      "academic",
+      "youth"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "edutainment",
+      "'timeless' typography",
+      "stock photography collage",
+      "quick comprehension"
+    ]
+  },
+  "vector-minimalism": {
+    "decades": [
+      "2010s"
+    ],
+    "surface": -2,
+    "complexity": -2,
+    "geometry": 2,
+    "energy": -2,
+    "comfort": 2,
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "ui"
+    ],
+    "signature_motifs": [
+      "flat",
+      "angularity",
+      "iOS 7",
+      "geometric sans serif fonts",
+      "bold serif display fonts"
+    ]
+  },
+  "vectorheart": {
+    "decades": [],
+    "geometry": 2,
+    "energy": 2,
+    "comfort": 2,
+    "typography": [
+      "techno"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "signature_motifs": [
+      "blazing speed",
+      "futuristic forms",
+      "high-contrast typography",
+      "utilitarian industrial design"
+    ]
+  },
+  "wacky-pomo": {
+    "decades": [
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "complexity": 2,
+    "energy": 2,
+    "subject": [
+      "youth"
+    ],
+    "context": [
+      "print"
+    ],
+    "signature_motifs": [
+      "cartoons",
+      "Mad Scientist tropes",
+      "cartoonified industrial vernacular",
+      "light gross-out",
+      "Hypnosis spirals"
+    ]
+  },
+  "whimsicraft": {
+    "decades": [
+      "1980s"
+    ],
+    "saturation": 1,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": -1,
+    "energy": -1,
+    "comfort": -2,
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "folk art and furniture",
+      "collage",
+      "industrial/found objects",
+      "folksy, colorful 'art fair'"
+    ]
+  },
+  "whimsigothic": {
+    "decades": [],
+    "value": -1,
+    "tone": 1,
+    "comfort": -1,
+    "subject": [
+      "mystical"
+    ],
+    "context": [
+      "music",
+      "interiors"
+    ],
+    "signature_motifs": [
+      "gothic-inspired pop/rock music",
+      "Tim Burton",
+      "Whimsical Mystical Gothic Celestial"
+    ]
+  },
+  "y2k-aesthetic": {
+    "decades": [],
+    "surface": 2,
+    "geometry": -2,
+    "comfort": 1,
+    "palette": [
+      "chrome"
+    ],
+    "texture": [
+      "plastic_translucent",
+      "metallic"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "fashion"
+    ],
+    "signature_motifs": [
+      "tight leather pants",
+      "silver eyeshadow",
+      "shiny clothing",
+      "oakleys",
+      "gradients",
+      "blobby electronics"
+    ]
+  },
+  "zen-x": {
+    "decades": [
+      "1990s"
+    ],
+    "surface": -1,
+    "complexity": -2,
+    "geometry": -1,
+    "energy": -2,
+    "comfort": -1,
+    "texture": [
+      "organic"
+    ],
+    "subject": [
+      "nature",
+      "corporate"
+    ],
+    "context": [
+      "interiors"
+    ],
+    "signature_motifs": [
+      "natural-organic",
+      "environmentalism",
+      "minimalism",
+      "Japanese architecture"
+    ]
+  }
+}
