@@ -1,0 +1,16 @@
+[
+  {"id":"palette_temperature","label":"Palette temperature","low":"Cool (blue, silver)","high":"Warm (orange, brown)"},
+  {"id":"saturation","label":"Saturation","low":"Muted, earthy","high":"Vivid, neon"},
+  {"id":"lightness","label":"Lightness","low":"Dark, moody","high":"Bright, airy"},
+  {"id":"ornament","label":"Ornament density","low":"Minimal","high":"Maximal"},
+  {"id":"geometry","label":"Geometry","low":"Angular, grid","high":"Curvy, blobby"},
+  {"id":"surface","label":"Surface","low":"Matte, flat","high":"Glossy, chrome"},
+  {"id":"texture","label":"Texture","low":"Clean, digital","high":"Handmade, distressed"},
+  {"id":"material","label":"Material","low":"Synthetic","high":"Natural, organic"},
+  {"id":"time_orientation","label":"Time orientation","low":"Nostalgic, revival","high":"Futuristic"},
+  {"id":"tone","label":"Tone","low":"Earnest","high":"Playful, ironic"},
+  {"id":"status","label":"Status","low":"Budget, mass-market","high":"Luxe, aspirational"},
+  {"id":"context","label":"Context","low":"Corporate","high":"Subcultural, DIY"},
+  {"id":"imagery","label":"Imagery","low":"Abstract, graphic","high":"Figurative motifs"},
+  {"id":"typography","label":"Typography","low":"Clean sans","high":"Decorative display"}
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "sl-palette-temperature",
+    "attribute": "palette_temperature",
+    "prompt": "Which set of colors would you pick?",
+    "left": {
+      "label": "Slate blue and silver",
+      "image": null
+    },
+    "right": {
+      "label": "Rust orange and walnut brown",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-saturation",
+    "attribute": "saturation",
+    "prompt": "Which set of cushions would you choose?",
+    "left": {
+      "label": "Dusty sage and clay",
+      "image": null
+    },
+    "right": {
+      "label": "Electric lime and bright pink",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-lightness",
+    "attribute": "lightness",
+    "prompt": "Which room would you rather wake up in?",
+    "left": {
+      "label": "Deep plum walls, low lamp light",
+      "image": null
+    },
+    "right": {
+      "label": "White walls, big sunny window",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-ornament",
+    "attribute": "ornament",
+    "prompt": "Which shelf would you rather look at?",
+    "left": {
+      "label": "A plain vase on an open shelf",
+      "image": null
+    },
+    "right": {
+      "label": "A carved vase among patterned frames and trinkets",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-geometry",
+    "attribute": "geometry",
+    "prompt": "Which shapes would you put on a wall?",
+    "left": {
+      "label": "Squares and right angles in a grid",
+      "image": null
+    },
+    "right": {
+      "label": "Rounded blobs and looping curves",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-surface",
+    "attribute": "surface",
+    "prompt": "Which surface would you rather touch?",
+    "left": {
+      "label": "Uncoated paper, raw linen",
+      "image": null
+    },
+    "right": {
+      "label": "Glossy acrylic, polished chrome",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-texture",
+    "attribute": "texture",
+    "prompt": "Which print would you hang up?",
+    "left": {
+      "label": "Smooth lines and even color",
+      "image": null
+    },
+    "right": {
+      "label": "Rough ink edges and visible paper grain",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-material",
+    "attribute": "material",
+    "prompt": "Which tray would you keep on your desk?",
+    "left": {
+      "label": "Molded acrylic",
+      "image": null
+    },
+    "right": {
+      "label": "Solid wood",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-time-orientation",
+    "attribute": "time_orientation",
+    "prompt": "Which lamp would you put on your desk?",
+    "left": {
+      "label": "A retro lamp with a pleated shade",
+      "image": null
+    },
+    "right": {
+      "label": "A slim lamp with a glowing ring",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-tone",
+    "attribute": "tone",
+    "prompt": "Which greeting card would you send?",
+    "left": {
+      "label": "Simple and sincere",
+      "image": null
+    },
+    "right": {
+      "label": "Goofy and self-aware",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-status",
+    "attribute": "status",
+    "prompt": "Which desk set would you pick?",
+    "left": {
+      "label": "Everyday pieces from a discount store",
+      "image": null
+    },
+    "right": {
+      "label": "A premium set with fine detailing",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-context",
+    "attribute": "context",
+    "prompt": "Which noticeboard would catch your eye?",
+    "left": {
+      "label": "Matching signs with a neat office layout",
+      "image": null
+    },
+    "right": {
+      "label": "Hand-cut flyers layered with tape",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-imagery",
+    "attribute": "imagery",
+    "prompt": "Which print would you put on a tote bag?",
+    "left": {
+      "label": "Blocks of color and simple lines",
+      "image": null
+    },
+    "right": {
+      "label": "Drawn birds, leaves and flowers",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-typography",
+    "attribute": "typography",
+    "prompt": "Which lettering would you put on a sign?",
+    "left": {
+      "label": "Plain letters with straight, even strokes",
+      "image": null
+    },
+    "right": {
+      "label": "Decorative letters with curls and flourishes",
+      "image": null
+    },
+    "repeat_of": null
+  },
+  {
+    "id": "sl-surface-repeat",
+    "attribute": "surface",
+    "prompt": "Which surface would you rather touch?",
+    "left": {
+      "label": "Glossy acrylic, polished chrome",
+      "image": null
+    },
+    "right": {
+      "label": "Uncoated paper, raw linen",
+      "image": null
+    },
+    "repeat_of": "sl-surface"
+  },
+  {
+    "id": "sl-lightness-repeat",
+    "attribute": "lightness",
+    "prompt": "Which room would you rather wake up in?",
+    "left": {
+      "label": "White walls, big sunny window",
+      "image": null
+    },
+    "right": {
+      "label": "Deep plum walls, low lamp light",
+      "image": null
+    },
+    "repeat_of": "sl-lightness"
+  }
+]
