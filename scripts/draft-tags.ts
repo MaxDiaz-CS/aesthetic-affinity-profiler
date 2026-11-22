@@ -166,8 +166,8 @@ function readReview(csv: string, entries: SnapshotEntry[], dimensions: Dimension
 
 async function main() {
   const mode = process.argv[2] ?? 'draft';
-  if (!['draft', 'check', 'publish'].includes(mode) || process.argv.length > 3) {
-    throw new Error('Usage: node scripts/draft-tags.ts [draft|check|publish]');
+  if (!['draft', 'check', 'publish', 'export-quiz'].includes(mode) || process.argv.length > 3) {
+    throw new Error('Usage: node scripts/draft-tags.ts [draft|check|publish|export-quiz]');
   }
   const [entries, dimensions] = await Promise.all([
     readJson<SnapshotEntry[]>('cari_snapshot_2026-11-22.json'),
@@ -193,6 +193,25 @@ async function main() {
   const { tagged, unresolved, sparse } = readReview(await readFile(reviewFile, 'utf8'), entries, dimensions);
   console.log(`Validated ${tagged.length} rows. ${tagged.length - unresolved.length} approved, ${unresolved.length} pending, ${sparse.length} with fewer than 3 motifs.`);
   if (mode === 'check') return;
+  if (mode === 'export-quiz') {
+    const eligible = tagged.filter(entry =>
+      !unresolved.includes(entry.slug) && !sparse.includes(entry.slug));
+    if (eligible.length < 6) throw new Error('At least six eligible entries are required for the quiz');
+    const quizCatalog = new URL('quiz_catalog.json', data);
+    const temporary = new URL(`quiz_catalog.json.${process.pid}.tmp`, data);
+    const projected = eligible.map(entry => {
+      const fields: Record<string, unknown> = entry;
+      return {
+        slug: entry.slug, name: entry.name, url: entry.url, timeline: fields.timeline,
+        signature_motifs: entry.signature_motifs, tag_confidence: entry.tag_confidence,
+        ...Object.fromEntries(dimensions.map(({ id }) => [id, fields[id]])),
+      };
+    });
+    await writeFile(temporary, `${JSON.stringify(projected, null, 2)}\n`);
+    await rename(temporary, quizCatalog);
+    console.log(`Exported ${eligible.length} reviewed entries for the quiz`);
+    return;
+  }
   if (unresolved.length) throw new Error(`Publishing requires approval for all ${tagged.length} rows`);
   if (sparse.length) throw new Error(`Publishing requires at least 3 CARI-backed motifs per entry. Sparse rows: ${sparse.join(', ')}`);
   const temporary = new URL(`aesthetics.json.${process.pid}.tmp`, data);

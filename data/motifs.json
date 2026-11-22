@@ -1,0 +1,537 @@
+[
+  {
+    "id": "chrome",
+    "label": "Polished chrome",
+    "patterns": [
+      "chrome",
+      "shiny metals",
+      "sleek metallic",
+      "chromed-out"
+    ],
+    "vector": {
+      "surface": 2,
+      "texture:metallic": 1
+    }
+  },
+  {
+    "id": "paper",
+    "label": "Textured paper",
+    "patterns": [
+      "textured paper",
+      "construction paper",
+      "coarse grids"
+    ],
+    "vector": {
+      "surface": -2,
+      "texture:analog_grainy": 1
+    }
+  },
+  {
+    "id": "laser",
+    "label": "Glowing laser grids",
+    "patterns": [
+      "laser grid",
+      "laser grids"
+    ],
+    "vector": {
+      "geometry": 2,
+      "palette:neon": 1
+    }
+  },
+  {
+    "id": "glass",
+    "label": "Glass and transparency",
+    "patterns": [
+      "glassy",
+      "transparent materials",
+      "glass blocks",
+      "reflective glass",
+      "translucency"
+    ],
+    "vector": {
+      "surface": 2,
+      "texture:plastic_translucent": 1
+    }
+  },
+  {
+    "id": "plants",
+    "label": "Leaves and plant shadows",
+    "patterns": [
+      "plants",
+      "plant and branch",
+      "photographs of grass",
+      "ferns"
+    ],
+    "vector": {
+      "geometry": -1,
+      "subject:nature": 1
+    }
+  },
+  {
+    "id": "marble",
+    "label": "Marble and rough stone",
+    "patterns": [
+      "granite and marble",
+      "rough stones"
+    ],
+    "vector": {
+      "texture:organic": 1,
+      "subject:luxury": 1
+    }
+  },
+  {
+    "id": "pixels",
+    "label": "Isometric pixel art",
+    "patterns": [
+      "isometric",
+      "pixel art",
+      "pixelated"
+    ],
+    "vector": {
+      "geometry": 2,
+      "texture:digital_pixel": 1
+    }
+  },
+  {
+    "id": "gradients",
+    "label": "Layered gradients",
+    "patterns": [
+      "gradients",
+      "gradated",
+      "motion blur",
+      "melding colours"
+    ],
+    "vector": {
+      "geometry": -1,
+      "texture:digital_pixel": 1
+    }
+  },
+  {
+    "id": "rainbow",
+    "label": "Clashing brights and rainbow palettes",
+    "patterns": [
+      "rainbow",
+      "kaleidoscopic palettes",
+      "vibrant colors",
+      "clashing makeup palettes"
+    ],
+    "vector": {
+      "saturation": 2,
+      "palette:primary": 1
+    }
+  },
+  {
+    "id": "neon",
+    "label": "Electric neon colors",
+    "patterns": [
+      "neon",
+      "electric lime",
+      "punchy colors",
+      "acid colors",
+      "hot pink",
+      "hypercolors"
+    ],
+    "vector": {
+      "saturation": 2,
+      "palette:neon": 1
+    }
+  },
+  {
+    "id": "earth",
+    "label": "Beige and warm earth colors",
+    "patterns": [
+      "earth tones",
+      "earthy warm tones",
+      "beige",
+      "warm sepia",
+      "old gold",
+      "muted colors"
+    ],
+    "vector": {
+      "temperature": -2,
+      "palette:earth": 1
+    }
+  },
+  {
+    "id": "pastel",
+    "label": "Pale pastel colors",
+    "patterns": [
+      "pastel",
+      "soft colors",
+      "washed out colours"
+    ],
+    "vector": {
+      "saturation": -1,
+      "palette:pastel": 1
+    }
+  },
+  {
+    "id": "serif",
+    "label": "Fine serif lettering",
+    "patterns": [
+      "serif display",
+      "didone",
+      "timeless' typography",
+      "antique gothic"
+    ],
+    "vector": {
+      "typography:classic_serif": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "brush",
+    "label": "Hand-drawn brush lettering",
+    "patterns": [
+      "brush script",
+      "sign painting",
+      "handrawn lettering",
+      "hand-drawn look"
+    ],
+    "vector": {
+      "typography:script": 1,
+      "surface": -1
+    }
+  },
+  {
+    "id": "mixed",
+    "label": "Distorted and mixed lettering",
+    "patterns": [
+      "warped fonts",
+      "stretched letters",
+      "mixing of fonts",
+      "distorted stroke",
+      "jumbled",
+      "word art"
+    ],
+    "vector": {
+      "typography:jumbled": 1,
+      "complexity": 2
+    }
+  },
+  {
+    "id": "tech",
+    "label": "Terminal lettering and interfaces",
+    "patterns": [
+      "terminal-inspired",
+      "3d typography",
+      "chrome type",
+      "high-contrast typography",
+      "blazing speed"
+    ],
+    "vector": {
+      "typography:techno": 1,
+      "subject:tech": 1
+    }
+  },
+  {
+    "id": "grotesque",
+    "label": "Heavy sans-serif type",
+    "patterns": [
+      "grotesque typefaces",
+      "high-impact typography",
+      "graffiti and stencil",
+      "helvetica"
+    ],
+    "vector": {
+      "typography:brutal": 1,
+      "geometry": 1
+    }
+  },
+  {
+    "id": "wood",
+    "label": "Exposed wood and wood grain",
+    "patterns": [
+      "wood grain",
+      "wood accents",
+      "plywood",
+      "wood",
+      "oak woods",
+      "woodcuts"
+    ],
+    "vector": {
+      "texture:organic": 1,
+      "comfort": -1
+    }
+  },
+  {
+    "id": "orbit",
+    "label": "Stars, skies and galaxies",
+    "patterns": [
+      "aurora",
+      "galaxies",
+      "holograms"
+    ],
+    "vector": {
+      "subject:mystical": 1,
+      "temperature": 1
+    }
+  },
+  {
+    "id": "swirl",
+    "label": "Spirals and swirls",
+    "patterns": [
+      "spirals",
+      "aroma swirls",
+      "flowery",
+      "overly-flourishy"
+    ],
+    "vector": {
+      "geometry": -2,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "toys",
+    "label": "Oversized toys and playful props",
+    "patterns": [
+      "alphabet blocks",
+      "oversized versions of toys",
+      "oversized 'pop'",
+      "playful textures",
+      "jukeboxes"
+    ],
+    "vector": {
+      "tone": -2,
+      "subject:youth": 1
+    }
+  },
+  {
+    "id": "lux",
+    "label": "Showy glamour and decorative details",
+    "patterns": [
+      "bedazzled",
+      "designer glasses",
+      "aspirational wealth",
+      "art deco",
+      "brass and gold",
+      "bling",
+      "androgynous glam fashion"
+    ],
+    "vector": {
+      "subject:luxury": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "city",
+    "label": "Streetlights and city infrastructure",
+    "patterns": [
+      "street lamps",
+      "streetlights",
+      "power lines",
+      "chain link fencing",
+      "highways"
+    ],
+    "vector": {
+      "tone": 1,
+      "geometry": 1
+    }
+  },
+  {
+    "id": "industrial",
+    "label": "Rusted industrial materials",
+    "patterns": [
+      "rusted steel",
+      "heavy metals textures",
+      "piping",
+      "peeling paint",
+      "industrial vernacular",
+      "concrete"
+    ],
+    "vector": {
+      "texture:metallic": 1,
+      "tone": 2
+    }
+  },
+  {
+    "id": "craft",
+    "label": "Handmade objects and collage",
+    "patterns": [
+      "handcrafted",
+      "folk art",
+      "collage",
+      "cutout",
+      "mail art",
+      "crayons"
+    ],
+    "vector": {
+      "texture:organic": 1,
+      "comfort": -2
+    }
+  },
+  {
+    "id": "tropical",
+    "label": "Tropical and organic silhouettes",
+    "patterns": [
+      "rainforest",
+      "under-the-sea",
+      "natural-organic",
+      "organic architecture"
+    ],
+    "vector": {
+      "subject:nature": 1,
+      "geometry": -2
+    }
+  },
+  {
+    "id": "splat",
+    "label": "Paint splatters and slime",
+    "patterns": [
+      "splatters",
+      "slime",
+      "ooze",
+      "paint explosions",
+      "gross-out"
+    ],
+    "vector": {
+      "energy": 2,
+      "tone": 1
+    }
+  },
+  {
+    "id": "gothic",
+    "label": "Gothic flourishes",
+    "patterns": [
+      "gothic",
+      "faerie tale",
+      "magick",
+      "crests",
+      "body horror"
+    ],
+    "vector": {
+      "tone": 2,
+      "subject:mystical": 1
+    }
+  },
+  {
+    "id": "classical",
+    "label": "Classical and historical references",
+    "patterns": [
+      "greco-roman",
+      "classical antiquity",
+      "astrolabes",
+      "wpa murals",
+      "tudor-style",
+      "roman/greek"
+    ],
+    "vector": {
+      "subject:academic": 1,
+      "typography:classic_serif": 1
+    }
+  },
+  {
+    "id": "travel",
+    "label": "Maps and retro travel imagery",
+    "patterns": [
+      "maps",
+      "globes",
+      "early air travel",
+      "hot air balloons",
+      "wanderlust"
+    ],
+    "vector": {
+      "subject:global": 1,
+      "texture:analog_grainy": 1
+    }
+  },
+  {
+    "id": "chunky",
+    "label": "Chunky geometric forms",
+    "patterns": [
+      "geometric patterns",
+      "geometric, colorful designs",
+      "chunky irregular",
+      "hexagons",
+      "45-degree angles",
+      "angular technology",
+      "geometric typefaces"
+    ],
+    "vector": {
+      "geometry": 2,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "minimal",
+    "label": "Whitespace and simple forms",
+    "patterns": [
+      "whitespace",
+      "negative space",
+      "airy composition",
+      "clean, simple",
+      "flat",
+      "sleek forms",
+      "minimalism"
+    ],
+    "vector": {
+      "complexity": -2,
+      "comfort": 1
+    }
+  },
+  {
+    "id": "plush",
+    "label": "Soft textiles and plush furniture",
+    "patterns": [
+      "plush furnishings",
+      "plush materials",
+      "tapestries",
+      "fabric",
+      "linens"
+    ],
+    "vector": {
+      "comfort": -2,
+      "surface": -1
+    }
+  },
+  {
+    "id": "retro",
+    "label": "Retro type and signage",
+    "patterns": [
+      "50s advertising",
+      "boomerang tables",
+      "googie motifs",
+      "retro display",
+      "roaring '20s",
+      "picnic checkerboards",
+      "1950s diner/googie/populuxe",
+      "swiss new wave",
+      "italian radical design"
+    ],
+    "vector": {
+      "typography:classic_serif": 1,
+      "context:retail": 1
+    }
+  },
+  {
+    "id": "gear",
+    "label": "Wearable and optical gadgets",
+    "patterns": [
+      "oakleys",
+      "shutter shades",
+      "fashion phones",
+      "blobby electronics",
+      "hardware"
+    ],
+    "vector": {
+      "subject:tech": 1,
+      "context:fashion": 1
+    }
+  },
+  {
+    "id": "word-art",
+    "label": "Homemade word art and novelty packaging",
+    "patterns": [
+      "word art",
+      "knock-off products",
+      "spammy internet sites",
+      "personal websites"
+    ],
+    "vector": {
+      "context:retail": 1,
+      "context:ui": 1,
+      "context:print": 1,
+      "typography:jumbled": 1
+    }
+  }
+]

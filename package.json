@@ -8,18 +8,33 @@
     "tags:draft": "node scripts/draft-tags.ts draft",
     "tags:check": "node scripts/draft-tags.ts check",
     "tags:publish": "node scripts/draft-tags.ts publish",
-    "check:tags": "tsc --noEmit --strict --target es2022 --module nodenext --lib esnext --types node scripts/draft-tags.ts"
+    "check:tags": "tsc --noEmit --strict --target es2022 --module nodenext --lib esnext --types node scripts/draft-tags.ts",
+    "dev": "vite",
+    "build": "node scripts/draft-tags.ts export-quiz && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run --pool=threads",
+    "simulate": "node scripts/simulate.ts",
+    "tags:export-quiz": "node scripts/draft-tags.ts export-quiz",
+    "playtest:summary": "node scripts/summarize-playtest.ts"
   },
   "devDependencies": {
     "@types/jsdom": "^30.0.0",
     "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "csv-parse": "^7.0.3",
     "csv-stringify": "^6.9.0",
     "jsdom": "^31.0.1",
     "playwright": "^1.65.1",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
   },
   "engines": {
     "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   }
 }

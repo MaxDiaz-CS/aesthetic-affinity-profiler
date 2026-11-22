@@ -1,0 +1,1421 @@
+[
+  {
+    "id": "decades",
+    "section": "A",
+    "type": "era",
+    "prompt": "Which decades are you drawn to?",
+    "quick": true,
+    "options": [
+      {
+        "label": "1970s",
+        "vector": {
+          "decades:1970s": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "1980s",
+        "vector": {
+          "decades:1980s": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "1990s",
+        "vector": {
+          "decades:1990s": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "2000s",
+        "vector": {
+          "decades:2000s": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "2010s",
+        "vector": {
+          "decades:2010s": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "2020s",
+        "vector": {
+          "decades:2020s": 1
+        },
+        "motifs": []
+      }
+    ]
+  },
+  {
+    "id": "context",
+    "section": "A",
+    "type": "scenario",
+    "prompt": "Where do you notice design most?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Apps and software",
+        "vector": {
+          "context:ui": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "Clothes and accessories",
+        "vector": {
+          "context:fashion": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "Rooms and furniture",
+        "vector": {
+          "context:interiors": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "Print and packaging",
+        "vector": {
+          "context:print": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "Music and album art",
+        "vector": {
+          "context:music": 1
+        },
+        "motifs": []
+      },
+      {
+        "label": "Shops and displays",
+        "vector": {
+          "context:retail": 1
+        },
+        "motifs": []
+      }
+    ]
+  },
+  {
+    "id": "finish",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which surface would you reach for?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Matte, uncoated paper",
+        "vector": {
+          "surface": -2,
+          "texture:metallic": 0
+        },
+        "motifs": [
+          "paper"
+        ],
+        "image": "finish-a"
+      },
+      {
+        "label": "Glossy, polished chrome",
+        "vector": {
+          "surface": 2,
+          "texture:metallic": 1
+        },
+        "motifs": [
+          "chrome"
+        ],
+        "image": "finish-b"
+      }
+    ]
+  },
+  {
+    "id": "chroma",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which version of the same print appeals to you?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Dusty, muted colors",
+        "vector": {
+          "saturation": -2
+        },
+        "motifs": [
+          "pastel"
+        ],
+        "image": "chroma-a"
+      },
+      {
+        "label": "Bright, vivid colors",
+        "vector": {
+          "saturation": 2
+        },
+        "motifs": [
+          "rainbow"
+        ],
+        "image": "chroma-b"
+      }
+    ]
+  },
+  {
+    "id": "temperature",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which version of this room would you choose?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Warm orange and sand",
+        "vector": {
+          "temperature": -2
+        },
+        "motifs": [
+          "earth"
+        ],
+        "image": "temperature-a"
+      },
+      {
+        "label": "Cool blue and slate",
+        "vector": {
+          "temperature": 2
+        },
+        "motifs": [],
+        "image": "temperature-b"
+      }
+    ]
+  },
+  {
+    "id": "composition",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which poster would you keep?",
+    "quick": true,
+    "options": [
+      {
+        "label": "One focal point with open space",
+        "vector": {
+          "complexity": -2
+        },
+        "motifs": [
+          "minimal"
+        ],
+        "image": "composition-a"
+      },
+      {
+        "label": "Layers of shapes packed edge to edge",
+        "vector": {
+          "complexity": 2
+        },
+        "motifs": [
+          "chunky"
+        ],
+        "image": "composition-b"
+      }
+    ]
+  },
+  {
+    "id": "outline",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which object shape do you prefer?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Rounded and flowing",
+        "vector": {
+          "geometry": -2
+        },
+        "motifs": [
+          "swirl"
+        ],
+        "image": "outline-a"
+      },
+      {
+        "label": "Angular and faceted",
+        "vector": {
+          "geometry": 2
+        },
+        "motifs": [
+          "chunky"
+        ],
+        "image": "outline-b"
+      }
+    ]
+  },
+  {
+    "id": "light",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which version of the same cover would you pick?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Deep charcoal and shadow",
+        "vector": {
+          "value": -2
+        },
+        "motifs": [],
+        "image": "light-a"
+      },
+      {
+        "label": "Pale ivory and daylight",
+        "vector": {
+          "value": 2
+        },
+        "motifs": [],
+        "image": "light-b"
+      }
+    ]
+  },
+  {
+    "id": "signal",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which treatment would you use on a record sleeve?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Visible paper grain",
+        "vector": {
+          "texture:analog_grainy": 1,
+          "texture:digital_pixel": 0
+        },
+        "motifs": [
+          "paper"
+        ],
+        "image": "signal-a"
+      },
+      {
+        "label": "Visible square pixels",
+        "vector": {
+          "texture:analog_grainy": 0,
+          "texture:digital_pixel": 1
+        },
+        "motifs": [
+          "pixels"
+        ],
+        "image": "signal-b"
+      }
+    ]
+  },
+  {
+    "id": "letter",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which lettering belongs on your notebook?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Fine serif lettering",
+        "vector": {
+          "typography:classic_serif": 1,
+          "typography:brutal": 0
+        },
+        "motifs": [
+          "serif"
+        ],
+        "image": "letter-a"
+      },
+      {
+        "label": "Heavy sans-serif lettering",
+        "vector": {
+          "typography:classic_serif": 0,
+          "typography:brutal": 1
+        },
+        "motifs": [
+          "grotesque"
+        ],
+        "image": "letter-b"
+      }
+    ]
+  },
+  {
+    "id": "pace",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which poster feels more inviting?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Quiet spacing and a steady rhythm",
+        "vector": {
+          "energy": -2
+        },
+        "motifs": [
+          "minimal"
+        ],
+        "image": "pace-a"
+      },
+      {
+        "label": "Rapid repetition and movement",
+        "vector": {
+          "energy": 2
+        },
+        "motifs": [],
+        "image": "pace-b"
+      }
+    ]
+  },
+  {
+    "id": "touch",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which sofa would you rather come home to?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Soft and lived-in",
+        "vector": {
+          "comfort": -2
+        },
+        "motifs": [
+          "plush"
+        ],
+        "image": "touch-a"
+      },
+      {
+        "label": "Precise and sleek",
+        "vector": {
+          "comfort": 2
+        },
+        "motifs": [
+          "minimal"
+        ],
+        "image": "touch-b"
+      }
+    ]
+  },
+  {
+    "id": "attitude",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which illustrated cover would you pick?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Playful and gentle",
+        "vector": {
+          "tone": -2
+        },
+        "motifs": [
+          "toys"
+        ],
+        "image": "attitude-a"
+      },
+      {
+        "label": "Sharp and abrasive",
+        "vector": {
+          "tone": 2
+        },
+        "motifs": [
+          "gothic"
+        ],
+        "image": "attitude-b"
+      }
+    ]
+  },
+  {
+    "id": "future",
+    "section": "B",
+    "type": "pair",
+    "prompt": "Which future would you rather look at?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Hopeful and inviting",
+        "vector": {
+          "outlook": -2
+        },
+        "motifs": [],
+        "image": "future-a"
+      },
+      {
+        "label": "Unsettling and desolate",
+        "vector": {
+          "outlook": 2
+        },
+        "motifs": [
+          "industrial"
+        ],
+        "image": "future-b"
+      }
+    ]
+  },
+  {
+    "id": "lobby",
+    "section": "C",
+    "type": "scenario",
+    "prompt": "Which hotel lobby would you check into?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Warm timber, soft couches and afternoon light",
+        "vector": {
+          "comfort": -2,
+          "outlook": -1,
+          "subject:nature": 1
+        },
+        "motifs": [
+          "wood",
+          "plush"
+        ]
+      },
+      {
+        "label": "A dim fireside room with worn velvet",
+        "vector": {
+          "comfort": -2,
+          "outlook": 1,
+          "value": -1
+        },
+        "motifs": [
+          "plush",
+          "gothic"
+        ]
+      },
+      {
+        "label": "Airy glass and slim white seating",
+        "vector": {
+          "comfort": 2,
+          "outlook": -1,
+          "surface": 1
+        },
+        "motifs": [
+          "glass",
+          "minimal"
+        ]
+      },
+      {
+        "label": "A cold, low-lit lobby in brushed steel",
+        "vector": {
+          "comfort": 2,
+          "outlook": 1,
+          "surface": 1
+        },
+        "motifs": [
+          "industrial",
+          "chrome"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flyer",
+    "section": "C",
+    "type": "scenario",
+    "prompt": "Pick the lettering for your band’s first flyer.",
+    "quick": true,
+    "options": [
+      {
+        "label": "One refined serif with wide margins",
+        "vector": {
+          "complexity": -2,
+          "typography:classic_serif": 1
+        },
+        "motifs": [
+          "serif",
+          "minimal"
+        ]
+      },
+      {
+        "label": "Ornate serif letters packed into a collage",
+        "vector": {
+          "complexity": 2,
+          "typography:classic_serif": 1
+        },
+        "motifs": [
+          "serif",
+          "craft"
+        ]
+      },
+      {
+        "label": "A clean grid of squared-off letters",
+        "vector": {
+          "complexity": -2,
+          "typography:techno": 1
+        },
+        "motifs": [
+          "tech"
+        ]
+      },
+      {
+        "label": "A riot of chunky, distorted letters",
+        "vector": {
+          "complexity": 2,
+          "typography:jumbled": 1
+        },
+        "motifs": [
+          "mixed",
+          "chunky"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "device",
+    "section": "C",
+    "type": "scenario",
+    "prompt": "Which device would you leave on your desk?",
+    "quick": true,
+    "options": [
+      {
+        "label": "A curved, pearl-white radio",
+        "vector": {
+          "geometry": -2,
+          "surface": 1,
+          "subject:tech": 1
+        },
+        "motifs": [
+          "gear"
+        ]
+      },
+      {
+        "label": "A curved speaker wrapped in woven fabric",
+        "vector": {
+          "geometry": -2,
+          "surface": -2,
+          "subject:tech": 1
+        },
+        "motifs": [
+          "plush"
+        ]
+      },
+      {
+        "label": "A sharp-edged chrome clock",
+        "vector": {
+          "geometry": 2,
+          "surface": 2,
+          "subject:tech": 1
+        },
+        "motifs": [
+          "chrome",
+          "gear"
+        ]
+      },
+      {
+        "label": "A squared-off, matte terminal",
+        "vector": {
+          "geometry": 2,
+          "surface": -2,
+          "subject:tech": 1
+        },
+        "motifs": [
+          "tech"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cafe",
+    "section": "C",
+    "type": "scenario",
+    "prompt": "Pick a coffee shop for a rainy afternoon.",
+    "quick": false,
+    "options": [
+      {
+        "label": "Honey-colored wood and hand-painted menus",
+        "vector": {
+          "temperature": -2,
+          "comfort": -2,
+          "context:retail": 1
+        },
+        "motifs": [
+          "wood",
+          "brush"
+        ]
+      },
+      {
+        "label": "Warm-toned tiles and polished brass",
+        "vector": {
+          "temperature": -2,
+          "comfort": 2,
+          "context:retail": 1
+        },
+        "motifs": [
+          "lux",
+          "retro"
+        ]
+      },
+      {
+        "label": "Cool gray textiles and fogged-up windows",
+        "vector": {
+          "temperature": 2,
+          "comfort": -2,
+          "context:retail": 1
+        },
+        "motifs": [
+          "plush"
+        ]
+      },
+      {
+        "label": "A blue steel counter and precisely aligned lights",
+        "vector": {
+          "temperature": 2,
+          "comfort": 2,
+          "context:retail": 1
+        },
+        "motifs": [
+          "industrial"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cover",
+    "section": "C",
+    "type": "scenario",
+    "prompt": "Which magazine cover would you buy?",
+    "quick": false,
+    "options": [
+      {
+        "label": "A quiet landscape in subdued colors",
+        "vector": {
+          "saturation": -2,
+          "energy": -2,
+          "subject:nature": 1
+        },
+        "motifs": [
+          "plants",
+          "earth"
+        ]
+      },
+      {
+        "label": "A homemade collage of clip art and stretched lettering",
+        "vector": {
+          "saturation": -2,
+          "energy": 2,
+          "typography:jumbled": 1,
+          "context:print": 1
+        },
+        "motifs": [
+          "mixed",
+          "word-art"
+        ]
+      },
+      {
+        "label": "A still life against a vivid color field",
+        "vector": {
+          "saturation": 2,
+          "energy": -2,
+          "palette:primary": 1
+        },
+        "motifs": [
+          "rainbow"
+        ]
+      },
+      {
+        "label": "Paint splashes and huge fluorescent letters",
+        "vector": {
+          "saturation": 2,
+          "energy": 2,
+          "palette:neon": 1
+        },
+        "motifs": [
+          "splat",
+          "neon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jacket",
+    "section": "C",
+    "type": "scenario",
+    "prompt": "Which jacket would get the most wear?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Plain, earth-toned canvas",
+        "vector": {
+          "complexity": -2,
+          "tone": -1,
+          "texture:organic": 1
+        },
+        "motifs": [
+          "earth"
+        ]
+      },
+      {
+        "label": "A single stencil over dark nylon",
+        "vector": {
+          "complexity": -2,
+          "tone": 2,
+          "value": -1
+        },
+        "motifs": [
+          "city",
+          "grotesque"
+        ]
+      },
+      {
+        "label": "Soft fabric with rows of embroidered shapes",
+        "vector": {
+          "complexity": 2,
+          "tone": -2,
+          "texture:organic": 1
+        },
+        "motifs": [
+          "craft",
+          "plush"
+        ]
+      },
+      {
+        "label": "Shiny fabric covered in sharp graphic patches",
+        "vector": {
+          "complexity": 2,
+          "tone": 2,
+          "surface": 2
+        },
+        "motifs": [
+          "gothic",
+          "lux"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shop",
+    "section": "C",
+    "type": "scenario",
+    "prompt": "Which storefront would you walk into?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Classic painted signage and a spare window display",
+        "vector": {
+          "complexity": -2,
+          "typography:script": 1
+        },
+        "motifs": [
+          "retro",
+          "minimal"
+        ]
+      },
+      {
+        "label": "A colorful discount window with novelty packaging",
+        "vector": {
+          "complexity": 2,
+          "typography:jumbled": 1,
+          "context:retail": 1
+        },
+        "motifs": [
+          "word-art",
+          "retro"
+        ]
+      },
+      {
+        "label": "A crisp digital sign above one spotlighted object",
+        "vector": {
+          "complexity": -2,
+          "typography:techno": 1
+        },
+        "motifs": [
+          "tech",
+          "minimal"
+        ]
+      },
+      {
+        "label": "Animated LED lettering surrounded by geometric props",
+        "vector": {
+          "complexity": 2,
+          "typography:techno": 1
+        },
+        "motifs": [
+          "tech",
+          "laser"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "album",
+    "section": "C",
+    "type": "scenario",
+    "prompt": "Which sleeve would make you hear the album?",
+    "quick": false,
+    "options": [
+      {
+        "label": "A dreamy painting in soft, rounded shapes",
+        "vector": {
+          "energy": -2,
+          "geometry": -2,
+          "context:music": 1
+        },
+        "motifs": [
+          "orbit"
+        ]
+      },
+      {
+        "label": "A crisp, quiet diagram of angular forms",
+        "vector": {
+          "energy": -2,
+          "geometry": 2,
+          "context:music": 1
+        },
+        "motifs": [
+          "classical"
+        ]
+      },
+      {
+        "label": "Liquid color and wild curving shapes",
+        "vector": {
+          "energy": 2,
+          "geometry": -2,
+          "context:music": 1
+        },
+        "motifs": [
+          "gradients",
+          "splat"
+        ]
+      },
+      {
+        "label": "Sharp grids and fast diagonal lines",
+        "vector": {
+          "energy": 2,
+          "geometry": 2,
+          "context:music": 1
+        },
+        "motifs": [
+          "laser",
+          "chunky"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "motifs-1",
+    "section": "D",
+    "type": "motif",
+    "prompt": "Which details do you love or dislike?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Polished chrome",
+        "vector": {
+          "surface": 2,
+          "texture:metallic": 1
+        },
+        "motifs": [
+          "chrome"
+        ]
+      },
+      {
+        "label": "Textured paper",
+        "vector": {
+          "surface": -2,
+          "texture:analog_grainy": 1
+        },
+        "motifs": [
+          "paper"
+        ]
+      },
+      {
+        "label": "Glowing laser grids",
+        "vector": {
+          "geometry": 2,
+          "palette:neon": 1
+        },
+        "motifs": [
+          "laser"
+        ]
+      },
+      {
+        "label": "Glass and transparency",
+        "vector": {
+          "surface": 2,
+          "texture:plastic_translucent": 1
+        },
+        "motifs": [
+          "glass"
+        ]
+      },
+      {
+        "label": "Leaves and plant shadows",
+        "vector": {
+          "geometry": -1,
+          "subject:nature": 1
+        },
+        "motifs": [
+          "plants"
+        ]
+      },
+      {
+        "label": "Marble and rough stone",
+        "vector": {
+          "texture:organic": 1,
+          "subject:luxury": 1
+        },
+        "motifs": [
+          "marble"
+        ]
+      },
+      {
+        "label": "Isometric pixel art",
+        "vector": {
+          "geometry": 2,
+          "texture:digital_pixel": 1
+        },
+        "motifs": [
+          "pixels"
+        ]
+      },
+      {
+        "label": "Layered gradients",
+        "vector": {
+          "geometry": -1,
+          "texture:digital_pixel": 1
+        },
+        "motifs": [
+          "gradients"
+        ]
+      },
+      {
+        "label": "Clashing brights and rainbow palettes",
+        "vector": {
+          "saturation": 2,
+          "palette:primary": 1
+        },
+        "motifs": [
+          "rainbow"
+        ]
+      },
+      {
+        "label": "Electric neon colors",
+        "vector": {
+          "saturation": 2,
+          "palette:neon": 1
+        },
+        "motifs": [
+          "neon"
+        ]
+      },
+      {
+        "label": "Beige and warm earth colors",
+        "vector": {
+          "temperature": -2,
+          "palette:earth": 1
+        },
+        "motifs": [
+          "earth"
+        ]
+      },
+      {
+        "label": "Pale pastel colors",
+        "vector": {
+          "saturation": -1,
+          "palette:pastel": 1
+        },
+        "motifs": [
+          "pastel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "motifs-2",
+    "section": "D",
+    "type": "motif",
+    "prompt": "Which details do you love or dislike?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Fine serif lettering",
+        "vector": {
+          "typography:classic_serif": 1,
+          "complexity": 1
+        },
+        "motifs": [
+          "serif"
+        ]
+      },
+      {
+        "label": "Hand-drawn brush lettering",
+        "vector": {
+          "typography:script": 1,
+          "surface": -1
+        },
+        "motifs": [
+          "brush"
+        ]
+      },
+      {
+        "label": "Distorted and mixed lettering",
+        "vector": {
+          "typography:jumbled": 1,
+          "complexity": 2
+        },
+        "motifs": [
+          "mixed"
+        ]
+      },
+      {
+        "label": "Terminal lettering and interfaces",
+        "vector": {
+          "typography:techno": 1,
+          "subject:tech": 1
+        },
+        "motifs": [
+          "tech"
+        ]
+      },
+      {
+        "label": "Heavy sans-serif type",
+        "vector": {
+          "typography:brutal": 1,
+          "geometry": 1
+        },
+        "motifs": [
+          "grotesque"
+        ]
+      },
+      {
+        "label": "Exposed wood and wood grain",
+        "vector": {
+          "texture:organic": 1,
+          "comfort": -1
+        },
+        "motifs": [
+          "wood"
+        ]
+      },
+      {
+        "label": "Stars, skies and galaxies",
+        "vector": {
+          "subject:mystical": 1,
+          "temperature": 1
+        },
+        "motifs": [
+          "orbit"
+        ]
+      },
+      {
+        "label": "Spirals and swirls",
+        "vector": {
+          "geometry": -2,
+          "complexity": 1
+        },
+        "motifs": [
+          "swirl"
+        ]
+      },
+      {
+        "label": "Oversized toys and playful props",
+        "vector": {
+          "tone": -2,
+          "subject:youth": 1
+        },
+        "motifs": [
+          "toys"
+        ]
+      },
+      {
+        "label": "Showy glamour and decorative details",
+        "vector": {
+          "subject:luxury": 1,
+          "complexity": 1
+        },
+        "motifs": [
+          "lux"
+        ]
+      },
+      {
+        "label": "Streetlights and city infrastructure",
+        "vector": {
+          "tone": 1,
+          "geometry": 1
+        },
+        "motifs": [
+          "city"
+        ]
+      },
+      {
+        "label": "Rusted industrial materials",
+        "vector": {
+          "texture:metallic": 1,
+          "tone": 2
+        },
+        "motifs": [
+          "industrial"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "motifs-3",
+    "section": "D",
+    "type": "motif",
+    "prompt": "Which details do you love or dislike?",
+    "quick": true,
+    "options": [
+      {
+        "label": "Handmade objects and collage",
+        "vector": {
+          "texture:organic": 1,
+          "comfort": -2
+        },
+        "motifs": [
+          "craft"
+        ]
+      },
+      {
+        "label": "Tropical and organic silhouettes",
+        "vector": {
+          "subject:nature": 1,
+          "geometry": -2
+        },
+        "motifs": [
+          "tropical"
+        ]
+      },
+      {
+        "label": "Paint splatters and slime",
+        "vector": {
+          "energy": 2,
+          "tone": 1
+        },
+        "motifs": [
+          "splat"
+        ]
+      },
+      {
+        "label": "Gothic flourishes",
+        "vector": {
+          "tone": 2,
+          "subject:mystical": 1
+        },
+        "motifs": [
+          "gothic"
+        ]
+      },
+      {
+        "label": "Classical and historical references",
+        "vector": {
+          "subject:academic": 1,
+          "typography:classic_serif": 1
+        },
+        "motifs": [
+          "classical"
+        ]
+      },
+      {
+        "label": "Maps and retro travel imagery",
+        "vector": {
+          "subject:global": 1,
+          "texture:analog_grainy": 1
+        },
+        "motifs": [
+          "travel"
+        ]
+      },
+      {
+        "label": "Chunky geometric forms",
+        "vector": {
+          "geometry": 2,
+          "complexity": 1
+        },
+        "motifs": [
+          "chunky"
+        ]
+      },
+      {
+        "label": "Whitespace and simple forms",
+        "vector": {
+          "complexity": -2,
+          "comfort": 1
+        },
+        "motifs": [
+          "minimal"
+        ]
+      },
+      {
+        "label": "Soft textiles and plush furniture",
+        "vector": {
+          "comfort": -2,
+          "surface": -1
+        },
+        "motifs": [
+          "plush"
+        ]
+      },
+      {
+        "label": "Retro type and signage",
+        "vector": {
+          "typography:classic_serif": 1,
+          "context:retail": 1
+        },
+        "motifs": [
+          "retro"
+        ]
+      },
+      {
+        "label": "Wearable and optical gadgets",
+        "vector": {
+          "subject:tech": 1,
+          "context:fashion": 1
+        },
+        "motifs": [
+          "gear"
+        ]
+      },
+      {
+        "label": "Homemade word art and novelty packaging",
+        "vector": {
+          "context:retail": 1,
+          "context:ui": 1,
+          "context:print": 1,
+          "typography:jumbled": 1
+        },
+        "motifs": [
+          "word-art"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "slider-saturation",
+    "section": "E",
+    "type": "slider",
+    "prompt": "For everyday objects, I prefer…",
+    "quick": true,
+    "axis": "saturation",
+    "options": [
+      {
+        "label": "Muted colors",
+        "vector": {
+          "saturation": -2
+        },
+        "motifs": []
+      },
+      {
+        "label": "Vivid colors",
+        "vector": {
+          "saturation": 2
+        },
+        "motifs": []
+      }
+    ]
+  },
+  {
+    "id": "slider-complexity",
+    "section": "E",
+    "type": "slider",
+    "prompt": "My ideal room feels…",
+    "quick": true,
+    "axis": "complexity",
+    "options": [
+      {
+        "label": "Open and minimal",
+        "vector": {
+          "complexity": -2
+        },
+        "motifs": []
+      },
+      {
+        "label": "Layered and full",
+        "vector": {
+          "complexity": 2
+        },
+        "motifs": []
+      }
+    ]
+  },
+  {
+    "id": "slider-tone",
+    "section": "E",
+    "type": "slider",
+    "prompt": "The graphics I keep tend to be…",
+    "quick": false,
+    "axis": "tone",
+    "options": [
+      {
+        "label": "Wholesome",
+        "vector": {
+          "tone": -2
+        },
+        "motifs": []
+      },
+      {
+        "label": "Edgy",
+        "vector": {
+          "tone": 2
+        },
+        "motifs": []
+      }
+    ]
+  },
+  {
+    "id": "slider-outlook",
+    "section": "E",
+    "type": "slider",
+    "prompt": "A vision of the future should feel…",
+    "quick": false,
+    "axis": "outlook",
+    "options": [
+      {
+        "label": "Hopeful",
+        "vector": {
+          "outlook": -2
+        },
+        "motifs": []
+      },
+      {
+        "label": "Unsettling",
+        "vector": {
+          "outlook": 2
+        },
+        "motifs": []
+      }
+    ]
+  },
+  {
+    "id": "slider-comfort",
+    "section": "E",
+    "type": "slider",
+    "prompt": "The spaces I revisit tend to feel…",
+    "quick": false,
+    "axis": "comfort",
+    "options": [
+      {
+        "label": "Cozy",
+        "vector": {
+          "comfort": -2
+        },
+        "motifs": []
+      },
+      {
+        "label": "Sleek",
+        "vector": {
+          "comfort": 2
+        },
+        "motifs": []
+      }
+    ]
+  },
+  {
+    "id": "slider-value",
+    "section": "E",
+    "type": "slider",
+    "prompt": "I’m drawn to palettes that feel…",
+    "quick": false,
+    "axis": "value",
+    "options": [
+      {
+        "label": "Dark",
+        "vector": {
+          "value": -2
+        },
+        "motifs": []
+      },
+      {
+        "label": "Light",
+        "vector": {
+          "value": 2
+        },
+        "motifs": []
+      }
+    ]
+  }
+]

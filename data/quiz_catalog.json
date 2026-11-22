@@ -1,0 +1,2859 @@
+[
+  {
+    "slug": "acidgrafix",
+    "name": "Acidgrafix",
+    "url": "https://cari.institute/aesthetics/acidgrafix",
+    "timeline": "Mid 2010s - present",
+    "signature_motifs": [
+      "horror vacui",
+      "chrome type",
+      "oddball textures",
+      "self-referentialism"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": null,
+    "energy": null,
+    "tone": 1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [
+      "chrome"
+    ],
+    "texture": [
+      "metallic"
+    ],
+    "typography": [
+      "jumbled"
+    ],
+    "subject": [],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "airbrush-surrealism",
+    "name": "Airbrush Surrealism",
+    "url": "https://cari.institute/aesthetics/airbrush-surrealism",
+    "timeline": "Late 1960s - Mid 1980s",
+    "signature_motifs": [
+      "Supersaturated colors",
+      "floating objects",
+      "chrome textures",
+      "lightning",
+      "technical illustration"
+    ],
+    "tag_confidence": "low",
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": 1,
+    "complexity": 1,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [
+      "chrome"
+    ],
+    "texture": [
+      "metallic"
+    ],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "austurbane",
+    "name": "Austurbane",
+    "url": "https://cari.institute/aesthetics/austurbane",
+    "timeline": "Late 2010s - present",
+    "signature_motifs": [
+      "muted colours",
+      "whitespace",
+      "Plant and branch shadows",
+      "granite and marble",
+      "rough stones",
+      "Fabric"
+    ],
+    "tag_confidence": "high",
+    "decades": [],
+    "saturation": -2,
+    "temperature": -1,
+    "value": null,
+    "surface": -1,
+    "complexity": -2,
+    "geometry": null,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": 1,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [
+      "corporate",
+      "luxury"
+    ],
+    "context": [
+      "retail"
+    ]
+  },
+  {
+    "slug": "blob-world",
+    "name": "Blob World",
+    "url": "https://cari.institute/aesthetics/blob-world",
+    "timeline": "Mid 2010s - present",
+    "signature_motifs": [
+      "3D renders",
+      "playful textures",
+      "uncanny forms",
+      "surrealist compositions",
+      "body horror"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": -2,
+    "energy": 1,
+    "tone": 1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": []
+  },
+  {
+    "slug": "boho-chic",
+    "name": "Boho-Chic",
+    "url": "https://cari.institute/aesthetics/boho-chic",
+    "timeline": "Early 2010s - present",
+    "signature_motifs": [
+      "geometric line motifs",
+      "mandalas",
+      "watercolours",
+      "washed out colours",
+      "galaxies",
+      "tapestries"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "2010s"
+    ],
+    "saturation": -2,
+    "temperature": null,
+    "value": 1,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": 1,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [
+      "pastel"
+    ],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [
+      "script"
+    ],
+    "subject": [
+      "mystical",
+      "youth"
+    ],
+    "context": [
+      "interiors",
+      "print"
+    ]
+  },
+  {
+    "slug": "contempo-eclectic",
+    "name": "Contempo Eclectic",
+    "url": "https://cari.institute/aesthetics/contempo-eclectic",
+    "timeline": "Mid 1980s - Mid 1990s",
+    "signature_motifs": [
+      "furniture design experimentation",
+      "abstract & surrealist art",
+      "New Wave/ Pacific Punk Wave graphic design"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1980s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "interiors",
+      "print"
+    ]
+  },
+  {
+    "slug": "corporate-cyberspace",
+    "name": "Corporate Cyberspace",
+    "url": "https://cari.institute/aesthetics/corporate-cyberspace",
+    "timeline": "Early 1990s - Late 1990s",
+    "signature_motifs": [
+      "translucency",
+      "distorted stroke",
+      "motion blur",
+      "computer-generated and manipulated imagery",
+      "early 1990s rave flyer graphics"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": 1,
+    "complexity": 1,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": 1,
+    "palette": [
+      "neon"
+    ],
+    "texture": [
+      "plastic_translucent"
+    ],
+    "typography": [],
+    "subject": [
+      "tech",
+      "corporate"
+    ],
+    "context": [
+      "print",
+      "ui"
+    ]
+  },
+  {
+    "slug": "corporate-memphis",
+    "name": "Corporate Memphis",
+    "url": "https://cari.institute/aesthetics/corporate-memphis",
+    "timeline": "Mid 2010s - present",
+    "signature_motifs": [
+      "pastel colors",
+      "geometric sans typefaces",
+      "Monstera plants",
+      "exposed plywood",
+      "white walls",
+      "Matisse-influenced graphics"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "2010s"
+    ],
+    "saturation": -1,
+    "temperature": null,
+    "value": 2,
+    "surface": -1,
+    "complexity": -1,
+    "geometry": 2,
+    "energy": -1,
+    "tone": -1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [
+      "pastel"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "typography": [],
+    "subject": [
+      "corporate",
+      "nature"
+    ],
+    "context": [
+      "print",
+      "interiors"
+    ]
+  },
+  {
+    "slug": "corporate-scene",
+    "name": "Corporate Scene",
+    "url": "https://cari.institute/aesthetics/corporate-scene",
+    "timeline": "Late 1990s - Early 2010s",
+    "signature_motifs": [
+      "edgy grunge aesthetics",
+      "pop punk",
+      "Hot Topic"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": null,
+    "geometry": null,
+    "energy": 1,
+    "tone": 2,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "youth"
+    ],
+    "context": [
+      "fashion",
+      "retail",
+      "music"
+    ]
+  },
+  {
+    "slug": "corporate-synthwave",
+    "name": "Corporate Synthwave",
+    "url": "https://cari.institute/aesthetics/corporate-synthwave",
+    "timeline": "Early 2010s - present",
+    "signature_motifs": [
+      "neon colors",
+      "airbrush-style imagery",
+      "laser grids"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": 1,
+    "complexity": null,
+    "geometry": 1,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": 1,
+    "palette": [
+      "neon"
+    ],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": []
+  },
+  {
+    "slug": "curly-girly",
+    "name": "Curly Girly",
+    "url": "https://cari.institute/aesthetics/curly-girly",
+    "timeline": "Late 1990s - Mid 2000s",
+    "signature_motifs": [
+      "Ornate",
+      "frilly aesthetics",
+      "'Diva' motifs",
+      "2000s celebrity & pop culture",
+      "aspirational wealth"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": null,
+    "energy": 1,
+    "tone": -1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "youth",
+      "luxury"
+    ],
+    "context": []
+  },
+  {
+    "slug": "cyberbougie",
+    "name": "Cyberbougie",
+    "url": "https://cari.institute/aesthetics/cyberbougie",
+    "timeline": "Late 2010s - present",
+    "signature_motifs": [
+      "Monospaced fonts",
+      "gradients",
+      "black backgrounds",
+      "sleekness"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": -2,
+    "surface": null,
+    "complexity": -1,
+    "geometry": null,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": 2,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "tech",
+      "corporate"
+    ],
+    "context": [
+      "ui"
+    ]
+  },
+  {
+    "slug": "cyberdelia",
+    "name": "Cyberdelia",
+    "url": "https://cari.institute/aesthetics/cyberdelia",
+    "timeline": "Late 1980s - Mid 1990s",
+    "signature_motifs": [
+      "kaleidoscopic palettes",
+      "acid colors",
+      "fractal forms",
+      "expressive early 3D typography",
+      "rave flyers"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": 1,
+    "energy": 2,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [
+      "neon"
+    ],
+    "texture": [],
+    "typography": [
+      "techno"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "print",
+      "music"
+    ]
+  },
+  {
+    "slug": "deco-luxe",
+    "name": "Deco-Luxe",
+    "url": "https://cari.institute/aesthetics/deco-luxe",
+    "timeline": "Early 1980s - Late 1980s",
+    "signature_motifs": [
+      "Art Deco",
+      "Streamline Moderne",
+      "Roaring '20s"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "luxury"
+    ],
+    "context": []
+  },
+  {
+    "slug": "decoplex",
+    "name": "Decoplex",
+    "url": "https://cari.institute/aesthetics/decoplex",
+    "timeline": "Early 1990s - present",
+    "signature_motifs": [
+      "golden age of Hollywood",
+      "early air travel",
+      "WPA murals",
+      "exaggerated version of art deco tropes"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1990s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "global"
+    ],
+    "context": []
+  },
+  {
+    "slug": "diner-kitsch",
+    "name": "Diner Kitsch",
+    "url": "https://cari.institute/aesthetics/diner-kitsch",
+    "timeline": "Mid 1970s - Early 1990s",
+    "signature_motifs": [
+      "Jukeboxes",
+      "poodle skirts",
+      "1950s advertising kitsch",
+      "neon",
+      "chromed-out automobiles",
+      "metallic paneling"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": 2,
+    "complexity": 1,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [
+      "neon",
+      "chrome"
+    ],
+    "texture": [
+      "metallic"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "fashion",
+      "interiors",
+      "retail",
+      "print"
+    ]
+  },
+  {
+    "slug": "disco-deco",
+    "name": "Disco Deco",
+    "url": "https://cari.institute/aesthetics/disco-deco",
+    "timeline": "Mid 1960s - Late 1970s",
+    "signature_motifs": [
+      "vibrant colors",
+      "geometric typefaces",
+      "psychedelic imagery",
+      "Studio 54"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": 1,
+    "surface": null,
+    "complexity": 1,
+    "geometry": 2,
+    "energy": 2,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "music"
+    ]
+  },
+  {
+    "slug": "dollar-store-vernacular",
+    "name": "Dollar Store Vernacular",
+    "url": "https://cari.institute/aesthetics/dollar-store-vernacular",
+    "timeline": "Late 1960s - present",
+    "signature_motifs": [
+      "knock-off products",
+      "word art",
+      "spammy internet sites",
+      "personal websites"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": null,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "retail",
+      "print",
+      "ui"
+    ]
+  },
+  {
+    "slug": "early-cyber",
+    "name": "Early Cyber",
+    "url": "https://cari.institute/aesthetics/early-cyber",
+    "timeline": "Late 1980s - Early 1990s",
+    "signature_motifs": [
+      "rave flyer graphics",
+      "harsh pixelated thermographic imagery",
+      "warped fonts",
+      "desktop publishing"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": 1,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "digital_pixel"
+    ],
+    "typography": [
+      "jumbled"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "print",
+      "ui",
+      "music"
+    ]
+  },
+  {
+    "slug": "eco-beige",
+    "name": "Eco-Beige",
+    "url": "https://cari.institute/aesthetics/eco-beige",
+    "timeline": "Late 1980s - Mid 1990s",
+    "signature_motifs": [
+      "Beige",
+      "twigs",
+      "raffia straw",
+      "linens",
+      "wood",
+      "textured walls",
+      "simple handcrafted forms"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1990s"
+    ],
+    "saturation": -2,
+    "temperature": -1,
+    "value": 1,
+    "surface": -2,
+    "complexity": -2,
+    "geometry": -2,
+    "energy": -2,
+    "tone": null,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "typography": [],
+    "subject": [
+      "nature"
+    ],
+    "context": [
+      "interiors"
+    ]
+  },
+  {
+    "slug": "electroclash",
+    "name": "Electroclash",
+    "url": "https://cari.institute/aesthetics/electroclash",
+    "timeline": "Late 1990s - Early 2000s",
+    "signature_motifs": [
+      "clashing makeup palettes",
+      "androgynous glam fashion",
+      "Pacific Punk Wave graphic design"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": 2,
+    "tone": 1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "fashion",
+      "print"
+    ]
+  },
+  {
+    "slug": "factory-pomo",
+    "name": "Factory Pomo",
+    "url": "https://cari.institute/aesthetics/factory-pomo",
+    "timeline": "Late 1980s - Early 1990s",
+    "signature_motifs": [
+      "clean, simple, referential forms",
+      "CAD technology",
+      "Bauhaus",
+      "Russian Constructivism",
+      "WPA graphics",
+      "industrial vernacular"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1980s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": -1,
+    "geometry": 2,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": 1,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "festival-marketplace",
+    "name": "Festival Marketplace",
+    "url": "https://cari.institute/aesthetics/festival-marketplace",
+    "timeline": "Early 1980s - Early 1990s",
+    "signature_motifs": [
+      "picnic checkerboards",
+      "balloons",
+      "banners",
+      "confetti",
+      "festival carts",
+      "circular logos",
+      "simple colorful graphics"
+    ],
+    "tag_confidence": "high",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 0,
+    "geometry": 1,
+    "energy": 2,
+    "tone": -1,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [],
+    "texture": [],
+    "typography": [
+      "classic_serif",
+      "script"
+    ],
+    "subject": [],
+    "context": [
+      "retail",
+      "print"
+    ]
+  },
+  {
+    "slug": "four-colors",
+    "name": "Four Colors",
+    "url": "https://cari.institute/aesthetics/four-colors",
+    "timeline": "Mid 2000s - present",
+    "signature_motifs": [
+      "Electric Lime",
+      "Sky Blue",
+      "Hot Pink",
+      "Tangerine Orange",
+      "personalization of products through color"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "2000s"
+    ],
+    "saturation": 2,
+    "temperature": null,
+    "value": 1,
+    "surface": null,
+    "complexity": null,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [
+      "neon"
+    ],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "retail"
+    ]
+  },
+  {
+    "slug": "frasurbane",
+    "name": "Frasurbane",
+    "url": "https://cari.institute/aesthetics/frasurbane",
+    "timeline": "Late 1980s - Mid 1990s",
+    "signature_motifs": [
+      "warm sepia",
+      "Astrolabes",
+      "globes",
+      "textured paper",
+      "scientific illustrations",
+      "earthy warm tones"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1990s"
+    ],
+    "saturation": -2,
+    "temperature": -2,
+    "value": null,
+    "surface": -1,
+    "complexity": -1,
+    "geometry": null,
+    "energy": -2,
+    "tone": null,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [
+      "earth",
+      "mono"
+    ],
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [
+      "academic",
+      "nature",
+      "luxury"
+    ],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "frutiger-aero",
+    "name": "Frutiger Aero",
+    "url": "https://cari.institute/aesthetics/frutiger-aero",
+    "timeline": "Mid 2000s - Early 2010s",
+    "signature_motifs": [
+      "Skeumorphism in UI/UX design",
+      "Glossy design",
+      "Frutiger/humanist sans-serif typefaces",
+      "Tertiary color palettes",
+      "Glassy/transparent materials",
+      "Photographs of aurora borealis",
+      "Bokeh photography",
+      "Macro photographs of grass"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": 2,
+    "complexity": null,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": 1,
+    "palette": [],
+    "texture": [
+      "plastic_translucent"
+    ],
+    "typography": [
+      "humanist_sans"
+    ],
+    "subject": [
+      "tech",
+      "corporate",
+      "nature"
+    ],
+    "context": [
+      "ui"
+    ]
+  },
+  {
+    "slug": "gay-nineties-revival",
+    "name": "Gay Nineties Revival",
+    "url": "https://cari.institute/aesthetics/gay-nineties-revival",
+    "timeline": "Late 1960s - Late 1970s",
+    "signature_motifs": [
+      "ferns as indoor decor",
+      "fake Tiffany lamps",
+      "brass and gold accents",
+      "medium-stained oak woods",
+      "old gold"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1970s"
+    ],
+    "saturation": 0,
+    "temperature": -2,
+    "value": null,
+    "surface": 1,
+    "complexity": 1,
+    "geometry": null,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": -2,
+    "palette": [
+      "earth",
+      "jewel"
+    ],
+    "texture": [
+      "organic",
+      "metallic"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "interiors"
+    ]
+  },
+  {
+    "slug": "gen-x-soft-club",
+    "name": "Gen X Soft Club",
+    "url": "https://cari.institute/aesthetics/gen-x-soft-club",
+    "timeline": "Early 1990s - Mid 2000s",
+    "signature_motifs": [
+      "nude lipstick",
+      "natural textured hair",
+      "natural leathers",
+      "knee high boots",
+      "duster jackets",
+      "muted colors",
+      "Helvetica"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "saturation": -2,
+    "temperature": -1,
+    "value": -1,
+    "surface": -1,
+    "complexity": -2,
+    "geometry": null,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": 0,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "fashion",
+      "print"
+    ]
+  },
+  {
+    "slug": "genericana",
+    "name": "Genericana",
+    "url": "https://cari.institute/aesthetics/genericana",
+    "timeline": "Mid 1980s - Early 2010s",
+    "signature_motifs": [
+      "packaging",
+      "sign painting fonts",
+      "skeuomorphisms",
+      "negative space"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": -1,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "luxury"
+    ],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "global-village-coffeehouse",
+    "name": "Global Village Coffeehouse",
+    "url": "https://cari.institute/aesthetics/global-village-coffeehouse",
+    "timeline": "Late 1980s - Mid 1990s",
+    "signature_motifs": [
+      "woodcuts",
+      "spirals",
+      "aroma swirls",
+      "coffee cups",
+      "earth tones",
+      "hand-drawn look",
+      "rough irregular borders"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": 0,
+    "temperature": -2,
+    "value": null,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": -2,
+    "energy": -1,
+    "tone": -1,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [
+      "corporate",
+      "nature",
+      "mystical"
+    ],
+    "context": [
+      "retail",
+      "print"
+    ]
+  },
+  {
+    "slug": "googie-kitsch",
+    "name": "Googie Kitsch",
+    "url": "https://cari.institute/aesthetics/googie-kitsch",
+    "timeline": "Late 1970s - Early 2000s",
+    "signature_motifs": [
+      "colorful George Nelson clocks",
+      "boomerang tables",
+      "Googie motifs",
+      "1950's advertising vernacular"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "saturation": 1,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": -1,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "interiors",
+      "print"
+    ]
+  },
+  {
+    "slug": "graffiti-pop",
+    "name": "Graffiti Pop",
+    "url": "https://cari.institute/aesthetics/graffiti-pop",
+    "timeline": "Early 1980s - Mid 1990s",
+    "signature_motifs": [
+      "trash cans",
+      "brick walls",
+      "chain link fencing",
+      "street lamps",
+      "urban decay"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": null,
+    "geometry": null,
+    "energy": 1,
+    "tone": 1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "corporate",
+      "youth"
+    ],
+    "context": [
+      "music"
+    ]
+  },
+  {
+    "slug": "hexatron",
+    "name": "Hexatron",
+    "url": "https://cari.institute/aesthetics/hexatron",
+    "timeline": "Early 2010s - Late 2010s",
+    "signature_motifs": [
+      "Hexagons",
+      "Neon Blue",
+      "Holograms",
+      "Terminal-inspired UIs",
+      "Angular technology"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "2010s"
+    ],
+    "saturation": 1,
+    "temperature": 2,
+    "value": null,
+    "surface": 1,
+    "complexity": 2,
+    "geometry": 2,
+    "energy": 1,
+    "tone": 1,
+    "outlook": null,
+    "comfort": 2,
+    "palette": [
+      "neon"
+    ],
+    "texture": [],
+    "typography": [
+      "techno"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "ui"
+    ]
+  },
+  {
+    "slug": "hipness-purgatory",
+    "name": "Hipness Purgatory",
+    "url": "https://cari.institute/aesthetics/hipness-purgatory",
+    "timeline": "Early 2000s - Early 2010s",
+    "signature_motifs": [
+      "loose drawings",
+      "handcrafted with everyday objects",
+      "twee"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": null,
+    "geometry": -1,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [],
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": []
+  },
+  {
+    "slug": "indie-sleaze",
+    "name": "Indie Sleaze",
+    "url": "https://cari.institute/aesthetics/indie-sleaze",
+    "timeline": "Early 2000s - Early 2010s",
+    "signature_motifs": [
+      "shutter shades",
+      "colorful blocky handrawn lettering",
+      "NYC party scene & photography",
+      "bloghaus"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "2000s"
+    ],
+    "saturation": 1,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": 1,
+    "energy": 2,
+    "tone": 2,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [
+      "script"
+    ],
+    "subject": [],
+    "context": [
+      "fashion",
+      "music"
+    ]
+  },
+  {
+    "slug": "industrial-americana",
+    "name": "Industrial Americana",
+    "url": "https://cari.institute/aesthetics/industrial-americana",
+    "timeline": "Early 1990s - Mid 1990s",
+    "signature_motifs": [
+      "rusted steel beams",
+      "heavy metals textures",
+      "mesh",
+      "concrete",
+      "brick"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": -2,
+    "temperature": null,
+    "value": -1,
+    "surface": -1,
+    "complexity": null,
+    "geometry": 1,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "analog_grainy",
+      "metallic"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "interiors",
+      "print"
+    ]
+  },
+  {
+    "slug": "industrial-gothic",
+    "name": "Industrial Gothic",
+    "url": "https://cari.institute/aesthetics/industrial-gothic",
+    "timeline": "Late 1970s - Late 1990s",
+    "signature_motifs": [
+      "cabling",
+      "piping",
+      "Peeling paint",
+      "strange dark machines",
+      "monochrome"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": -2,
+    "temperature": null,
+    "value": -2,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": null,
+    "energy": -1,
+    "tone": 2,
+    "outlook": 1,
+    "comfort": 1,
+    "palette": [
+      "mono"
+    ],
+    "texture": [
+      "metallic",
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": []
+  },
+  {
+    "slug": "internet-awesomesauce",
+    "name": "Internet Awesomesauce",
+    "url": "https://cari.institute/aesthetics/internet-awesomesauce",
+    "timeline": "Late 2000s - Mid 2010s",
+    "signature_motifs": [
+      "Rainbows",
+      "unicorns",
+      "galaxies and space",
+      "lasers",
+      "junk food",
+      "absurd compositions"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "2010s"
+    ],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": null,
+    "energy": 2,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "digital_pixel"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "ui"
+    ]
+  },
+  {
+    "slug": "jumbled-font",
+    "name": "Jumbled Font",
+    "url": "https://cari.institute/aesthetics/jumbled-font",
+    "timeline": "Mid 1980s - Mid 1990s",
+    "signature_motifs": [
+      "Stretched letters",
+      "mixing of fonts & colors",
+      "objects substituted for letters",
+      "calligrams"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": 1,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [
+      "jumbled"
+    ],
+    "subject": [],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "laser-grid",
+    "name": "Laser Grid",
+    "url": "https://cari.institute/aesthetics/laser-grid",
+    "timeline": "Early 1980s - Late 1980s",
+    "signature_motifs": [
+      "Laser grids",
+      "glass blocks",
+      "sleek metallic surfaces",
+      "reflective glass",
+      "glowing neon",
+      "robots"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1980s"
+    ],
+    "saturation": 1,
+    "temperature": null,
+    "value": null,
+    "surface": 2,
+    "complexity": -1,
+    "geometry": 2,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": 2,
+    "palette": [
+      "chrome",
+      "neon"
+    ],
+    "texture": [
+      "metallic",
+      "plastic_translucent"
+    ],
+    "typography": [],
+    "subject": [
+      "tech",
+      "corporate"
+    ],
+    "context": [
+      "interiors"
+    ]
+  },
+  {
+    "slug": "live-laugh-love",
+    "name": "Live Laugh Love",
+    "url": "https://cari.institute/aesthetics/live-laugh-love",
+    "timeline": "Early 2010s - present",
+    "signature_motifs": [
+      "Wood grain",
+      "brush script fonts",
+      "snarky slogans"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": null,
+    "geometry": null,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": -2,
+    "palette": [],
+    "texture": [
+      "organic"
+    ],
+    "typography": [
+      "script"
+    ],
+    "subject": [
+      "domestic"
+    ],
+    "context": [
+      "interiors"
+    ]
+  },
+  {
+    "slug": "mcbling",
+    "name": "McBling",
+    "url": "https://cari.institute/aesthetics/mcbling",
+    "timeline": "Early 2000s - Late 2000s",
+    "signature_motifs": [
+      "oversized designer glasses",
+      "designer ripped jeans",
+      "pink hummers",
+      "bedazzled electronics",
+      "fashion phones",
+      "overly-flourishy vector art",
+      "spinning rims"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "2000s"
+    ],
+    "saturation": 1,
+    "temperature": null,
+    "value": null,
+    "surface": 2,
+    "complexity": 2,
+    "geometry": null,
+    "energy": 2,
+    "tone": 2,
+    "outlook": 1,
+    "comfort": 0,
+    "palette": [],
+    "texture": [
+      "metallic"
+    ],
+    "typography": [
+      "jumbled"
+    ],
+    "subject": [
+      "luxury",
+      "tech"
+    ],
+    "context": [
+      "fashion",
+      "interiors"
+    ]
+  },
+  {
+    "slug": "memphis-milano",
+    "name": "Memphis-Milano",
+    "url": "https://cari.institute/aesthetics/memphis-milano",
+    "timeline": "Early 1980s - Early 1990s",
+    "signature_motifs": [
+      "geometric, colorful designs",
+      "Memphis Group",
+      "Studio Alchimia"
+    ],
+    "tag_confidence": "low",
+    "decades": [
+      "1980s"
+    ],
+    "saturation": 1,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": 2,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": []
+  },
+  {
+    "slug": "mid-century-medieval",
+    "name": "Mid Century Medieval",
+    "url": "https://cari.institute/aesthetics/mid-century-medieval",
+    "timeline": "Mid 1950s - Mid 1970s",
+    "signature_motifs": [
+      "Renaissance Faires",
+      "Tudor-style and Fairytale suburban architecture",
+      "Sword-and-Sorcery movies",
+      "themed hotels"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1970s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "domestic"
+    ],
+    "context": [
+      "interiors",
+      "retail"
+    ]
+  },
+  {
+    "slug": "millennium-disco",
+    "name": "Millennium Disco",
+    "url": "https://cari.institute/aesthetics/millennium-disco",
+    "timeline": "Late 1990s - Early 2000s",
+    "signature_motifs": [
+      "Bauhaus typography",
+      "70s-throwback photography",
+      "disco revival"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": 1,
+    "complexity": null,
+    "geometry": 1,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": 2,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "fashion",
+      "music"
+    ]
+  },
+  {
+    "slug": "mission-school",
+    "name": "Mission School",
+    "url": "https://cari.institute/aesthetics/mission-school",
+    "timeline": "Mid 1990s - Early 2000s",
+    "signature_motifs": [
+      "muted colors",
+      "faux-weathered textures",
+      "Americana imagery",
+      "collage and painting"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": -2,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "neo-vectorheart",
+    "name": "Neo-Vectorheart",
+    "url": "https://cari.institute/aesthetics/neo-vectorheart",
+    "timeline": "Late 2010s - present",
+    "signature_motifs": [
+      "maximalist \"gamer-grunge\"",
+      "45-degree angles",
+      "punchy colors",
+      "contrast"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": 2,
+    "energy": 2,
+    "tone": 1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": []
+  },
+  {
+    "slug": "neo-y2k",
+    "name": "Neo-Y2K",
+    "url": "https://cari.institute/aesthetics/neo-y2k",
+    "timeline": "Late 2010s - present",
+    "signature_motifs": [
+      "Eastern graphic design influences",
+      "saturated colors",
+      "Metalheart forms"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": null,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "global"
+    ],
+    "context": []
+  },
+  {
+    "slug": "neon-ooze",
+    "name": "Neon Ooze",
+    "url": "https://cari.institute/aesthetics/neon-ooze",
+    "timeline": "Late 1980s - Early 1990s",
+    "signature_motifs": [
+      "toxic waste",
+      "sludge",
+      "slime",
+      "ooze",
+      "Mad scientists",
+      "gross-out content"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": 1,
+    "complexity": 1,
+    "geometry": -2,
+    "energy": 2,
+    "tone": 2,
+    "outlook": 1,
+    "comfort": null,
+    "palette": [
+      "neon"
+    ],
+    "texture": [
+      "plastic_translucent"
+    ],
+    "typography": [],
+    "subject": [
+      "youth"
+    ],
+    "context": []
+  },
+  {
+    "slug": "new-wave-tropical",
+    "name": "New Wave Tropical",
+    "url": "https://cari.institute/aesthetics/new-wave-tropical",
+    "timeline": "Late 1970s - Mid 1990s",
+    "signature_motifs": [
+      "rainforest imagery",
+      "Colorful Cutout",
+      "chunky irregular color shapes",
+      "construction paper collage"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": 1,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": -1,
+    "energy": 2,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "nature",
+      "global"
+    ],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "nouveau-organic",
+    "name": "Nouveau Organic",
+    "url": "https://cari.institute/aesthetics/nouveau-organic",
+    "timeline": "Late 1980s - Mid 1990s",
+    "signature_motifs": [
+      "Gaudi-Catalan Modernisme",
+      "organic architecture",
+      "under-the-sea vibes"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": null,
+    "geometry": -2,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "organic"
+    ],
+    "typography": [],
+    "subject": [
+      "nature"
+    ],
+    "context": [
+      "interiors"
+    ]
+  },
+  {
+    "slug": "nu-brutalism",
+    "name": "Nu-Brutalism",
+    "url": "https://cari.institute/aesthetics/nu-brutalism",
+    "timeline": "Early 2010s - present",
+    "signature_motifs": [
+      "heavily contrasting colors",
+      "Grotesque typefaces",
+      "structure of typography"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": -1,
+    "geometry": 2,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [
+      "brutal"
+    ],
+    "subject": [],
+    "context": []
+  },
+  {
+    "slug": "pacific-punk-wave",
+    "name": "Pacific Punk Wave",
+    "url": "https://cari.institute/aesthetics/pacific-punk-wave",
+    "timeline": "Mid 1970s - Early 1980s",
+    "signature_motifs": [
+      "swiss new wave",
+      "italian radical design",
+      "1950s diner/googie/populuxe"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": 1,
+    "tone": 1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "print",
+      "retail"
+    ]
+  },
+  {
+    "slug": "paperback-chic",
+    "name": "Paperback Chic",
+    "url": "https://cari.institute/aesthetics/paperback-chic",
+    "timeline": "Late 2010s - present",
+    "signature_motifs": [
+      "Natural, soft colors",
+      "didone",
+      "retro display typefaces",
+      "airy composition style"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "2010s"
+    ],
+    "saturation": -1,
+    "temperature": null,
+    "value": 1,
+    "surface": null,
+    "complexity": -1,
+    "geometry": null,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [
+      "pastel"
+    ],
+    "texture": [],
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "pastel-southwestern",
+    "name": "Pastel Southwestern",
+    "url": "https://cari.institute/aesthetics/pastel-southwestern",
+    "timeline": "Early 1980s - Mid 1990s",
+    "signature_motifs": [
+      "plush furnishings",
+      "light wood accents",
+      "adobe accents",
+      "Kokopelli",
+      "geometric patterns"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1980s"
+    ],
+    "saturation": -1,
+    "temperature": -1,
+    "value": 1,
+    "surface": -1,
+    "complexity": null,
+    "geometry": 1,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": -2,
+    "palette": [
+      "pastel"
+    ],
+    "texture": [
+      "organic"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "interiors"
+    ]
+  },
+  {
+    "slug": "pixelscape",
+    "name": "Pixelscape",
+    "url": "https://cari.institute/aesthetics/pixelscape",
+    "timeline": "Early 2000s - Mid 2000s",
+    "signature_motifs": [
+      "isometric",
+      "elaborate pixel art",
+      "web design"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": 2,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "digital_pixel"
+    ],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "ui"
+    ]
+  },
+  {
+    "slug": "polychrome",
+    "name": "Polychrome",
+    "url": "https://cari.institute/aesthetics/polychrome",
+    "timeline": "Early 2010s - present",
+    "signature_motifs": [
+      "Ink in water",
+      "smoke",
+      "liquids",
+      "oils",
+      "paint explosions",
+      "melding colours"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": -2,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": []
+  },
+  {
+    "slug": "pomo-faux-ruins",
+    "name": "Pomo Faux Ruins",
+    "url": "https://cari.institute/aesthetics/pomo-faux-ruins",
+    "timeline": "Late 1970s - Late 1980s",
+    "signature_motifs": [
+      "crumbling structures",
+      "distressed, crumbling, ripped, or decayed elements",
+      "Classical antiquity"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": -2,
+    "complexity": 1,
+    "geometry": null,
+    "energy": null,
+    "tone": 1,
+    "outlook": 1,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "retail",
+      "interiors"
+    ]
+  },
+  {
+    "slug": "preschool-pop",
+    "name": "Preschool Pop",
+    "url": "https://cari.institute/aesthetics/preschool-pop",
+    "timeline": "Early 1990s - Early 2000s",
+    "signature_motifs": [
+      "Crayons",
+      "pencils",
+      "stick figures",
+      "oversized versions of toys",
+      "alphabet blocks"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": 1,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": -1,
+    "geometry": null,
+    "energy": 1,
+    "tone": -2,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [
+      "youth"
+    ],
+    "context": []
+  },
+  {
+    "slug": "pulp-fantasy",
+    "name": "Pulp Fantasy",
+    "url": "https://cari.institute/aesthetics/pulp-fantasy",
+    "timeline": "Early 1960s - Mid 1980s",
+    "signature_motifs": [
+      "dreamy, surreal paintings",
+      "imaginative illustration",
+      "Sci-Fi & Fantasy",
+      "Prog Rock"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1970s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": null,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [
+      "tech",
+      "mystical"
+    ],
+    "context": [
+      "music",
+      "print"
+    ]
+  },
+  {
+    "slug": "rad-dog-neon-surf",
+    "name": "Rad Dog / Neon Surf",
+    "url": "https://cari.institute/aesthetics/rad-dog-neon-surf",
+    "timeline": "Late 1980s - Early 1990s",
+    "signature_motifs": [
+      "Neon paint splatters",
+      "hypercolors",
+      "tribal motifs",
+      "surf / skate imagery"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": null,
+    "energy": 2,
+    "tone": 2,
+    "outlook": null,
+    "comfort": null,
+    "palette": [
+      "neon"
+    ],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "youth",
+      "sport"
+    ],
+    "context": [
+      "fashion"
+    ]
+  },
+  {
+    "slug": "radical-surrealism",
+    "name": "Radical Surrealism",
+    "url": "https://cari.institute/aesthetics/radical-surrealism",
+    "timeline": "Late 1960s - Early 1980s",
+    "signature_motifs": [
+      "Pop Art",
+      "oversized 'Pop' object versions",
+      "everyday household items"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1970s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "domestic"
+    ],
+    "context": [
+      "interiors",
+      "print"
+    ]
+  },
+  {
+    "slug": "renaissance-revival",
+    "name": "Renaissance Revival",
+    "url": "https://cari.institute/aesthetics/renaissance-revival",
+    "timeline": "Early 1990s - Late 1990s",
+    "signature_motifs": [
+      "antique gothic",
+      "Shakespearean/Elizabethan",
+      "Greco-Roman art",
+      "magick",
+      "faerie tale"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "mystical"
+    ],
+    "context": [
+      "fashion",
+      "print"
+    ]
+  },
+  {
+    "slug": "soft-colonial-wanderlust",
+    "name": "Soft Colonial Wanderlust",
+    "url": "https://cari.institute/aesthetics/soft-colonial-wanderlust",
+    "timeline": "Late 1980s - Mid 2010s",
+    "signature_motifs": [
+      "Maps",
+      "hot air balloons",
+      "phonographs",
+      "typewriters",
+      "floral wallpapers",
+      "mail art"
+    ],
+    "tag_confidence": "high",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [],
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [
+      "global",
+      "nature"
+    ],
+    "context": [
+      "music",
+      "interiors"
+    ]
+  },
+  {
+    "slug": "sportsbrut",
+    "name": "Sportsbrut",
+    "url": "https://cari.institute/aesthetics/sportsbrut",
+    "timeline": "Late 2010s - present",
+    "signature_motifs": [
+      "coarse grids",
+      "high-impact typography",
+      "grunge elements"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": -1,
+    "geometry": 2,
+    "energy": 2,
+    "tone": 1,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [
+      "brutal"
+    ],
+    "subject": [
+      "sport"
+    ],
+    "context": []
+  },
+  {
+    "slug": "superflat-pop",
+    "name": "Superflat Pop",
+    "url": "https://cari.institute/aesthetics/superflat-pop",
+    "timeline": "Late 2000s - Early 2010s",
+    "signature_motifs": [
+      "bright and poppy graphics",
+      "motion graphics",
+      "animation"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": 1,
+    "surface": null,
+    "complexity": null,
+    "geometry": null,
+    "energy": 2,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "fashion"
+    ]
+  },
+  {
+    "slug": "supergraphic-ultramodern",
+    "name": "Supergraphic Ultramodern",
+    "url": "https://cari.institute/aesthetics/supergraphic-ultramodern",
+    "timeline": "Late 1960s - Late 1970s",
+    "signature_motifs": [
+      "Plastics",
+      "curves",
+      "plush materials",
+      "rainbows",
+      "inflatables",
+      "shiny metals",
+      "supergraphics",
+      "helvetica"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": 2,
+    "complexity": 1,
+    "geometry": -2,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [
+      "plastic_translucent",
+      "metallic"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "interiors"
+    ]
+  },
+  {
+    "slug": "themed-spaces",
+    "name": "Themed Spaces",
+    "url": "https://cari.institute/aesthetics/themed-spaces",
+    "timeline": "Early 1990s - Early 2000s",
+    "signature_motifs": [
+      "Highly stylized exterior & interior spaces",
+      "specially-designed collateral",
+      "total immersive package"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1990s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": null,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "interiors",
+      "retail",
+      "music",
+      "fashion"
+    ]
+  },
+  {
+    "slug": "ultramodern-revival",
+    "name": "Ultramodern Revival",
+    "url": "https://cari.institute/aesthetics/ultramodern-revival",
+    "timeline": "Late 1990s - Mid 2000s",
+    "signature_motifs": [
+      "Supergraphics",
+      "bright color palettes",
+      "sleek forms",
+      "Millennium Disco kitsch"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "saturation": 2,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": 1,
+    "tone": null,
+    "outlook": null,
+    "comfort": 2,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [],
+    "context": []
+  },
+  {
+    "slug": "urban-grunge",
+    "name": "Urban Grunge",
+    "url": "https://cari.institute/aesthetics/urban-grunge",
+    "timeline": "Early 2000s - Late 2000s",
+    "signature_motifs": [
+      "Silhouetted streetlights",
+      "power lines",
+      "highways",
+      "crests",
+      "flames",
+      "paint splatters/drips",
+      "graffiti and stencil motifs"
+    ],
+    "tag_confidence": "high",
+    "decades": [],
+    "saturation": 0,
+    "temperature": -1,
+    "value": -1,
+    "surface": -1,
+    "complexity": 2,
+    "geometry": null,
+    "energy": 1,
+    "tone": 2,
+    "outlook": null,
+    "comfort": null,
+    "palette": [
+      "earth"
+    ],
+    "texture": [
+      "analog_grainy"
+    ],
+    "typography": [
+      "brutal"
+    ],
+    "subject": [],
+    "context": []
+  },
+  {
+    "slug": "utopian-scholastic",
+    "name": "Utopian Scholastic",
+    "url": "https://cari.institute/aesthetics/utopian-scholastic",
+    "timeline": "Late 1980s - Late 1990s",
+    "signature_motifs": [
+      "edutainment",
+      "'timeless' typography",
+      "stock photography collage",
+      "quick comprehension"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 1,
+    "geometry": null,
+    "energy": null,
+    "tone": -1,
+    "outlook": -1,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [
+      "academic",
+      "youth"
+    ],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "vector-minimalism",
+    "name": "Vector Minimalism",
+    "url": "https://cari.institute/aesthetics/vector-minimalism",
+    "timeline": "Early 2010s - Late 2010s",
+    "signature_motifs": [
+      "flat",
+      "angularity",
+      "iOS 7",
+      "geometric sans serif fonts",
+      "bold serif display fonts"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "2010s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": -2,
+    "complexity": -2,
+    "geometry": 2,
+    "energy": -2,
+    "tone": null,
+    "outlook": null,
+    "comfort": 2,
+    "palette": [],
+    "texture": [],
+    "typography": [
+      "classic_serif"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "ui"
+    ]
+  },
+  {
+    "slug": "vectorheart",
+    "name": "Vectorheart",
+    "url": "https://cari.institute/aesthetics/vectorheart",
+    "timeline": "Late 1990s - Mid 2000s",
+    "signature_motifs": [
+      "blazing speed",
+      "futuristic forms",
+      "high-contrast typography",
+      "utilitarian industrial design"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": null,
+    "geometry": 2,
+    "energy": 2,
+    "tone": null,
+    "outlook": null,
+    "comfort": 2,
+    "palette": [],
+    "texture": [],
+    "typography": [
+      "techno"
+    ],
+    "subject": [
+      "tech"
+    ],
+    "context": []
+  },
+  {
+    "slug": "wacky-pomo",
+    "name": "Wacky Pomo",
+    "url": "https://cari.institute/aesthetics/wacky-pomo",
+    "timeline": "Early 1990s - Early 2000s",
+    "signature_motifs": [
+      "cartoons",
+      "Mad Scientist tropes",
+      "cartoonified industrial vernacular",
+      "light gross-out",
+      "Hypnosis spirals"
+    ],
+    "tag_confidence": "high",
+    "decades": [
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": null,
+    "complexity": 2,
+    "geometry": null,
+    "energy": 2,
+    "tone": null,
+    "outlook": null,
+    "comfort": null,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "youth"
+    ],
+    "context": [
+      "print"
+    ]
+  },
+  {
+    "slug": "whimsicraft",
+    "name": "Whimsicraft",
+    "url": "https://cari.institute/aesthetics/whimsicraft",
+    "timeline": "Mid 1980s - Mid 1990s",
+    "signature_motifs": [
+      "folk art and furniture",
+      "collage",
+      "industrial/found objects",
+      "folksy, colorful 'art fair'"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1980s"
+    ],
+    "saturation": 1,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": 1,
+    "geometry": -1,
+    "energy": -1,
+    "tone": null,
+    "outlook": null,
+    "comfort": -2,
+    "palette": [],
+    "texture": [
+      "organic",
+      "analog_grainy"
+    ],
+    "typography": [],
+    "subject": [],
+    "context": [
+      "interiors"
+    ]
+  },
+  {
+    "slug": "whimsigothic",
+    "name": "Whimsigothic",
+    "url": "https://cari.institute/aesthetics/whimsigothic",
+    "timeline": "Late 1980s - Late 1990s",
+    "signature_motifs": [
+      "gothic-inspired pop/rock music",
+      "Tim Burton",
+      "Whimsical Mystical Gothic Celestial"
+    ],
+    "tag_confidence": "med",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": -1,
+    "surface": null,
+    "complexity": null,
+    "geometry": null,
+    "energy": null,
+    "tone": 1,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [],
+    "texture": [],
+    "typography": [],
+    "subject": [
+      "mystical"
+    ],
+    "context": [
+      "music",
+      "interiors"
+    ]
+  },
+  {
+    "slug": "y2k-aesthetic",
+    "name": "Y2K Aesthetic",
+    "url": "https://cari.institute/aesthetics/y2k-aesthetic",
+    "timeline": "Early 1990s - Late 1990s",
+    "signature_motifs": [
+      "tight leather pants",
+      "silver eyeshadow",
+      "shiny clothing",
+      "oakleys",
+      "gradients",
+      "blobby electronics"
+    ],
+    "tag_confidence": "low",
+    "decades": [],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": 2,
+    "complexity": null,
+    "geometry": -2,
+    "energy": null,
+    "tone": null,
+    "outlook": null,
+    "comfort": 1,
+    "palette": [
+      "chrome"
+    ],
+    "texture": [
+      "plastic_translucent",
+      "metallic"
+    ],
+    "typography": [],
+    "subject": [
+      "tech"
+    ],
+    "context": [
+      "fashion"
+    ]
+  },
+  {
+    "slug": "zen-x",
+    "name": "Zen-X",
+    "url": "https://cari.institute/aesthetics/zen-x",
+    "timeline": "Early 1990s - Early 2000s",
+    "signature_motifs": [
+      "natural-organic",
+      "environmentalism",
+      "minimalism",
+      "Japanese architecture"
+    ],
+    "tag_confidence": "med",
+    "decades": [
+      "1990s"
+    ],
+    "saturation": null,
+    "temperature": null,
+    "value": null,
+    "surface": -1,
+    "complexity": -2,
+    "geometry": -1,
+    "energy": -2,
+    "tone": null,
+    "outlook": null,
+    "comfort": -1,
+    "palette": [],
+    "texture": [
+      "organic"
+    ],
+    "typography": [],
+    "subject": [
+      "nature",
+      "corporate"
+    ],
+    "context": [
+      "interiors"
+    ]
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "finish-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Matte, uncoated paper",
+    "preview": {
+      "kind": "finish",
+      "side": "a",
+      "colors": [
+        "#93918b",
+        "#d4d2cb"
+      ]
+    }
+  },
+  {
+    "id": "finish-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Glossy, polished chrome",
+    "preview": {
+      "kind": "finish",
+      "side": "b",
+      "colors": [
+        "#21252c",
+        "#f5f8ff"
+      ]
+    }
+  },
+  {
+    "id": "chroma-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Dusty, muted colors",
+    "preview": {
+      "kind": "chroma",
+      "side": "a",
+      "colors": [
+        "#82879a",
+        "#e1bea5"
+      ]
+    }
+  },
+  {
+    "id": "chroma-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Bright, vivid colors",
+    "preview": {
+      "kind": "chroma",
+      "side": "b",
+      "colors": [
+        "#734cff",
+        "#fb742d"
+      ]
+    }
+  },
+  {
+    "id": "temperature-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Warm orange and sand",
+    "preview": {
+      "kind": "temperature",
+      "side": "a",
+      "colors": [
+        "#bb6734",
+        "#edcc99"
+      ]
+    }
+  },
+  {
+    "id": "temperature-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Cool blue and slate",
+    "preview": {
+      "kind": "temperature",
+      "side": "b",
+      "colors": [
+        "#244b91",
+        "#a4bfcc"
+      ]
+    }
+  },
+  {
+    "id": "composition-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "One focal point with open space",
+    "preview": {
+      "kind": "composition",
+      "side": "a",
+      "colors": [
+        "#eeebdf",
+        "#52565f"
+      ]
+    }
+  },
+  {
+    "id": "composition-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Layers of shapes packed edge to edge",
+    "preview": {
+      "kind": "composition",
+      "side": "b",
+      "colors": [
+        "#eeebdf",
+        "#52565f"
+      ]
+    }
+  },
+  {
+    "id": "outline-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Rounded and flowing",
+    "preview": {
+      "kind": "outline",
+      "side": "a",
+      "colors": [
+        "#ece9dd",
+        "#445362"
+      ]
+    }
+  },
+  {
+    "id": "outline-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Angular and faceted",
+    "preview": {
+      "kind": "outline",
+      "side": "b",
+      "colors": [
+        "#ece9dd",
+        "#445362"
+      ]
+    }
+  },
+  {
+    "id": "light-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Deep charcoal and shadow",
+    "preview": {
+      "kind": "light",
+      "side": "a",
+      "colors": [
+        "#101826",
+        "#354454"
+      ]
+    }
+  },
+  {
+    "id": "light-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Pale ivory and daylight",
+    "preview": {
+      "kind": "light",
+      "side": "b",
+      "colors": [
+        "#e9e5d4",
+        "#fffdfa"
+      ]
+    }
+  },
+  {
+    "id": "signal-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Visible paper grain",
+    "preview": {
+      "kind": "signal",
+      "side": "a",
+      "colors": [
+        "#ded2be",
+        "#282824"
+      ]
+    }
+  },
+  {
+    "id": "signal-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Visible square pixels",
+    "preview": {
+      "kind": "signal",
+      "side": "b",
+      "colors": [
+        "#ded2be",
+        "#282824"
+      ]
+    }
+  },
+  {
+    "id": "letter-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Fine serif lettering",
+    "preview": {
+      "kind": "letter",
+      "side": "a",
+      "colors": [
+        "#e7e5d9",
+        "#282824"
+      ]
+    }
+  },
+  {
+    "id": "letter-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Heavy sans-serif lettering",
+    "preview": {
+      "kind": "letter",
+      "side": "b",
+      "colors": [
+        "#e7e5d9",
+        "#282824"
+      ]
+    }
+  },
+  {
+    "id": "pace-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Quiet spacing and a steady rhythm",
+    "preview": {
+      "kind": "pace",
+      "side": "a",
+      "colors": [
+        "#e7e5d9",
+        "#455063"
+      ]
+    }
+  },
+  {
+    "id": "pace-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Rapid repetition and movement",
+    "preview": {
+      "kind": "pace",
+      "side": "b",
+      "colors": [
+        "#e7e5d9",
+        "#455063"
+      ]
+    }
+  },
+  {
+    "id": "touch-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Soft and lived-in",
+    "preview": {
+      "kind": "touch",
+      "side": "a",
+      "colors": [
+        "#dad0bb",
+        "#737373"
+      ]
+    }
+  },
+  {
+    "id": "touch-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Precise and sleek",
+    "preview": {
+      "kind": "touch",
+      "side": "b",
+      "colors": [
+        "#dad0bb",
+        "#737373"
+      ]
+    }
+  },
+  {
+    "id": "attitude-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Playful and gentle",
+    "preview": {
+      "kind": "attitude",
+      "side": "a",
+      "colors": [
+        "#afada8",
+        "#f3e7d7"
+      ]
+    }
+  },
+  {
+    "id": "attitude-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Sharp and abrasive",
+    "preview": {
+      "kind": "attitude",
+      "side": "b",
+      "colors": [
+        "#afada8",
+        "#f3e7d7"
+      ]
+    }
+  },
+  {
+    "id": "future-a",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Hopeful and inviting",
+    "preview": {
+      "kind": "future",
+      "side": "a",
+      "colors": [
+        "#dfdedb",
+        "#656a70"
+      ]
+    }
+  },
+  {
+    "id": "future-b",
+    "status": "placeholder",
+    "source_url": null,
+    "author": null,
+    "license": null,
+    "alt": "Unsettling and desolate",
+    "preview": {
+      "kind": "future",
+      "side": "b",
+      "colors": [
+        "#dfdedb",
+        "#656a70"
+      ]
+    }
+  }
+]
