@@ -1,0 +1,19 @@
+{
+  "name": "aesthetic-affinity-profiler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape:cari": "node scripts/scrape-cari.ts",
+    "check:scraper": "tsc --noEmit --strict --target es2022 --module nodenext --lib esnext,dom,dom.iterable --types node scripts/scrape-cari.ts"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^26.6.6",
+    "jsdom": "^31.0.1",
+    "playwright": "^1.65.1",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  }
+}
