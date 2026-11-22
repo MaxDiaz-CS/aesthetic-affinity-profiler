@@ -1,3 +1,4 @@
+import controlledPairs from './assets/controlled-visual-pairs.webp';
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { previews, styles } from './data.ts';
 import { buildUserVector, pickDuel, pickNextQuestion, rank, scoreAesthetics, type Answer, type Answers, type Question } from './engine/scoring.ts';
@@ -62,6 +63,11 @@ function Preview({ id, textOnly }: { id: string; textOnly: boolean }) {
   const item = previews.find(preview => preview.id === id);
   if (!item || textOnly) return null;
   const { kind, side, colors } = item.preview;
+  if (item.asset === 'controlled-visual-pairs' && typeof item.asset_row === 'number') {
+    return <div role="img" aria-label={item.alt} className="preview preview-photoreal"
+      style={{ backgroundImage: `url(${controlledPairs})`,
+        backgroundPosition: `${side === 'a' ? '0%' : '100%'} ${item.asset_row / 3 * 100}%` }} />;
+  }
   return <div role="img" aria-label={item.alt} className={`preview preview-${kind} side-${side}`}
     style={{ '--swatch': colors[0], '--ink': colors[1] } as CSSProperties}>
     {kind === 'letter' ? <span aria-hidden="true">Aa</span> : <div aria-hidden="true"><i /><i /><i /><i /><i /><i /></div>}

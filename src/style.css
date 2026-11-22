@@ -179,3 +179,18 @@ progress::-moz-progress-bar { background: var(--ink); }
 .playtest label { display: grid; gap: .2rem; }
 .playtest input, .playtest select { background: var(--paper); color: var(--ink); border: 1px solid var(--ink); min-height: 44px; padding: .45rem; }
 .playtest .button { justify-self: start; }
+.catalog-controls { display: grid; grid-template-columns: repeat(auto-fit,minmax(8.5rem,1fr)); gap: .7rem; margin: .85rem 0; }
+.catalog-controls .catalog-search { grid-column: 1 / -1; }
+.explore label { display: grid; gap: .22rem; font: .8rem/1.35 var(--mono); }
+.explore input,.explore select { min-width: 0; width: 100%; min-height: 44px; border: 1px solid var(--result-accent); color: var(--ink); background: var(--paper); padding: .4rem; }
+.explore ol.catalog-list { list-style: none; padding: 0; }
+.catalog-list > li { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: .55rem 0; }
+.catalog-list p { font-size: .86rem; }
+.catalog-list strong { font: .8rem/1.4 var(--mono); white-space: nowrap; }
+.compare-form { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: .65rem; margin: .85rem 0; }
+.comparison { display: grid; gap: .75rem; }
+.comparison-top { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .7rem; }
+.full-ranking .comparison-top ol { padding-left: 1.5rem; }
+.comparison caption { text-align: left; font-weight: 700; padding-bottom: .3rem; }
+@media (max-width: 36rem) { .compare-form,.comparison-top { grid-template-columns: 1fr; } }
+.preview-photoreal { aspect-ratio: 3 / 2; background-size: 200% 400%; background-repeat: no-repeat; }

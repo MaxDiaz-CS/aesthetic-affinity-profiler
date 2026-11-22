@@ -4,6 +4,7 @@ import { buildUserVector, explain, rank, scoreAesthetics, ties, type Answers, ty
 import { bank, shareUrl, type Mode } from './session.ts';
 import { resultTheme } from './theme.ts';
 import { Playtest } from './playtest.tsx';
+import { CompareProfiles, ExploreCatalog } from './explore.tsx';
 
 const clean = (text: string) => text.replace(/\s+/g, ' ');
 
@@ -197,12 +198,8 @@ export function ResultView({ mode, answers, duels, textOnly, heading, retake }: 
       <div className="section-heading"><h2>Your taste dimensions</h2></div>
       <Radar profile={profile} theme={theme} textOnly={textOnly} />
     </section>
-    <details className="full-ranking">
-      <summary>See all {ranking.full.length} ranked aesthetics</summary>
-      <ol>{ranking.full.map(({ aesthetic, match }) => <li key={aesthetic.slug}>
-        <a href={aesthetic.url}>{aesthetic.name}</a><span>{match}%</span>
-      </li>)}</ol>
-    </details>
+    <ExploreCatalog full={ranking.full} />
+    <CompareProfiles original={ranking} />
     {new URLSearchParams(window.location.search).get('playtest') === '1' && <Playtest ranking={ranking.top} mode={mode} />}
   </main>;
 }

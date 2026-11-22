@@ -69,8 +69,9 @@ visual pairs, decisions in specific settings, motif reactions, and sliders.
 The optional `?adaptive=1` flag reorders remaining scored choices within a
 section by estimating which question would most separate the current top six.
 
-All 24 visual slots currently use original abstract CSS swatches. The image
-manifest lists their alt text and marks their photo fields as placeholders.
+Four controlled visual pairs use original generated studio imagery, covering
+finish, saturation, color temperature, and outline. The other eight pairs use
+abstract CSS swatches. The image manifest records all 24 slots and their alt text.
 Each replaced visual should use a licensed image with matching evidence, legible
 alt text, a source URL, an author, and a license. CARI gallery imagery is
 excluded. Text-only mode exposes the same decisions through labels.
@@ -142,3 +143,7 @@ Catalog names, source text, and credits come from the
 The project is independent of CARI. See their
 [attribution guidelines](https://cari.institute/attribution-guidelines)
 and [donation page](https://donorbox.org/support-cari).
+
+After the reveal, the catalog can be searched by name, description, or motif and
+filtered by decade, palette, material, or context. Paste a second results link
+to compare the two profiles in the browser without uploading answers.

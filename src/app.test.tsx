@@ -41,6 +41,25 @@ it('completes Quick intake in text mode, shares results, and retakes the quiz', 
     const link = (rootNode.querySelector('.share-field input') as HTMLInputElement).value;
     expect(clipboard.writeText).toHaveBeenCalledWith(link);
     expect(readSession(new URL(link).hash)?.mode).toBe('quick');
+    const catalog = rootNode.querySelector('.catalog-controls');
+    const decade = catalog?.querySelector('select') as HTMLSelectElement;
+    await act(() => {
+      decade.value = '1990s';
+      decade.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+    const filtered = rootNode.querySelectorAll('.catalog-list > li').length;
+    expect(filtered).toBeGreaterThan(0);
+    expect(filtered).toBeLessThan(78);
+    const friendLink = rootNode.querySelector('.compare-form input') as HTMLInputElement;
+    await act(() => {
+      Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value')!.set!.call(friendLink, link);
+      friendLink.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    await act(() => {
+      expect(rootNode.querySelector('form.compare-form')?.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }))).toBe(false);
+    });
+    expect(rootNode.querySelector('.comparison')?.textContent).toContain('Your displayed match percentages are identical.');
+    expect(rootNode.querySelectorAll('.comparison-top li')).toHaveLength(6);
     await click(button('Retake quiz'));
     expect(button('Start full intake')).toBeTruthy();
   } finally {
