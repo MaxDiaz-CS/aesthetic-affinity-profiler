@@ -180,3 +180,11 @@ progress::-moz-progress-bar { background: var(--ink); }
 .visual-options .neither, .neither { grid-column: 1 / -1; }
 .motif.sample { margin-bottom: .5rem; }
 
+
+.gallery-link { margin: .75rem 0; }
+.gallery-link a { color: var(--result-accent); }
+.gallery-dialog { width: min(64rem, 94vw); max-height: 92dvh; padding: 1rem; border: 1px solid var(--result-ink); background: var(--result-paper); color: var(--result-ink); }
+.gallery-dialog::backdrop { background: rgb(20 20 20 / 65%); }
+.gallery-dialog header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.gallery-dialog h2, .gallery-dialog header p { margin: 0 0 .4rem; }
+.gallery-dialog iframe { display: block; width: 100%; height: min(62dvh, 42rem); border: 1px solid currentColor; margin: .75rem 0; }

@@ -3,13 +3,14 @@ import { axes, styles } from './data.ts';
 import { buildUserVector, explain, rank, scoreAesthetics, ties, type Answers, type Profile, type Question, type Result } from './engine/scoring.ts';
 import { bank, shareUrl, type Mode } from './session.ts';
 import { resultTheme } from './theme.ts';
+import { Gallery } from './gallery.tsx';
 import { Playtest } from './playtest.tsx';
 import { CompareProfiles, ExploreCatalog } from './explore.tsx';
 
 const clean = (text: string) => text.replace(/\s+/g, ' ');
 
-function ResultCard({ result, position, avoid, explanations }: {
-  result: Result; position: number; avoid?: boolean; explanations: string[];
+function ResultCard({ result, position, avoid, explanations, textOnly }: {
+  result: Result; position: number; textOnly: boolean; avoid?: boolean; explanations: string[];
 }) {
   const { aesthetic, match } = result;
   return <article className={`result-card ${avoid ? 'avoid' : ''}`}>
@@ -25,6 +26,7 @@ function ResultCard({ result, position, avoid, explanations }: {
       {explanations.length ? <ul>{explanations.map(line => <li key={line}>{line}</li>)}</ul>
         : <p>Results reflect your combined answers.</p>}
     </div>
+    <Gallery aesthetic={aesthetic} textOnly={textOnly} />
     <a className="source" href={aesthetic.url}>Source: CARI <span aria-hidden="true">↗</span></a>
   </article>;
 }
@@ -185,14 +187,14 @@ export function ResultView({ mode, answers, duels, textOnly, heading, retake }: 
       <div className="section-heading"><h2>Closest matches</h2><span>Top 3</span></div>
       {topTies.length > 0 && <p className="tie-note">Third place tied with {topTies.join(', ')}.</p>}
       <div className="result-grid">{ranking.top.map((result, index) => <ResultCard key={result.aesthetic.slug}
-        result={result} position={index + 1} explanations={explain(questions, answers, result.aesthetic)} />)}</div>
+        result={result} textOnly={textOnly} position={index + 1} explanations={explain(questions, answers, result.aesthetic)} />)}</div>
     </section>
     <section className="result-section">
       <div className="section-heading"><h2>Lowest affinity</h2><span>Bottom 3</span></div>
       {bottomTies.length > 0 && <p className="tie-note">Third place tied with {bottomTies.join(', ')}.</p>}
       {ranking.bottom.length < 3 && <p className="tie-note">There wasn’t enough evidence for {3 - ranking.bottom.length} of the lowest-affinity slots.</p>}
       <div className="result-grid">{ranking.bottom.map((result, index) => <ResultCard key={result.aesthetic.slug}
-        result={result} position={index + 1} avoid explanations={explain(questions, answers, result.aesthetic, true)} />)}</div>
+        result={result} textOnly={textOnly} position={index + 1} avoid explanations={explain(questions, answers, result.aesthetic, true)} />)}</div>
     </section>
     <section className="result-section">
       <div className="section-heading"><h2>Your taste dimensions</h2></div>
