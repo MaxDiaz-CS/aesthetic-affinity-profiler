@@ -1,4 +1,4 @@
-const sheets = import.meta.glob<string>('./assets/*.webp', { eager: true, import: 'default' });
+const sheets = import.meta.glob<string>('./assets/*.webp', { eager: true, import: 'default', query: '?inline' });
 import { useEffect, useRef, useState } from 'react';
 import { previews, styles, questions } from './data.ts';
 import { buildUserVector, cosine, pickDuel, pickNextQuestion, rank, scoreAesthetics, type Answer, type Answers, type Question } from './engine/scoring.ts';
@@ -64,10 +64,11 @@ function Preview({ id, textOnly }: { id: string; textOnly: boolean }) {
   const item = previews.find(preview => preview.id === id);
   if (!item || textOnly) return null;
   const { asset, cols, rows, col, row } = item;
-  return <div role="img" aria-label={item.alt} className={`sample sample-${asset}`}
-    style={{ backgroundImage: `url(${sheets[`./assets/${asset}.webp`]})`,
-      backgroundSize: `${cols * 100}% ${rows * 100}%`,
-      backgroundPosition: `${col / (cols - 1) * 100}% ${row / (rows - 1) * 100}%` }} />;
+  return <div className={`sample sample-${asset}`}>
+    <img alt={item.alt} src={sheets[`./assets/${asset}.webp`]}
+      style={{ width: `${cols * 100}%`, height: `${rows * 100}%`,
+        left: `${-col * 100}%`, top: `${-row * 100}%` }} />
+  </div>;
 }
 
 function QuestionOptions({ question, value, change, textOnly }: {

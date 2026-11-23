@@ -171,14 +171,15 @@ progress::-moz-progress-bar { background: var(--ink); }
 .full-ranking .comparison-top ol { padding-left: 1.5rem; }
 .comparison caption { text-align: left; font-weight: 700; padding-bottom: .3rem; }
 @media (max-width: 36rem) { .compare-form,.comparison-top { grid-template-columns: 1fr; } }
-.sample { aspect-ratio: 1; background-repeat: no-repeat; border-bottom: 1px solid var(--rule); }
+.sample { position: relative; overflow: hidden; width: 100%; aspect-ratio: 1; border-bottom: 1px solid var(--rule); }
 .quiz h1 { font-size: clamp(2rem, 4vw, 3.25rem); line-height: 1.08; }
+.sample img { display: block; position: absolute; max-width: none; }
 .sample-controlled-visual-pairs { aspect-ratio: 3 / 2; }
 .slider-images { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: .8rem; }
-.slider-images.sample { max-height: 15rem; width: 100%; aspect-ratio: 1.5; }
+.slider-images .sample { max-width: 20rem; justify-self: center; }
 .option-label small { display: block; font-size: .875rem; margin-top: .25rem; }
 .visual-options .neither, .neither { grid-column: 1 / -1; }
-.motif.sample { margin-bottom: .5rem; }
+.motif .sample { margin-bottom: .5rem; }
 
 
 .gallery-link { margin: .75rem 0; }
