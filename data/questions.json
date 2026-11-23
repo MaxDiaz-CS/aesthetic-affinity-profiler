@@ -122,7 +122,7 @@
     ],
     "maxChoices": 2,
     "quickDraft": true,
-    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
+    "instruction": "Choose up to two places where you tend to notice details like shape, lettering, materials, or layout. Pick the settings you actually pay attention to."
   },
   {
     "id": "space-mood",

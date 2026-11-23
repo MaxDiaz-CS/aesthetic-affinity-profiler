@@ -89,7 +89,6 @@ function QuestionOptions({ question, value, change, textOnly }: {
   if (question.type === 'motif') {
     const votes = value && typeof value === 'object' && !Array.isArray(value) ? value : {};
     return <>
-      <p className="question-help">Mark any detail you feel strongly about. Leave the rest neutral.</p>
       <div className="motif-grid">{question.options.map(option => {
         const id = option.motifs[0];
         return <div className="motif" key={id} role="group" aria-label={option.label}>
@@ -108,7 +107,6 @@ function QuestionOptions({ question, value, change, textOnly }: {
   if (question.type === 'era' || question.maxChoices) {
     const selected = Array.isArray(value) ? value : [];
     return <>
-      <p className="question-help">{question.maxChoices ? 'Choose up to two places.' : 'Choose any decades that feel nostalgic. Leave them blank if none do.'}</p>
       <div className={`option-grid eras ${textOnly ? '' : 'visual-options'}`}>{question.options.map((option, index) =>
         <label className="option" key={option.label}>
           {option.image && <Preview id={option.image} textOnly={textOnly} />}
