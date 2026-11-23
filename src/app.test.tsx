@@ -20,14 +20,20 @@ it('completes Quick intake in text mode, shares results, and retakes the quiz', 
     await act(() => root.render(<App />));
     expect(rootNode.querySelector('h1')?.textContent).toContain('The IntakeDesk');
     await click(button('Start quick intake'));
+    const pictures = rootNode.querySelectorAll('[role="img"]');
+    expect(pictures).toHaveLength(6);
+    for (const picture of pictures) {
+      expect(picture.getAttribute('style')).toContain('eras.webp');
+      expect(picture.getAttribute('aria-label')).toBeTruthy();
+    }
     await click(rootNode.querySelector('.text-mode input'));
     expect(rootNode.querySelector('progress')?.getAttribute('max')).toBe('15');
     await click(button('Skip'));
-    await click(rootNode.querySelector<HTMLInputElement>('main input[type="radio"]'));
+    await click(rootNode.querySelector<HTMLInputElement>('main input[type="radio"], main input[type="checkbox"]'));
     await click(button('Continue'));
     expect(rootNode.querySelector('[role="img"]')).toBeNull();
     for (let i = 0; i < 17 && rootNode.querySelector('main.quiz'); i++) {
-      const radio = rootNode.querySelector<HTMLInputElement>('main input[type="radio"]');
+      const radio = rootNode.querySelector<HTMLInputElement>('main input[type="radio"], main input[type="checkbox"]');
       if (radio) await click(radio);
       const vote = rootNode.querySelector<HTMLButtonElement>('main .vote-grid button');
       if (vote) await click(vote);

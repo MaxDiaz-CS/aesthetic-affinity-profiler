@@ -1,402 +1,1432 @@
 [
   {
+    "id": "decades-0",
+    "status": "generated",
+    "source_url": "../src/assets/eras.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Wood-cased tabletop radio",
+    "asset": "eras",
+    "col": 0,
+    "row": 0,
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "decades-1",
+    "status": "generated",
+    "source_url": "../src/assets/eras.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Portable cassette player with headphones",
+    "asset": "eras",
+    "col": 1,
+    "row": 0,
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "decades-2",
+    "status": "generated",
+    "source_url": "../src/assets/eras.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Boxy desktop monitor",
+    "asset": "eras",
+    "col": 2,
+    "row": 0,
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "decades-3",
+    "status": "generated",
+    "source_url": "../src/assets/eras.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Silver flip phone",
+    "asset": "eras",
+    "col": 0,
+    "row": 1,
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "decades-4",
+    "status": "generated",
+    "source_url": "../src/assets/eras.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Smartphone with a round home button",
+    "asset": "eras",
+    "col": 1,
+    "row": 1,
+    "cols": 3,
+    "rows": 2
+  },
+  {
+    "id": "decades-5",
+    "status": "generated",
+    "source_url": "../src/assets/eras.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Wireless earbuds in a charging case",
+    "asset": "eras",
+    "col": 2,
+    "row": 1,
+    "cols": 3,
+    "rows": 2
+  },
+  {
     "id": "finish-a",
     "status": "generated",
-    "source_url": null,
+    "source_url": "../src/assets/controlled-visual-pairs.webp",
     "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
-    "license": null,
+    "license": "Project-generated illustration",
     "alt": "Matte, uncoated paper",
-    "preview": {
-      "kind": "finish",
-      "side": "a",
-      "colors": [
-        "#93918b",
-        "#d4d2cb"
-      ]
-    },
     "asset": "controlled-visual-pairs",
-    "asset_row": 0
+    "col": 0,
+    "row": 0,
+    "cols": 2,
+    "rows": 4
   },
   {
     "id": "finish-b",
     "status": "generated",
-    "source_url": null,
+    "source_url": "../src/assets/controlled-visual-pairs.webp",
     "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
-    "license": null,
+    "license": "Project-generated illustration",
     "alt": "Glossy, polished chrome",
-    "preview": {
-      "kind": "finish",
-      "side": "b",
-      "colors": [
-        "#21252c",
-        "#f5f8ff"
-      ]
-    },
     "asset": "controlled-visual-pairs",
-    "asset_row": 0
+    "col": 1,
+    "row": 0,
+    "cols": 2,
+    "rows": 4
   },
   {
     "id": "chroma-a",
     "status": "generated",
-    "source_url": null,
+    "source_url": "../src/assets/controlled-visual-pairs.webp",
     "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
-    "license": null,
+    "license": "Project-generated illustration",
     "alt": "Dusty, muted colors",
-    "preview": {
-      "kind": "chroma",
-      "side": "a",
-      "colors": [
-        "#82879a",
-        "#e1bea5"
-      ]
-    },
     "asset": "controlled-visual-pairs",
-    "asset_row": 1
+    "col": 0,
+    "row": 1,
+    "cols": 2,
+    "rows": 4
   },
   {
     "id": "chroma-b",
     "status": "generated",
-    "source_url": null,
+    "source_url": "../src/assets/controlled-visual-pairs.webp",
     "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
-    "license": null,
+    "license": "Project-generated illustration",
     "alt": "Bright, vivid colors",
-    "preview": {
-      "kind": "chroma",
-      "side": "b",
-      "colors": [
-        "#734cff",
-        "#fb742d"
-      ]
-    },
     "asset": "controlled-visual-pairs",
-    "asset_row": 1
+    "col": 1,
+    "row": 1,
+    "cols": 2,
+    "rows": 4
   },
   {
     "id": "temperature-a",
     "status": "generated",
-    "source_url": null,
+    "source_url": "../src/assets/controlled-visual-pairs.webp",
     "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
-    "license": null,
+    "license": "Project-generated illustration",
     "alt": "Warm orange and sand",
-    "preview": {
-      "kind": "temperature",
-      "side": "a",
-      "colors": [
-        "#bb6734",
-        "#edcc99"
-      ]
-    },
     "asset": "controlled-visual-pairs",
-    "asset_row": 2
+    "col": 0,
+    "row": 2,
+    "cols": 2,
+    "rows": 4
   },
   {
     "id": "temperature-b",
     "status": "generated",
-    "source_url": null,
+    "source_url": "../src/assets/controlled-visual-pairs.webp",
     "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
-    "license": null,
+    "license": "Project-generated illustration",
     "alt": "Cool blue and slate",
-    "preview": {
-      "kind": "temperature",
-      "side": "b",
-      "colors": [
-        "#244b91",
-        "#a4bfcc"
-      ]
-    },
     "asset": "controlled-visual-pairs",
-    "asset_row": 2
+    "col": 1,
+    "row": 2,
+    "cols": 2,
+    "rows": 4
   },
   {
     "id": "composition-a",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "One focal point with open space",
-    "preview": {
-      "kind": "composition",
-      "side": "a",
-      "colors": [
-        "#eeebdf",
-        "#52565f"
-      ]
-    }
+    "asset": "pairs",
+    "col": 0,
+    "row": 0,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "composition-b",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Layers of shapes packed edge to edge",
-    "preview": {
-      "kind": "composition",
-      "side": "b",
-      "colors": [
-        "#eeebdf",
-        "#52565f"
-      ]
-    }
+    "asset": "pairs",
+    "col": 1,
+    "row": 0,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "outline-a",
     "status": "generated",
-    "source_url": null,
+    "source_url": "../src/assets/controlled-visual-pairs.webp",
     "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
-    "license": null,
+    "license": "Project-generated illustration",
     "alt": "Rounded and flowing",
-    "preview": {
-      "kind": "outline",
-      "side": "a",
-      "colors": [
-        "#ece9dd",
-        "#445362"
-      ]
-    },
     "asset": "controlled-visual-pairs",
-    "asset_row": 3
+    "col": 0,
+    "row": 3,
+    "cols": 2,
+    "rows": 4
   },
   {
     "id": "outline-b",
     "status": "generated",
-    "source_url": null,
+    "source_url": "../src/assets/controlled-visual-pairs.webp",
     "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
-    "license": null,
+    "license": "Project-generated illustration",
     "alt": "Angular and faceted",
-    "preview": {
-      "kind": "outline",
-      "side": "b",
-      "colors": [
-        "#ece9dd",
-        "#445362"
-      ]
-    },
     "asset": "controlled-visual-pairs",
-    "asset_row": 3
+    "col": 1,
+    "row": 3,
+    "cols": 2,
+    "rows": 4
   },
   {
     "id": "light-a",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Deep charcoal and shadow",
-    "preview": {
-      "kind": "light",
-      "side": "a",
-      "colors": [
-        "#101826",
-        "#354454"
-      ]
-    }
+    "asset": "pairs",
+    "col": 2,
+    "row": 0,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "light-b",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Pale ivory and daylight",
-    "preview": {
-      "kind": "light",
-      "side": "b",
-      "colors": [
-        "#e9e5d4",
-        "#fffdfa"
-      ]
-    }
+    "asset": "pairs",
+    "col": 3,
+    "row": 0,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "signal-a",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Visible paper grain",
-    "preview": {
-      "kind": "signal",
-      "side": "a",
-      "colors": [
-        "#ded2be",
-        "#282824"
-      ]
-    }
+    "asset": "pairs",
+    "col": 0,
+    "row": 1,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "signal-b",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Visible square pixels",
-    "preview": {
-      "kind": "signal",
-      "side": "b",
-      "colors": [
-        "#ded2be",
-        "#282824"
-      ]
-    }
+    "asset": "pairs",
+    "col": 1,
+    "row": 1,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "letter-a",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Fine serif lettering",
-    "preview": {
-      "kind": "letter",
-      "side": "a",
-      "colors": [
-        "#e7e5d9",
-        "#282824"
-      ]
-    }
+    "asset": "pairs",
+    "col": 2,
+    "row": 1,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "letter-b",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Heavy sans-serif lettering",
-    "preview": {
-      "kind": "letter",
-      "side": "b",
-      "colors": [
-        "#e7e5d9",
-        "#282824"
-      ]
-    }
+    "asset": "pairs",
+    "col": 3,
+    "row": 1,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "pace-a",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Quiet spacing and a steady rhythm",
-    "preview": {
-      "kind": "pace",
-      "side": "a",
-      "colors": [
-        "#e7e5d9",
-        "#455063"
-      ]
-    }
+    "asset": "pairs",
+    "col": 0,
+    "row": 2,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "pace-b",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Rapid repetition and movement",
-    "preview": {
-      "kind": "pace",
-      "side": "b",
-      "colors": [
-        "#e7e5d9",
-        "#455063"
-      ]
-    }
+    "asset": "pairs",
+    "col": 1,
+    "row": 2,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "touch-a",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Soft and lived-in",
-    "preview": {
-      "kind": "touch",
-      "side": "a",
-      "colors": [
-        "#dad0bb",
-        "#737373"
-      ]
-    }
+    "asset": "pairs",
+    "col": 2,
+    "row": 2,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "touch-b",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Precise and sleek",
-    "preview": {
-      "kind": "touch",
-      "side": "b",
-      "colors": [
-        "#dad0bb",
-        "#737373"
-      ]
-    }
+    "asset": "pairs",
+    "col": 3,
+    "row": 2,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "attitude-a",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Playful and gentle",
-    "preview": {
-      "kind": "attitude",
-      "side": "a",
-      "colors": [
-        "#afada8",
-        "#f3e7d7"
-      ]
-    }
+    "asset": "pairs",
+    "col": 0,
+    "row": 3,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "attitude-b",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Sharp and abrasive",
-    "preview": {
-      "kind": "attitude",
-      "side": "b",
-      "colors": [
-        "#afada8",
-        "#f3e7d7"
-      ]
-    }
+    "asset": "pairs",
+    "col": 1,
+    "row": 3,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "future-a",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Hopeful and inviting",
-    "preview": {
-      "kind": "future",
-      "side": "a",
-      "colors": [
-        "#dfdedb",
-        "#656a70"
-      ]
-    }
+    "asset": "pairs",
+    "col": 2,
+    "row": 3,
+    "cols": 4,
+    "rows": 4
   },
   {
     "id": "future-b",
-    "status": "placeholder",
-    "source_url": null,
-    "author": null,
-    "license": null,
+    "status": "generated",
+    "source_url": "../src/assets/pairs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
     "alt": "Unsettling and desolate",
-    "preview": {
-      "kind": "future",
-      "side": "b",
-      "colors": [
-        "#dfdedb",
-        "#656a70"
-      ]
-    }
+    "asset": "pairs",
+    "col": 3,
+    "row": 3,
+    "cols": 4,
+    "rows": 4
+  },
+  {
+    "id": "lobby-0",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Warm timber, soft couches and afternoon light",
+    "asset": "scenes",
+    "col": 0,
+    "row": 0,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "lobby-1",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A dim fireside room with worn velvet",
+    "asset": "scenes",
+    "col": 1,
+    "row": 0,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "lobby-2",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Airy glass and slim white seating",
+    "asset": "scenes",
+    "col": 2,
+    "row": 0,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "lobby-3",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A cold, low-lit lobby in brushed steel",
+    "asset": "scenes",
+    "col": 3,
+    "row": 0,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "flyer-0",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "One refined serif with wide margins",
+    "asset": "scenes",
+    "col": 0,
+    "row": 1,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "flyer-1",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Ornate serif letters packed into a collage",
+    "asset": "scenes",
+    "col": 1,
+    "row": 1,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "flyer-2",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A clean grid of squared-off letters",
+    "asset": "scenes",
+    "col": 2,
+    "row": 1,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "flyer-3",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A riot of chunky, distorted letters",
+    "asset": "scenes",
+    "col": 3,
+    "row": 1,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "device-0",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A curved, pearl-white radio",
+    "asset": "scenes",
+    "col": 0,
+    "row": 2,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "device-1",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A curved speaker wrapped in woven fabric",
+    "asset": "scenes",
+    "col": 1,
+    "row": 2,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "device-2",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A sharp-edged chrome clock",
+    "asset": "scenes",
+    "col": 2,
+    "row": 2,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "device-3",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A squared-off, matte terminal",
+    "asset": "scenes",
+    "col": 3,
+    "row": 2,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "cafe-0",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Honey-colored wood and hand-painted menus",
+    "asset": "scenes",
+    "col": 0,
+    "row": 3,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "cafe-1",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Warm-toned tiles and polished brass",
+    "asset": "scenes",
+    "col": 1,
+    "row": 3,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "cafe-2",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Cool gray textiles and fogged-up windows",
+    "asset": "scenes",
+    "col": 2,
+    "row": 3,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "cafe-3",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A blue steel counter and precisely aligned lights",
+    "asset": "scenes",
+    "col": 3,
+    "row": 3,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "cover-0",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A quiet landscape in subdued colors",
+    "asset": "scenes",
+    "col": 0,
+    "row": 4,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "cover-1",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A homemade collage of clip art and stretched lettering",
+    "asset": "scenes",
+    "col": 1,
+    "row": 4,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "cover-2",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A still life against a vivid color field",
+    "asset": "scenes",
+    "col": 2,
+    "row": 4,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "cover-3",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Paint splashes and huge fluorescent letters",
+    "asset": "scenes",
+    "col": 3,
+    "row": 4,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "jacket-0",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Plain, earth-toned canvas",
+    "asset": "scenes",
+    "col": 0,
+    "row": 5,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "jacket-1",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A single stencil over dark nylon",
+    "asset": "scenes",
+    "col": 1,
+    "row": 5,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "jacket-2",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Soft fabric with rows of embroidered shapes",
+    "asset": "scenes",
+    "col": 2,
+    "row": 5,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "jacket-3",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Shiny fabric covered in sharp graphic patches",
+    "asset": "scenes",
+    "col": 3,
+    "row": 5,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "shop-0",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Classic painted signage and a spare window display",
+    "asset": "scenes",
+    "col": 0,
+    "row": 6,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "shop-1",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A colorful discount window with novelty packaging",
+    "asset": "scenes",
+    "col": 1,
+    "row": 6,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "shop-2",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A crisp digital sign above one spotlighted object",
+    "asset": "scenes",
+    "col": 2,
+    "row": 6,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "shop-3",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Animated LED lettering surrounded by geometric props",
+    "asset": "scenes",
+    "col": 3,
+    "row": 6,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "album-0",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A dreamy painting in soft, rounded shapes",
+    "asset": "scenes",
+    "col": 0,
+    "row": 7,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "album-1",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A crisp, quiet diagram of angular forms",
+    "asset": "scenes",
+    "col": 1,
+    "row": 7,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "album-2",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Liquid color and wild curving shapes",
+    "asset": "scenes",
+    "col": 2,
+    "row": 7,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "album-3",
+    "status": "generated",
+    "source_url": "../src/assets/scenes.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Sharp grids and fast diagonal lines",
+    "asset": "scenes",
+    "col": 3,
+    "row": 7,
+    "cols": 4,
+    "rows": 8
+  },
+  {
+    "id": "motif-chrome",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Polished chrome",
+    "asset": "motifs",
+    "col": 0,
+    "row": 0,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-paper",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Textured paper",
+    "asset": "motifs",
+    "col": 1,
+    "row": 0,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-laser",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Glowing laser grids",
+    "asset": "motifs",
+    "col": 2,
+    "row": 0,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-glass",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Glass and transparency",
+    "asset": "motifs",
+    "col": 3,
+    "row": 0,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-plants",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Leaves and plant shadows",
+    "asset": "motifs",
+    "col": 4,
+    "row": 0,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-marble",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Marble and rough stone",
+    "asset": "motifs",
+    "col": 5,
+    "row": 0,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-pixels",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Isometric pixel art",
+    "asset": "motifs",
+    "col": 0,
+    "row": 1,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-gradients",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Layered gradients",
+    "asset": "motifs",
+    "col": 1,
+    "row": 1,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-rainbow",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Clashing brights and rainbow palettes",
+    "asset": "motifs",
+    "col": 2,
+    "row": 1,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-neon",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Electric neon colors",
+    "asset": "motifs",
+    "col": 3,
+    "row": 1,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-earth",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Beige and warm earth colors",
+    "asset": "motifs",
+    "col": 4,
+    "row": 1,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-pastel",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Pale pastel colors",
+    "asset": "motifs",
+    "col": 5,
+    "row": 1,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-serif",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Fine serif lettering",
+    "asset": "motifs",
+    "col": 0,
+    "row": 2,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-brush",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Hand-drawn brush lettering",
+    "asset": "motifs",
+    "col": 1,
+    "row": 2,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-mixed",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Distorted and mixed lettering",
+    "asset": "motifs",
+    "col": 2,
+    "row": 2,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-tech",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Terminal lettering and interfaces",
+    "asset": "motifs",
+    "col": 3,
+    "row": 2,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-grotesque",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Heavy sans-serif type",
+    "asset": "motifs",
+    "col": 4,
+    "row": 2,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-wood",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Exposed wood and wood grain",
+    "asset": "motifs",
+    "col": 5,
+    "row": 2,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-orbit",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Stars, skies and galaxies",
+    "asset": "motifs",
+    "col": 0,
+    "row": 3,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-swirl",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Spirals and swirls",
+    "asset": "motifs",
+    "col": 1,
+    "row": 3,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-toys",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Oversized toys and playful props",
+    "asset": "motifs",
+    "col": 2,
+    "row": 3,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-lux",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Showy glamour and decorative details",
+    "asset": "motifs",
+    "col": 3,
+    "row": 3,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-city",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Streetlights and city infrastructure",
+    "asset": "motifs",
+    "col": 4,
+    "row": 3,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-industrial",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Rusted industrial materials",
+    "asset": "motifs",
+    "col": 5,
+    "row": 3,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-craft",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Handmade objects and collage",
+    "asset": "motifs",
+    "col": 0,
+    "row": 4,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-tropical",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Tropical and organic silhouettes",
+    "asset": "motifs",
+    "col": 1,
+    "row": 4,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-splat",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Paint splatters and slime",
+    "asset": "motifs",
+    "col": 2,
+    "row": 4,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-gothic",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Gothic flourishes",
+    "asset": "motifs",
+    "col": 3,
+    "row": 4,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-classical",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Classical and historical references",
+    "asset": "motifs",
+    "col": 4,
+    "row": 4,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-travel",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Maps and retro travel imagery",
+    "asset": "motifs",
+    "col": 5,
+    "row": 4,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-chunky",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Chunky geometric forms",
+    "asset": "motifs",
+    "col": 0,
+    "row": 5,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-minimal",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Whitespace and simple forms",
+    "asset": "motifs",
+    "col": 1,
+    "row": 5,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-plush",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Soft textiles and plush furniture",
+    "asset": "motifs",
+    "col": 2,
+    "row": 5,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-retro",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Retro type and signage",
+    "asset": "motifs",
+    "col": 3,
+    "row": 5,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-gear",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Wearable and optical gadgets",
+    "asset": "motifs",
+    "col": 4,
+    "row": 5,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "motif-word-art",
+    "status": "generated",
+    "source_url": "../src/assets/motifs.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Homemade word art and novelty packaging",
+    "asset": "motifs",
+    "col": 5,
+    "row": 5,
+    "cols": 6,
+    "rows": 6
+  },
+  {
+    "id": "paperback-0",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A floating castle under a painted moon",
+    "asset": "splitters",
+    "col": 0,
+    "row": 0,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "paperback-1",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A giant red teacup filling an ordinary living room",
+    "asset": "splitters",
+    "col": 1,
+    "row": 0,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "paperback-2",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A fine black-and-white botanical etching",
+    "asset": "splitters",
+    "col": 2,
+    "row": 0,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "paperback-3",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A polished geometric sculpture",
+    "asset": "splitters",
+    "col": 3,
+    "row": 0,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "record-art-0",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A painted starship drifting through clouds",
+    "asset": "splitters",
+    "col": 0,
+    "row": 1,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "record-art-1",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "An oversized yellow telephone turned into a living-room chair",
+    "asset": "splitters",
+    "col": 1,
+    "row": 1,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "record-art-2",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "One gray disc in a field of white",
+    "asset": "splitters",
+    "col": 2,
+    "row": 1,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "record-art-3",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "A city at night built from square pixels",
+    "asset": "splitters",
+    "col": 3,
+    "row": 1,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "split-0",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Colored ink merging in water",
+    "asset": "splitters",
+    "col": 0,
+    "row": 2,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "split-1",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Dripping green cartoon sludge",
+    "asset": "splitters",
+    "col": 1,
+    "row": 2,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "split-2",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "An airbrushed neon car beneath mountains",
+    "asset": "splitters",
+    "col": 2,
+    "row": 2,
+    "cols": 4,
+    "rows": 3
+  },
+  {
+    "id": "split-3",
+    "status": "generated",
+    "source_url": "../src/assets/splitters.webp",
+    "author": "Aesthetic Affinity Profiler (OpenAI image generation)",
+    "license": "Project-generated illustration",
+    "alt": "Glass blocks and polished tubes crossed by lasers",
+    "asset": "splitters",
+    "col": 3,
+    "row": 2,
+    "cols": 4,
+    "rows": 3
   }
 ]

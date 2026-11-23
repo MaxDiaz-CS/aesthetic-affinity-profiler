@@ -3,7 +3,7 @@
     "id": "decades",
     "section": "A",
     "type": "era",
-    "prompt": "Which decades are you drawn to?",
+    "prompt": "Think of objects you remember fondly, from a family radio to your first phone. Which decades bring back that feeling?",
     "quick": true,
     "options": [
       {
@@ -11,50 +11,63 @@
         "vector": {
           "decades:1970s": 1
         },
-        "motifs": []
+        "motifs": [],
+        "detail": "Wood-cased tabletop radio",
+        "image": "decades-0"
       },
       {
         "label": "1980s",
         "vector": {
           "decades:1980s": 1
         },
-        "motifs": []
+        "motifs": [],
+        "detail": "Portable cassette player with headphones",
+        "image": "decades-1"
       },
       {
         "label": "1990s",
         "vector": {
           "decades:1990s": 1
         },
-        "motifs": []
+        "motifs": [],
+        "detail": "Boxy desktop monitor",
+        "image": "decades-2"
       },
       {
         "label": "2000s",
         "vector": {
           "decades:2000s": 1
         },
-        "motifs": []
+        "motifs": [],
+        "detail": "Silver flip phone",
+        "image": "decades-3"
       },
       {
         "label": "2010s",
         "vector": {
           "decades:2010s": 1
         },
-        "motifs": []
+        "motifs": [],
+        "detail": "Smartphone with a round home button",
+        "image": "decades-4"
       },
       {
         "label": "2020s",
         "vector": {
           "decades:2020s": 1
         },
-        "motifs": []
+        "motifs": [],
+        "detail": "Wireless earbuds in a charging case",
+        "image": "decades-5"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "context",
     "section": "A",
     "type": "scenario",
-    "prompt": "Where do you notice design most?",
+    "prompt": "Think about the last time a design caught your eye. Where do you tend to notice details like the shape, lettering or materials?",
     "quick": true,
     "options": [
       {
@@ -62,50 +75,116 @@
         "vector": {
           "context:ui": 1
         },
-        "motifs": []
+        "motifs": [],
+        "image": "decades-4"
       },
       {
         "label": "Clothes and accessories",
         "vector": {
           "context:fashion": 1
         },
-        "motifs": []
+        "motifs": [],
+        "image": "jacket-0"
       },
       {
         "label": "Rooms and furniture",
         "vector": {
           "context:interiors": 1
         },
-        "motifs": []
+        "motifs": [],
+        "image": "lobby-0"
       },
       {
         "label": "Print and packaging",
         "vector": {
           "context:print": 1
         },
-        "motifs": []
+        "motifs": [],
+        "image": "cover-2"
       },
       {
         "label": "Music and album art",
         "vector": {
           "context:music": 1
         },
-        "motifs": []
+        "motifs": [],
+        "image": "album-1"
       },
       {
         "label": "Shops and displays",
         "vector": {
           "context:retail": 1
         },
-        "motifs": []
+        "motifs": [],
+        "image": "shop-0"
       }
-    ]
+    ],
+    "maxChoices": 2,
+    "quickDraft": true
+  },
+  {
+    "id": "space-mood",
+    "section": "A",
+    "type": "scenario",
+    "prompt": "You are making a corner of your home your own. Which mood would you most like to come home to?",
+    "quick": false,
+    "options": [
+      {
+        "label": "Calm and quiet",
+        "vector": {
+          "energy": -2
+        },
+        "motifs": [],
+        "image": "album-0"
+      },
+      {
+        "label": "Electric and lively",
+        "vector": {
+          "energy": 2
+        },
+        "motifs": [],
+        "image": "album-3"
+      },
+      {
+        "label": "Mysterious and shadowy",
+        "vector": {
+          "value": -2
+        },
+        "motifs": [],
+        "image": "lobby-1"
+      },
+      {
+        "label": "Polished and precise",
+        "vector": {
+          "comfort": 2
+        },
+        "motifs": [],
+        "image": "device-2"
+      },
+      {
+        "label": "Soft and cozy",
+        "vector": {
+          "comfort": -2
+        },
+        "motifs": [],
+        "image": "touch-a"
+      },
+      {
+        "label": "Playful and friendly",
+        "vector": {
+          "tone": -2
+        },
+        "motifs": [],
+        "image": "attitude-a"
+      }
+    ],
+    "quickDraft": false
   },
   {
     "id": "finish",
     "section": "B",
     "type": "pair",
-    "prompt": "Which surface would you reach for?",
+    "prompt": "You can wrap a notebook in either finish. Which surface would you want under your hand every day?",
     "quick": true,
     "options": [
       {
@@ -130,13 +209,14 @@
         ],
         "image": "finish-b"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "chroma",
     "section": "B",
     "type": "pair",
-    "prompt": "Which version of the same print appeals to you?",
+    "prompt": "Imagine hanging this print above your desk. Would you keep the colors dusty or turn up their intensity?",
     "quick": true,
     "options": [
       {
@@ -159,13 +239,14 @@
         ],
         "image": "chroma-b"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "temperature",
     "section": "B",
     "type": "pair",
-    "prompt": "Which version of this room would you choose?",
+    "prompt": "The furniture stays in place. Which color of light would you choose for an evening in this room?",
     "quick": true,
     "options": [
       {
@@ -186,13 +267,14 @@
         "motifs": [],
         "image": "temperature-b"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "composition",
     "section": "B",
     "type": "pair",
-    "prompt": "Which poster would you keep?",
+    "prompt": "You have room for one poster above your desk. How much of the page would you fill?",
     "quick": true,
     "options": [
       {
@@ -215,13 +297,14 @@
         ],
         "image": "composition-b"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "outline",
     "section": "B",
     "type": "pair",
-    "prompt": "Which object shape do you prefer?",
+    "prompt": "These two objects take up the same shelf space. Which outline would you enjoy seeing in silhouette?",
     "quick": true,
     "options": [
       {
@@ -244,13 +327,14 @@
         ],
         "image": "outline-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "light",
     "section": "B",
     "type": "pair",
-    "prompt": "Which version of the same cover would you pick?",
+    "prompt": "The same raised circle appears on both book covers. Which cover would catch your eye across a table?",
     "quick": false,
     "options": [
       {
@@ -269,13 +353,14 @@
         "motifs": [],
         "image": "light-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "signal",
     "section": "B",
     "type": "pair",
-    "prompt": "Which treatment would you use on a record sleeve?",
+    "prompt": "A diner scene is going on a record sleeve. Would you print it with film grain or build it out of visible pixels?",
     "quick": false,
     "options": [
       {
@@ -300,13 +385,14 @@
         ],
         "image": "signal-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "letter",
     "section": "B",
     "type": "pair",
-    "prompt": "Which lettering belongs on your notebook?",
+    "prompt": "Your notebook gets a single letter on its cover. Which shape should that letter take?",
     "quick": false,
     "options": [
       {
@@ -331,13 +417,14 @@
         ],
         "image": "letter-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "pace",
     "section": "B",
     "type": "pair",
-    "prompt": "Which poster feels more inviting?",
+    "prompt": "These poster designs use repeating stripes. Which rhythm would you put on your wall?",
     "quick": false,
     "options": [
       {
@@ -358,13 +445,14 @@
         "motifs": [],
         "image": "pace-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "touch",
     "section": "B",
     "type": "pair",
-    "prompt": "Which sofa would you rather come home to?",
+    "prompt": "Imagine both sofas are equally comfortable. Which upholstery and shape would you bring home?",
     "quick": false,
     "options": [
       {
@@ -387,13 +475,14 @@
         ],
         "image": "touch-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "attitude",
     "section": "B",
     "type": "pair",
-    "prompt": "Which illustrated cover would you pick?",
+    "prompt": "An illustrator has drawn the same face two ways. Which drawing would you keep on a book cover?",
     "quick": false,
     "options": [
       {
@@ -416,13 +505,14 @@
         ],
         "image": "attitude-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "future",
     "section": "B",
     "type": "pair",
-    "prompt": "Which future would you rather look at?",
+    "prompt": "A film opens on a city walkway years from now. Which version would you want as a print?",
     "quick": false,
     "options": [
       {
@@ -443,13 +533,14 @@
         ],
         "image": "future-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "lobby",
     "section": "C",
     "type": "scenario",
-    "prompt": "Which hotel lobby would you check into?",
+    "prompt": "You arrive at a hotel an hour before check-in. Which lobby would you settle into while you wait?",
     "quick": true,
     "options": [
       {
@@ -462,7 +553,8 @@
         "motifs": [
           "wood",
           "plush"
-        ]
+        ],
+        "image": "lobby-0"
       },
       {
         "label": "A dim fireside room with worn velvet",
@@ -474,7 +566,8 @@
         "motifs": [
           "plush",
           "gothic"
-        ]
+        ],
+        "image": "lobby-1"
       },
       {
         "label": "Airy glass and slim white seating",
@@ -486,7 +579,8 @@
         "motifs": [
           "glass",
           "minimal"
-        ]
+        ],
+        "image": "lobby-2"
       },
       {
         "label": "A cold, low-lit lobby in brushed steel",
@@ -498,15 +592,17 @@
         "motifs": [
           "industrial",
           "chrome"
-        ]
+        ],
+        "image": "lobby-3"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "flyer",
     "section": "C",
     "type": "scenario",
-    "prompt": "Pick the lettering for your band’s first flyer.",
+    "prompt": "Your band has one flyer to put in a record shop. Which lettering would you use for its name?",
     "quick": true,
     "options": [
       {
@@ -518,7 +614,8 @@
         "motifs": [
           "serif",
           "minimal"
-        ]
+        ],
+        "image": "flyer-0"
       },
       {
         "label": "Ornate serif letters packed into a collage",
@@ -529,7 +626,8 @@
         "motifs": [
           "serif",
           "craft"
-        ]
+        ],
+        "image": "flyer-1"
       },
       {
         "label": "A clean grid of squared-off letters",
@@ -539,7 +637,8 @@
         },
         "motifs": [
           "tech"
-        ]
+        ],
+        "image": "flyer-2"
       },
       {
         "label": "A riot of chunky, distorted letters",
@@ -550,15 +649,17 @@
         "motifs": [
           "mixed",
           "chunky"
-        ]
+        ],
+        "image": "flyer-3"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "device",
     "section": "C",
     "type": "scenario",
-    "prompt": "Which device would you leave on your desk?",
+    "prompt": "There is space for one object beside your keyboard. Which design would you enjoy looking at every day?",
     "quick": true,
     "options": [
       {
@@ -570,7 +671,8 @@
         },
         "motifs": [
           "gear"
-        ]
+        ],
+        "image": "device-0"
       },
       {
         "label": "A curved speaker wrapped in woven fabric",
@@ -581,7 +683,8 @@
         },
         "motifs": [
           "plush"
-        ]
+        ],
+        "image": "device-1"
       },
       {
         "label": "A sharp-edged chrome clock",
@@ -593,7 +696,8 @@
         "motifs": [
           "chrome",
           "gear"
-        ]
+        ],
+        "image": "device-2"
       },
       {
         "label": "A squared-off, matte terminal",
@@ -604,15 +708,17 @@
         },
         "motifs": [
           "tech"
-        ]
+        ],
+        "image": "device-3"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "cafe",
     "section": "C",
     "type": "scenario",
-    "prompt": "Pick a coffee shop for a rainy afternoon.",
+    "prompt": "It is raining and you have an hour to read. Which café interior makes you want to stay?",
     "quick": false,
     "options": [
       {
@@ -625,7 +731,8 @@
         "motifs": [
           "wood",
           "brush"
-        ]
+        ],
+        "image": "cafe-0"
       },
       {
         "label": "Warm-toned tiles and polished brass",
@@ -637,7 +744,8 @@
         "motifs": [
           "lux",
           "retro"
-        ]
+        ],
+        "image": "cafe-1"
       },
       {
         "label": "Cool gray textiles and fogged-up windows",
@@ -648,7 +756,8 @@
         },
         "motifs": [
           "plush"
-        ]
+        ],
+        "image": "cafe-2"
       },
       {
         "label": "A blue steel counter and precisely aligned lights",
@@ -659,15 +768,17 @@
         },
         "motifs": [
           "industrial"
-        ]
+        ],
+        "image": "cafe-3"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "cover",
     "section": "C",
     "type": "scenario",
-    "prompt": "Which magazine cover would you buy?",
+    "prompt": "Four magazines cover the same story. Which cover would you pick up first at the newsstand?",
     "quick": false,
     "options": [
       {
@@ -680,7 +791,8 @@
         "motifs": [
           "plants",
           "earth"
-        ]
+        ],
+        "image": "cover-0"
       },
       {
         "label": "A homemade collage of clip art and stretched lettering",
@@ -693,7 +805,8 @@
         "motifs": [
           "mixed",
           "word-art"
-        ]
+        ],
+        "image": "cover-1"
       },
       {
         "label": "A still life against a vivid color field",
@@ -704,7 +817,8 @@
         },
         "motifs": [
           "rainbow"
-        ]
+        ],
+        "image": "cover-2"
       },
       {
         "label": "Paint splashes and huge fluorescent letters",
@@ -716,15 +830,17 @@
         "motifs": [
           "splat",
           "neon"
-        ]
+        ],
+        "image": "cover-3"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "jacket",
     "section": "C",
     "type": "scenario",
-    "prompt": "Which jacket would get the most wear?",
+    "prompt": "All four jackets fit equally well. Which fabric and detailing would you wear on a night out?",
     "quick": false,
     "options": [
       {
@@ -736,7 +852,8 @@
         },
         "motifs": [
           "earth"
-        ]
+        ],
+        "image": "jacket-0"
       },
       {
         "label": "A single stencil over dark nylon",
@@ -748,7 +865,8 @@
         "motifs": [
           "city",
           "grotesque"
-        ]
+        ],
+        "image": "jacket-1"
       },
       {
         "label": "Soft fabric with rows of embroidered shapes",
@@ -760,7 +878,8 @@
         "motifs": [
           "craft",
           "plush"
-        ]
+        ],
+        "image": "jacket-2"
       },
       {
         "label": "Shiny fabric covered in sharp graphic patches",
@@ -772,15 +891,17 @@
         "motifs": [
           "gothic",
           "lux"
-        ]
+        ],
+        "image": "jacket-3"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "shop",
     "section": "C",
     "type": "scenario",
-    "prompt": "Which storefront would you walk into?",
+    "prompt": "You pass four shops selling the same things. Which window display would make you stop?",
     "quick": false,
     "options": [
       {
@@ -792,7 +913,8 @@
         "motifs": [
           "retro",
           "minimal"
-        ]
+        ],
+        "image": "shop-0"
       },
       {
         "label": "A colorful discount window with novelty packaging",
@@ -804,7 +926,8 @@
         "motifs": [
           "word-art",
           "retro"
-        ]
+        ],
+        "image": "shop-1"
       },
       {
         "label": "A crisp digital sign above one spotlighted object",
@@ -815,7 +938,8 @@
         "motifs": [
           "tech",
           "minimal"
-        ]
+        ],
+        "image": "shop-2"
       },
       {
         "label": "Animated LED lettering surrounded by geometric props",
@@ -826,15 +950,17 @@
         "motifs": [
           "tech",
           "laser"
-        ]
+        ],
+        "image": "shop-3"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "album",
     "section": "C",
     "type": "scenario",
-    "prompt": "Which sleeve would make you hear the album?",
+    "prompt": "You have never heard this record. Which sleeve would make you curious enough to press play?",
     "quick": false,
     "options": [
       {
@@ -846,7 +972,8 @@
         },
         "motifs": [
           "orbit"
-        ]
+        ],
+        "image": "album-0"
       },
       {
         "label": "A crisp, quiet diagram of angular forms",
@@ -857,7 +984,8 @@
         },
         "motifs": [
           "classical"
-        ]
+        ],
+        "image": "album-1"
       },
       {
         "label": "Liquid color and wild curving shapes",
@@ -869,7 +997,8 @@
         "motifs": [
           "gradients",
           "splat"
-        ]
+        ],
+        "image": "album-2"
       },
       {
         "label": "Sharp grids and fast diagonal lines",
@@ -881,15 +1010,127 @@
         "motifs": [
           "laser",
           "chunky"
-        ]
+        ],
+        "image": "album-3"
       }
-    ]
+    ],
+    "quickDraft": false
+  },
+  {
+    "id": "paperback",
+    "type": "scenario",
+    "section": "C",
+    "prompt": "You are browsing used paperbacks. Which cover illustration would you frame?",
+    "quick": false,
+    "options": [
+      {
+        "label": "A floating castle under a painted moon",
+        "vector": {
+          "surface": -1,
+          "subject:mystical": 1,
+          "texture:analog_grainy": 1,
+          "complexity": 1,
+          "context:print": 1
+        },
+        "motifs": [],
+        "image": "paperback-0"
+      },
+      {
+        "label": "A giant red teacup filling an ordinary living room",
+        "vector": {
+          "complexity": 1,
+          "energy": 1,
+          "subject:domestic": 1,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "toys"
+        ],
+        "image": "paperback-1"
+      },
+      {
+        "label": "A fine black-and-white botanical etching",
+        "vector": {
+          "subject:nature": 1,
+          "palette:mono": 1
+        },
+        "motifs": [],
+        "image": "paperback-2"
+      },
+      {
+        "label": "A polished geometric sculpture",
+        "vector": {
+          "surface": 2,
+          "geometry": 2
+        },
+        "motifs": [
+          "chrome"
+        ],
+        "image": "paperback-3"
+      }
+    ],
+    "quickDraft": false
+  },
+  {
+    "id": "record-art",
+    "type": "scenario",
+    "section": "C",
+    "prompt": "You get to choose the artwork for a record reissue. Which scene should fill the sleeve?",
+    "quick": false,
+    "options": [
+      {
+        "label": "A painted starship drifting through clouds",
+        "vector": {
+          "energy": -1,
+          "texture:analog_grainy": 1,
+          "subject:tech": 1,
+          "subject:mystical": 1,
+          "context:music": 1
+        },
+        "motifs": [],
+        "image": "record-art-0"
+      },
+      {
+        "label": "An oversized yellow telephone turned into a living-room chair",
+        "vector": {
+          "energy": 1,
+          "subject:domestic": 1,
+          "context:interiors": 1,
+          "context:print": 1
+        },
+        "motifs": [
+          "toys"
+        ],
+        "image": "record-art-1"
+      },
+      {
+        "label": "One gray disc in a field of white",
+        "vector": {
+          "complexity": -2,
+          "palette:mono": 1
+        },
+        "motifs": [
+          "minimal"
+        ],
+        "image": "record-art-2"
+      },
+      {
+        "label": "A city at night built from square pixels",
+        "vector": {
+          "texture:digital_pixel": 1,
+          "value": -2
+        },
+        "motifs": [],
+        "image": "record-art-3"
+      }
+    ],
+    "quickDraft": false
   },
   {
     "id": "motifs-1",
     "section": "D",
     "type": "motif",
-    "prompt": "Which details do you love or dislike?",
+    "prompt": "Imagine these colors and materials on something you use daily. Which would you seek out or avoid?",
     "quick": true,
     "options": [
       {
@@ -900,7 +1141,8 @@
         },
         "motifs": [
           "chrome"
-        ]
+        ],
+        "image": "motif-chrome"
       },
       {
         "label": "Textured paper",
@@ -910,7 +1152,8 @@
         },
         "motifs": [
           "paper"
-        ]
+        ],
+        "image": "motif-paper"
       },
       {
         "label": "Glowing laser grids",
@@ -920,7 +1163,8 @@
         },
         "motifs": [
           "laser"
-        ]
+        ],
+        "image": "motif-laser"
       },
       {
         "label": "Glass and transparency",
@@ -930,7 +1174,8 @@
         },
         "motifs": [
           "glass"
-        ]
+        ],
+        "image": "motif-glass"
       },
       {
         "label": "Leaves and plant shadows",
@@ -940,7 +1185,8 @@
         },
         "motifs": [
           "plants"
-        ]
+        ],
+        "image": "motif-plants"
       },
       {
         "label": "Marble and rough stone",
@@ -950,7 +1196,8 @@
         },
         "motifs": [
           "marble"
-        ]
+        ],
+        "image": "motif-marble"
       },
       {
         "label": "Isometric pixel art",
@@ -960,7 +1207,8 @@
         },
         "motifs": [
           "pixels"
-        ]
+        ],
+        "image": "motif-pixels"
       },
       {
         "label": "Layered gradients",
@@ -970,7 +1218,8 @@
         },
         "motifs": [
           "gradients"
-        ]
+        ],
+        "image": "motif-gradients"
       },
       {
         "label": "Clashing brights and rainbow palettes",
@@ -980,7 +1229,8 @@
         },
         "motifs": [
           "rainbow"
-        ]
+        ],
+        "image": "motif-rainbow"
       },
       {
         "label": "Electric neon colors",
@@ -990,7 +1240,8 @@
         },
         "motifs": [
           "neon"
-        ]
+        ],
+        "image": "motif-neon"
       },
       {
         "label": "Beige and warm earth colors",
@@ -1000,7 +1251,8 @@
         },
         "motifs": [
           "earth"
-        ]
+        ],
+        "image": "motif-earth"
       },
       {
         "label": "Pale pastel colors",
@@ -1010,15 +1262,17 @@
         },
         "motifs": [
           "pastel"
-        ]
+        ],
+        "image": "motif-pastel"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "motifs-2",
     "section": "D",
     "type": "motif",
-    "prompt": "Which details do you love or dislike?",
+    "prompt": "Look at the lettering, symbols and decorative details. Which would you keep on a poster or deliberately leave off?",
     "quick": true,
     "options": [
       {
@@ -1029,7 +1283,8 @@
         },
         "motifs": [
           "serif"
-        ]
+        ],
+        "image": "motif-serif"
       },
       {
         "label": "Hand-drawn brush lettering",
@@ -1039,7 +1294,8 @@
         },
         "motifs": [
           "brush"
-        ]
+        ],
+        "image": "motif-brush"
       },
       {
         "label": "Distorted and mixed lettering",
@@ -1049,7 +1305,8 @@
         },
         "motifs": [
           "mixed"
-        ]
+        ],
+        "image": "motif-mixed"
       },
       {
         "label": "Terminal lettering and interfaces",
@@ -1059,7 +1316,8 @@
         },
         "motifs": [
           "tech"
-        ]
+        ],
+        "image": "motif-tech"
       },
       {
         "label": "Heavy sans-serif type",
@@ -1069,7 +1327,8 @@
         },
         "motifs": [
           "grotesque"
-        ]
+        ],
+        "image": "motif-grotesque"
       },
       {
         "label": "Exposed wood and wood grain",
@@ -1079,7 +1338,8 @@
         },
         "motifs": [
           "wood"
-        ]
+        ],
+        "image": "motif-wood"
       },
       {
         "label": "Stars, skies and galaxies",
@@ -1089,7 +1349,8 @@
         },
         "motifs": [
           "orbit"
-        ]
+        ],
+        "image": "motif-orbit"
       },
       {
         "label": "Spirals and swirls",
@@ -1099,7 +1360,8 @@
         },
         "motifs": [
           "swirl"
-        ]
+        ],
+        "image": "motif-swirl"
       },
       {
         "label": "Oversized toys and playful props",
@@ -1109,7 +1371,8 @@
         },
         "motifs": [
           "toys"
-        ]
+        ],
+        "image": "motif-toys"
       },
       {
         "label": "Showy glamour and decorative details",
@@ -1119,7 +1382,8 @@
         },
         "motifs": [
           "lux"
-        ]
+        ],
+        "image": "motif-lux"
       },
       {
         "label": "Streetlights and city infrastructure",
@@ -1129,7 +1393,8 @@
         },
         "motifs": [
           "city"
-        ]
+        ],
+        "image": "motif-city"
       },
       {
         "label": "Rusted industrial materials",
@@ -1139,15 +1404,17 @@
         },
         "motifs": [
           "industrial"
-        ]
+        ],
+        "image": "motif-industrial"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "motifs-3",
     "section": "D",
     "type": "motif",
-    "prompt": "Which details do you love or dislike?",
+    "prompt": "Imagine living with these objects and patterns. Which would you enjoy seeing again, and which would wear on you?",
     "quick": true,
     "options": [
       {
@@ -1158,7 +1425,8 @@
         },
         "motifs": [
           "craft"
-        ]
+        ],
+        "image": "motif-craft"
       },
       {
         "label": "Tropical and organic silhouettes",
@@ -1168,7 +1436,8 @@
         },
         "motifs": [
           "tropical"
-        ]
+        ],
+        "image": "motif-tropical"
       },
       {
         "label": "Paint splatters and slime",
@@ -1178,7 +1447,8 @@
         },
         "motifs": [
           "splat"
-        ]
+        ],
+        "image": "motif-splat"
       },
       {
         "label": "Gothic flourishes",
@@ -1188,7 +1458,8 @@
         },
         "motifs": [
           "gothic"
-        ]
+        ],
+        "image": "motif-gothic"
       },
       {
         "label": "Classical and historical references",
@@ -1198,7 +1469,8 @@
         },
         "motifs": [
           "classical"
-        ]
+        ],
+        "image": "motif-classical"
       },
       {
         "label": "Maps and retro travel imagery",
@@ -1208,7 +1480,8 @@
         },
         "motifs": [
           "travel"
-        ]
+        ],
+        "image": "motif-travel"
       },
       {
         "label": "Chunky geometric forms",
@@ -1218,7 +1491,8 @@
         },
         "motifs": [
           "chunky"
-        ]
+        ],
+        "image": "motif-chunky"
       },
       {
         "label": "Whitespace and simple forms",
@@ -1228,7 +1502,8 @@
         },
         "motifs": [
           "minimal"
-        ]
+        ],
+        "image": "motif-minimal"
       },
       {
         "label": "Soft textiles and plush furniture",
@@ -1238,7 +1513,8 @@
         },
         "motifs": [
           "plush"
-        ]
+        ],
+        "image": "motif-plush"
       },
       {
         "label": "Retro type and signage",
@@ -1248,7 +1524,8 @@
         },
         "motifs": [
           "retro"
-        ]
+        ],
+        "image": "motif-retro"
       },
       {
         "label": "Wearable and optical gadgets",
@@ -1258,7 +1535,8 @@
         },
         "motifs": [
           "gear"
-        ]
+        ],
+        "image": "motif-gear"
       },
       {
         "label": "Homemade word art and novelty packaging",
@@ -1270,15 +1548,17 @@
         },
         "motifs": [
           "word-art"
-        ]
+        ],
+        "image": "motif-word-art"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "slider-saturation",
     "section": "E",
     "type": "slider",
-    "prompt": "For everyday objects, I prefer…",
+    "prompt": "You are choosing colors for an everyday notebook. How muted or vivid would you make its cover?",
     "quick": true,
     "axis": "saturation",
     "options": [
@@ -1287,22 +1567,25 @@
         "vector": {
           "saturation": -2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "chroma-a"
       },
       {
         "label": "Vivid colors",
         "vector": {
           "saturation": 2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "chroma-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "slider-complexity",
     "section": "E",
     "type": "slider",
-    "prompt": "My ideal room feels…",
+    "prompt": "Imagine arranging a shelf in your living room. How much open space would you leave around the objects?",
     "quick": true,
     "axis": "complexity",
     "options": [
@@ -1311,22 +1594,25 @@
         "vector": {
           "complexity": -2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "composition-a"
       },
       {
         "label": "Layered and full",
         "vector": {
           "complexity": 2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "composition-b"
       }
-    ]
+    ],
+    "quickDraft": true
   },
   {
     "id": "slider-tone",
     "section": "E",
     "type": "slider",
-    "prompt": "The graphics I keep tend to be…",
+    "prompt": "An illustrator is designing a face for a patch on your bag. How gentle or abrasive should it look?",
     "quick": false,
     "axis": "tone",
     "options": [
@@ -1335,22 +1621,25 @@
         "vector": {
           "tone": -2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "attitude-a"
       },
       {
         "label": "Edgy",
         "vector": {
           "tone": 2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "attitude-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "slider-outlook",
     "section": "E",
     "type": "slider",
-    "prompt": "A vision of the future should feel…",
+    "prompt": "Picture a city in a film set fifty years from now. What mood do you want the opening shot to leave you with?",
     "quick": false,
     "axis": "outlook",
     "options": [
@@ -1359,22 +1648,25 @@
         "vector": {
           "outlook": -2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "future-a"
       },
       {
         "label": "Unsettling",
         "vector": {
           "outlook": 2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "future-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "slider-comfort",
     "section": "E",
     "type": "slider",
-    "prompt": "The spaces I revisit tend to feel…",
+    "prompt": "You are furnishing a favorite reading corner. How soft and lived-in or crisp and tailored should it look?",
     "quick": false,
     "axis": "comfort",
     "options": [
@@ -1383,22 +1675,25 @@
         "vector": {
           "comfort": -2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "touch-a"
       },
       {
         "label": "Sleek",
         "vector": {
           "comfort": 2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "touch-b"
       }
-    ]
+    ],
+    "quickDraft": false
   },
   {
     "id": "slider-value",
     "section": "E",
     "type": "slider",
-    "prompt": "I’m drawn to palettes that feel…",
+    "prompt": "You are choosing a book cover in one color. How dark or light would you want it?",
     "quick": false,
     "axis": "value",
     "options": [
@@ -1407,15 +1702,18 @@
         "vector": {
           "value": -2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "light-a"
       },
       {
         "label": "Light",
         "vector": {
           "value": 2
         },
-        "motifs": []
+        "motifs": [],
+        "image": "light-b"
       }
-    ]
+    ],
+    "quickDraft": true
   }
 ]

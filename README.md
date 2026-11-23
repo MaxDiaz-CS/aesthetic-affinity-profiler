@@ -62,19 +62,13 @@ the closest match appears after scoring.
 
 ### Question method
 
-Full intake contains 31 fixed questions plus up to four conditional tie-breaks.
-Quick intake contains 15 fixed questions, including all three 12-tile motif
-grids. The fixed bank combines an optional decade preference, a context choice,
-visual pairs, decisions in specific settings, motif reactions, and sliders.
-The optional `?adaptive=1` flag reorders remaining scored choices within a
-section by estimating which question would most separate the current top six.
+Full intake contains 34 fixed questions. The default Quick intake has 15, including three 12-tile motif grids. Both add up to four conditional tie-breaks. The 12-screen Quick proposal has one motif grid and up to three top tie-breaks. It is available for review with `?quickDraft=1`. The optional `?adaptive=1` flag reorders remaining scored choices within a section.
 
-Four controlled visual pairs use original generated studio imagery, covering
-finish, saturation, color temperature, and outline. The other eight pairs use
-abstract CSS swatches. The image manifest records all 24 slots and their alt text.
-Each replaced visual should use a licensed image with matching evidence, legible
-alt text, a source URL, an author, and a license. CARI gallery imagery is
-excluded. Text-only mode exposes the same decisions through labels.
+Every fixed question has illustrated choices or slider endpoints, including the first warm-up. The 12 visual pairs isolate one or two scored differences. Selecting “Neither” contributes zero evidence. Visitors may choose two design contexts. The scorer averages those selections so answering twice gives the context screen the same weight as a single selection.
+
+The image manifest records each original illustration, source asset, attribution and accessible description. Tie-breaks use distinct representative details, with dedicated illustrated comparisons for two frequently confused pairs. Text-only mode retains the captions and controls.
+
+The full-bank coverage check requires each approved entry to have at least three distinct questions outside the warm-up with either a matching signature motif or option-vector cosine similarity of at least 0.45. This is an authoring check. Human playtests assess whether participants interpret the images as intended.
 
 The runtime catalog uses the 78 approved entries with at least three source-backed
 motifs. The remaining 12 stay in the review sheet. `npm run tags:export-quiz`
@@ -109,7 +103,7 @@ Explanations use leave-one-answer-out contributions to the displayed score.
 ### Validation and playtesting
 
 The seeded simulation tests 200 noisy personas per eligible aesthetic in each
-mode. Full intake recovered 88.8% of intended styles in the top three and Quick intake recovered 86.6%, across 15,600 personas per mode. Every eligible entry appeared in both a top and a bottom list in Full intake. [The simulation report](reports/simulation.md) includes recovery rates,
+mode. [The simulation report](reports/simulation.md) includes recovery rates,
 confusion pairs, observed reachability, and per-style results. Unit and DOM
 tests cover weights, evidence floors, tie-breaks, theme contrast, Quick Mode,
 text-only interaction, and URL sharing. The simulator uses the reviewed taste

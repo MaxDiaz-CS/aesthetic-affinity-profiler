@@ -1,13 +1,13 @@
 import { questions, styles } from './data.ts';
 import { makeDuel, type Answer, type Answers, type Question } from './engine/scoring.ts';
 
-export type Mode = 'full' | 'quick';
-export function bank(mode: Mode) { return questions.filter(question => mode === 'full' || question.quick); }
+export type Mode = 'full' | 'quick' | 'quick-draft';
+export function bank(mode: Mode) { return questions.filter(question => mode === 'full' || (mode === 'quick-draft' ? question.quickDraft : question.quick)); }
 
 function validatedAnswer(question: Question, raw: unknown): Answer | undefined {
-  if (question.type === 'era') {
+  if (question.type === 'era' || (question.maxChoices && Array.isArray(raw))) {
     if (!Array.isArray(raw) || !raw.every(value => Number.isInteger(value) && question.options[value])) return;
-    return [...new Set(raw)];
+    return [...new Set(raw)].slice(0, question.maxChoices ?? raw.length);
   }
   if (question.type === 'motif') {
     if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return;
@@ -18,6 +18,7 @@ function validatedAnswer(question: Question, raw: unknown): Answer | undefined {
     }));
   }
   if (typeof raw !== 'number' || !Number.isInteger(raw)) return;
+  if (question.type === 'pair' && raw === -1) return -1;
   if (question.type === 'slider') return raw >= -2 && raw <= 2 ? raw : undefined;
   return question.options[raw] ? raw : undefined;
 }
@@ -27,7 +28,7 @@ export function readSession(hash: string) {
   if (!data || data.length > 16000) return;
   try {
     const decoded = JSON.parse(atob(data));
-    if (decoded.version !== 1 || !['full', 'quick'].includes(decoded.mode) || !decoded.answers
+    if (decoded.version !== 1 || !['full', 'quick', 'quick-draft'].includes(decoded.mode) || !decoded.answers
       || typeof decoded.answers !== 'object' || Array.isArray(decoded.answers)) return;
     const mode = decoded.mode as Mode;
     const duels: Question[] = [];
@@ -42,7 +43,7 @@ export function readSession(hash: string) {
       if (duel.id === id) duels.push(duel);
     }
     const answers: Answers = {};
-    for (const question of [...bank(mode), ...duels]) {
+    for (const question of [...bank('full'), ...duels]) {
       const answer = validatedAnswer(question, decoded.answers[question.id]);
       if (answer !== undefined) answers[question.id] = answer;
     }

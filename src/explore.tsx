@@ -71,7 +71,7 @@ export function CompareProfiles({ original }: { original: ReturnType<typeof rank
         session = readSession(hash);
       } catch { session = undefined; }
       if (!session) { setError('Paste a valid Aesthetic Affinity Profiler results link.'); return; }
-      const profile = buildUserVector([...bank(session.mode), ...session.duels], session.answers);
+      const profile = buildUserVector([...bank('full'), ...session.duels], session.answers);
       const hasEvidence = Object.values(profile.vector).some(Boolean) || Object.values(profile.motifs).some(Boolean) || profile.eras.size;
       if (!hasEvidence) { setError('This link does not contain enough preference evidence to compare.'); return; }
       setError('');

@@ -1,7 +1,7 @@
-import controlledPairs from './assets/controlled-visual-pairs.webp';
-import { useEffect, useRef, useState, type CSSProperties } from 'react';
-import { previews, styles } from './data.ts';
-import { buildUserVector, pickDuel, pickNextQuestion, rank, scoreAesthetics, type Answer, type Answers, type Question } from './engine/scoring.ts';
+const sheets = import.meta.glob<string>('./assets/*.webp', { eager: true, import: 'default' });
+import { useEffect, useRef, useState } from 'react';
+import { previews, styles, questions } from './data.ts';
+import { buildUserVector, cosine, pickDuel, pickNextQuestion, rank, scoreAesthetics, type Answer, type Answers, type Question } from './engine/scoring.ts';
 import { ResultView } from './results.tsx';
 import { bank, readSession, type Mode } from './session.ts';
 
@@ -28,6 +28,7 @@ function Footer() {
 }
 
 function Intake({ start }: { start: (mode: Mode) => void }) {
+  const draft = new URLSearchParams(window.location.search).get('quickDraft') === '1';
   return <main className="intake">
     <p className="kicker">Form 01 / Visual preferences</p>
     <div className="intake-head">
@@ -45,13 +46,13 @@ function Intake({ start }: { start: (mode: Mode) => void }) {
     <div className="mode-heading"><h2>Choose your intake</h2><span>Pick the length that suits you</span></div>
     <div className="mode-grid">
       <button className="mode-card primary" onClick={() => start('full')}>
-        <span className="mode-meta">31 questions + tie-breaks</span>
+        <span className="mode-meta">34 questions + tie-breaks</span>
         <strong>Full intake</strong><span>More visual choices and scenarios.</span>
         <span className="mode-action">Start full intake <span aria-hidden="true">↗</span></span>
       </button>
-      <button className="mode-card" onClick={() => start('quick')}>
-        <span className="mode-meta">15 questions + tie-breaks</span>
-        <strong>Quick intake</strong><span>A shorter route with all three motif grids.</span>
+      <button className="mode-card" onClick={() => start(draft ? 'quick-draft' : 'quick')}>
+        <span className="mode-meta">{draft ? '12 questions + up to 3 tie-breaks' : '15 questions + tie-breaks'}</span>
+        <strong>Quick intake</strong><span>{draft ? 'Preview the shorter question bank.' : 'A shorter intake with all three visual motif grids.'}</span>
         <span className="mode-action">Start quick intake <span aria-hidden="true">↗</span></span>
       </button>
     </div>
@@ -62,16 +63,11 @@ function Intake({ start }: { start: (mode: Mode) => void }) {
 function Preview({ id, textOnly }: { id: string; textOnly: boolean }) {
   const item = previews.find(preview => preview.id === id);
   if (!item || textOnly) return null;
-  const { kind, side, colors } = item.preview;
-  if (item.asset === 'controlled-visual-pairs' && typeof item.asset_row === 'number') {
-    return <div role="img" aria-label={item.alt} className="preview preview-photoreal"
-      style={{ backgroundImage: `url(${controlledPairs})`,
-        backgroundPosition: `${side === 'a' ? '0%' : '100%'} ${item.asset_row / 3 * 100}%` }} />;
-  }
-  return <div role="img" aria-label={item.alt} className={`preview preview-${kind} side-${side}`}
-    style={{ '--swatch': colors[0], '--ink': colors[1] } as CSSProperties}>
-    {kind === 'letter' ? <span aria-hidden="true">Aa</span> : <div aria-hidden="true"><i /><i /><i /><i /><i /><i /></div>}
-  </div>;
+  const { asset, cols, rows, col, row } = item;
+  return <div role="img" aria-label={item.alt} className={`sample sample-${asset}`}
+    style={{ backgroundImage: `url(${sheets[`./assets/${asset}.webp`]})`,
+      backgroundSize: `${cols * 100}% ${rows * 100}%`,
+      backgroundPosition: `${col / (cols - 1) * 100}% ${row / (rows - 1) * 100}%` }} />;
 }
 
 function QuestionOptions({ question, value, change, textOnly }: {
@@ -81,6 +77,8 @@ function QuestionOptions({ question, value, change, textOnly }: {
     const current = typeof value === 'number' ? value : 0;
     const display = current === 0 ? 'Neutral' : `${Math.abs(current) === 2 ? 'Strongly' : 'Slightly'} ${question.options[current < 0 ? 0 : 1].label.toLowerCase()}`;
     return <div className="slider-card">
+      {!textOnly && <div className="slider-images">{question.options.map(option =>
+        <Preview key={option.label} id={option.image!} textOnly={false} />)}</div>}
       <div className="slider-ends"><span>{question.options[0].label}</span><span>{question.options[1].label}</span></div>
       <input aria-label={question.prompt} aria-valuetext={display} type="range" min="-2" max="2" step="1"
         value={current} onChange={event => change(Number(event.currentTarget.value))} />
@@ -94,6 +92,7 @@ function QuestionOptions({ question, value, change, textOnly }: {
       <div className="motif-grid">{question.options.map(option => {
         const id = option.motifs[0];
         return <div className="motif" key={id} role="group" aria-label={option.label}>
+          {option.image && <Preview id={option.image} textOnly={textOnly} />}
           <strong>{option.label}</strong>
           <div className="vote-grid">{([1, -1] as const).map(vote =>
             <button type="button" key={vote} aria-pressed={votes[id] === vote}
@@ -105,27 +104,42 @@ function QuestionOptions({ question, value, change, textOnly }: {
       })}</div>
     </>;
   }
-  if (question.type === 'era') {
+  if (question.type === 'era' || question.maxChoices) {
     const selected = Array.isArray(value) ? value : [];
     return <>
-      <p className="question-help">Optional. Select any decades that appeal to you.</p>
-      <div className="option-grid eras">{question.options.map((option, index) =>
+      <p className="question-help">{question.maxChoices ? 'Choose up to two places.' : 'Choose any decades that feel nostalgic. Leave them blank if none do.'}</p>
+      <div className={`option-grid eras ${textOnly ? '' : 'visual-options'}`}>{question.options.map((option, index) =>
         <label className="option" key={option.label}>
-          <input type="checkbox" checked={selected.includes(index)}
+          {option.image && <Preview id={option.image} textOnly={textOnly} />}
+          <span className="option-label"><input type="checkbox" disabled={!!question.maxChoices && selected.length >= question.maxChoices && !selected.includes(index)} checked={selected.includes(index)}
             onChange={() => change(selected.includes(index) ? selected.filter(item => item !== index) : [...selected, index])} />
-          <span>{option.label}</span>
+          <span>{option.label}<small>{option.detail}</small></span></span>
         </label>)}</div>
     </>;
   }
-  return <div className={`option-grid ${question.type === 'pair' && !textOnly ? 'visual-options' : ''}`}>
+  const used = new Set<string>();
+  const optionImages = question.options.map(option => {
+    if (option.image) return option.image;
+    const candidates = questions.filter(q => q.type === 'motif' || q.section === 'C')
+      .flatMap(q => q.options).filter(sample => sample.image && !used.has(sample.image));
+    const affinity = (sample: typeof option) => cosine(option.vector, sample.vector)
+      + sample.motifs.filter(id => option.motifs.includes(id)).length;
+    const image = candidates.sort((a, b) => affinity(b) - affinity(a))[0]?.image;
+    if (image) used.add(image);
+    return image;
+  });
+  return <div className={`option-grid ${!textOnly ? 'visual-options' : ''}`}>
     {question.options.map((option, index) =>
       <label className="option" key={index}>
-        {option.image && <Preview id={option.image} textOnly={textOnly} />}
+        {optionImages[index] && <Preview id={optionImages[index]} textOnly={textOnly} />}
         <span className="option-label">
           <input type="radio" name={question.id} checked={value === index} onChange={() => change(index)} />
           <span>{option.label}</span>
         </span>
       </label>)}
+    {question.type === 'pair' && <label className="option neither"><span className="option-label">
+      <input type="radio" name={question.id} checked={value === -1} onChange={() => change(-1)} />
+      Neither appeals to me</span></label>}
   </div>;
 }
 
@@ -189,9 +203,9 @@ export function App() {
       setFeedback('Answer at least one preference question to see your results.');
       return;
     }
-    const direction = earlierDuels.length % 2 !== 0;
-    const duel = earlierDuels.length < 4
-      ? pickDuel(ranking, earlierDuels, direction) ?? pickDuel(ranking, earlierDuels, !direction)
+    const direction = mode !== 'quick-draft' && earlierDuels.length % 2 !== 0;
+    const duel = earlierDuels.length < (mode === 'quick-draft' ? 3 : 4)
+      ? pickDuel(ranking, earlierDuels, direction) ?? (mode !== 'quick-draft' ? pickDuel(ranking, earlierDuels, !direction) : undefined)
       : undefined;
     if (duel) {
       setDuels([...earlierDuels, duel]);
@@ -251,11 +265,12 @@ export function App() {
     {stage === 'quiz' && question && <main className="quiz">
       <div className="form-top">
         <p className="kicker">Form 01 / Section {question.section}</p>
-        <span>{question.type === 'duel' ? `Tie-break ${index - baseCount + 1} of up to 4` : `Question ${index + 1} of ${baseCount}`}</span>
+        <span>{question.type === 'duel' ? `Tie-break ${index - baseCount + 1} of up to ${mode === 'quick-draft' ? 3 : 4}` : `Question ${index + 1} of ${baseCount}`}</span>
       </div>
       <progress aria-label="Intake progress" value={Math.min(index + 1, baseCount)} max={baseCount} />
       <p className="section-title">{sections[question.section]}</p>
       <h1 ref={heading} tabIndex={-1}>{question.prompt}</h1>
+      {question.type === 'pair' && <p className="question-help">Go with your first instinct. Choose either option or select neither.</p>}
       <QuestionOptions question={question} value={answers[question.id]} change={change} textOnly={textOnly} />
       {feedback && <p role="alert" className="feedback">{feedback}</p>}
       <div className="quiz-actions">

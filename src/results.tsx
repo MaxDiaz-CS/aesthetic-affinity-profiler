@@ -146,7 +146,7 @@ export function ResultView({ mode, answers, duels, textOnly, heading, retake }: 
   const [message, setMessage] = useState('');
   const [share, setShare] = useState('');
   const computed = useMemo(() => {
-    const questions = [...bank(mode), ...duels];
+    const questions = [...bank('full'), ...duels];
     const profile = buildUserVector(questions, answers);
     const ranking = rank(scoreAesthetics(profile, styles));
     return { profile, ranking, questions };
@@ -161,7 +161,7 @@ export function ResultView({ mode, answers, duels, textOnly, heading, retake }: 
   } as CSSProperties;
   return <main className={`results pattern-${theme.motif}`} style={themeStyle}>
     <div className="result-header">
-      <p className="kicker">Accession record / {mode === 'quick' ? 'Quick intake' : 'Full intake'}</p>
+      <p className="kicker">Accession record / {mode === 'full' ? 'Full intake' : 'Quick intake'}</p>
       <h1 ref={heading} tabIndex={-1}>Your aesthetic profile</h1>
       <p>Your closest CARI match is <strong>{ranking.top[0]?.aesthetic.name}</strong>.</p>
       <div className="result-actions">

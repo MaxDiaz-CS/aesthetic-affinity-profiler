@@ -1,8 +1,8 @@
 export type Vector = Record<string, number>;
-export type Option = { label: string; vector: Vector; motifs: string[]; image?: string };
+export type Option = { label: string; vector: Vector; motifs: string[]; image?: string; detail?: string };
 export type Question = {
   id: string; section: string; type: 'era' | 'pair' | 'scenario' | 'motif' | 'slider' | 'duel';
-  prompt: string; options: Option[]; quick?: boolean; axis?: string; avoid?: boolean;
+  prompt: string; options: Option[]; quick?: boolean; quickDraft?: boolean; axis?: string; maxChoices?: number; avoid?: boolean;
 };
 export type Answer = number | number[] | Record<string, -1 | 0 | 1>;
 export type Answers = Record<string, Answer>;
@@ -51,14 +51,15 @@ export function buildUserVector(questions: Question[], answers: Answers): Profil
       add(vector, { [question.axis]: Math.max(-2, Math.min(2, answer)) }, 1.5);
       probed.add(question.axis);
     } else if ((question.type === 'pair' || question.type === 'scenario' || question.type === 'duel')
-      && typeof answer === 'number' && question.options[answer]) {
+      && ((typeof answer === 'number' && question.options[answer]) || (question.maxChoices && Array.isArray(answer) && answer.length))) {
+      const selected = Array.isArray(answer) ? answer : [answer];
       const keys = new Set(question.options.flatMap(option => Object.keys(option.vector)));
       for (const key of keys) {
         const values = new Set(question.options.map(option => option.vector[key] ?? 0));
         if (values.size > 1) probed.add(key);
       }
       question.options.forEach((option, index) => {
-        const weight = index === answer ? 1 : question.type === 'scenario' ? -0.25 : -0.5;
+        const weight = selected.reduce((sum, pick) => sum + (index === pick ? 1 : question.type === 'scenario' ? -0.25 : -0.5), 0) / selected.length;
         const signed = question.avoid ? -weight : weight;
         add(vector, Object.fromEntries(Object.entries(option.vector).filter(([key]) => probed.has(key))), signed);
         markMotifs(motifs, option.motifs, signed);
@@ -126,6 +127,7 @@ function answerLabel(question: Question, answer: Answer) {
     if (!answer) return '';
     return `You leaned toward ${question.options[answer > 0 ? 1 : 0].label.toLowerCase()}.`;
   }
+  if (question.maxChoices && Array.isArray(answer)) return 'You notice design in ' + answer.map(i => question.options[i].label.toLowerCase()).join(' and ') + '.';
   if (typeof answer === 'number' && question.options[answer]) {
     return `${question.avoid ? 'You avoided' : 'You picked'} ${question.options[answer].label.toLowerCase()}.`;
   }
@@ -175,9 +177,14 @@ export function pickDuel(ranking: ReturnType<typeof rank>, past: Question[], avo
 
 export function makeDuel(styles: Aesthetic[], avoid: boolean): Question {
   const id = `duel-${avoid ? 'avoid' : 'prefer'}:${styles.map(style => style.slug).join(':')}`;
+  const splitters: Record<string, [string, string]> = {
+    'neon-ooze:polychrome': ['split-1', 'split-0'],
+    'corporate-synthwave:laser-grid': ['split-2', 'split-3'],
+  };
+  const images = splitters[styles.map(style => style.slug).join(':')];
   return { id, section: 'F', type: 'duel', avoid,
-    prompt: avoid ? 'Which visual direction would you rather avoid?' : 'Which visual direction feels more like you?',
-    options: styles.map(style => ({ label: style.summary, vector: style.vector, motifs: style.motifIds })) };
+    prompt: avoid ? 'Imagine these designs on your wall for a year. Which would you take down first?' : 'Imagine these designs on your wall for a year. Which would you keep?',
+    options: styles.map((style, i) => ({ image: images?.[i], label: style.summary, vector: style.vector, motifs: style.motifIds })) };
 }
 
 export function pickNextQuestion(questions: Question[], answers: Answers, top: Aesthetic[]) {

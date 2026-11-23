@@ -40,6 +40,10 @@ describe('preference scoring', () => {
     expect(result.eligible).toBe(true);
   });
 
+  it('treats neither as zero evidence, including for bottom eligibility', () => {
+    expect(buildUserVector([pair], { pair: -1 })).toEqual(buildUserVector([], {}));
+  });
+
   it('requires four relevant probes or two shown motifs for the bottom list', () => {
     expect(scoreAesthetic(buildUserVector([pair], { pair: 0 }), candidate).eligible).toBe(false);
     const many = Array.from({ length: 4 }, (_, i) => ({ ...pair, id: `pair-${i}` }));
@@ -78,11 +82,20 @@ describe('preference scoring', () => {
 
 describe('release data', () => {
   it('has complete quiz modes, motif tiles and sourced-image placeholder entries', () => {
-    expect(bank('full')).toHaveLength(31);
+    expect(bank('full')).toHaveLength(34);
     expect(bank('quick')).toHaveLength(15);
+    expect(bank('quick-draft')).toHaveLength(12);
     expect(bank('quick').filter(question => question.type === 'motif')).toHaveLength(3);
+    for (const style of styles) {
+      const strong = questions.filter(q => q.section !== 'A' && q.options.some(o =>
+        cosine(o.vector, style.vector) >= 0.45 || o.motifs.some(id => style.motifIds.includes(id))));
+      expect(strong.length, style.name).toBeGreaterThanOrEqual(3);
+    }
     expect(motifs).toHaveLength(36);
-    expect(previews).toHaveLength(24);
+    const ids = new Set(previews.map(preview => preview.id));
+    for (const question of questions) {
+      for (const option of question.options) expect(ids.has(option.image!), question.id).toBe(true);
+    }
     expect(new Set(styles.map(style => style.slug)).size).toBe(styles.length);
     expect(styles.every(style => style.summary && style.signature_motifs.length >= 3)).toBe(true);
     expect(questions.filter(question => question.type === 'pair').every(question => {

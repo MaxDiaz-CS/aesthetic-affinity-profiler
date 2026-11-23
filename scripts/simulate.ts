@@ -28,14 +28,17 @@ function personaAnswer(question: Question, style: Aesthetic): Answer {
       return [id, love ? 1 : affinity < -0.31 ? -1 : 0];
     }));
   }
-  return question.options.map((option, index) => ({
+  const ranked = question.options.map((option, index) => ({
     index,
     affinity: (question.avoid ? -1 : 1) * (cosine(style.vector, option.vector)
       + option.motifs.filter(motif => style.motifIds.includes(motif)).length * 0.27) + noise(0.38),
-  })).sort((a, b) => b.affinity - a.affinity)[0].index;
+  })).sort((a, b) => b.affinity - a.affinity);
+  if (question.maxChoices) return ranked.slice(0, question.maxChoices).map(option => option.index);
+  if (question.type === 'pair' && ranked[0].affinity < 0) return -1;
+  return ranked[0].index;
 }
 
-function simulate(mode: 'full' | 'quick') {
+function simulate(mode: 'full' | 'quick' | 'quick-draft') {
   const questions = bank(mode);
   const topReach = new Set<string>();
   const bottomReach = new Set<string>();
@@ -49,9 +52,9 @@ function simulate(mode: 'full' | 'quick') {
       const duels: Question[] = [];
       const ranking = () => rank(scoreAesthetics(buildUserVector([...questions, ...duels], answers), styles));
       let results = ranking();
-      for (let round = 0; round < 4; round++) {
-        const preferAvoid = round % 2 === 1;
-        const duel = pickDuel(results, duels, preferAvoid) ?? pickDuel(results, duels, !preferAvoid);
+      for (let round = 0; round < (mode === 'quick-draft' ? 3 : 4); round++) {
+        const preferAvoid = mode !== 'quick-draft' && round % 2 === 1;
+        const duel = pickDuel(results, duels, preferAvoid) ?? (mode !== 'quick-draft' ? pickDuel(results, duels, !preferAvoid) : undefined);
         if (!duel) break;
         duels.push(duel);
         answers[duel.id] = personaAnswer(duel, style);
@@ -83,6 +86,7 @@ function simulate(mode: 'full' | 'quick') {
 
 const full = simulate('full');
 const quick = simulate('quick');
+const draft = simulate('quick-draft');
 const percent = (n: number) => `${(n * 100).toFixed(1)}%`;
 const list = (items: Aesthetic[]) => items.map(item => item.name).join(', ') || 'None observed';
 const report = [
@@ -92,7 +96,7 @@ const report = [
   'The target is at least 80% full-mode recovery. Reachability below means observed within this simulation.', '',
   '| Mode | Profiles | Top-3 recovery | Target ≥80% | Profiles with fewer than 3 eligible bottom results |',
   '| --- | ---: | ---: | --- | ---: |',
-  ...([['Full', full], ['Quick', quick]] as const).map(([label, result]) =>
+  ...([['Full', full], ['Quick', quick], ['Quick proposal (review)', draft]] as const).map(([label, result]) =>
     `| ${label} | ${result.total} | ${percent(result.rate)} | ${result.rate >= 0.8 ? 'Met' : 'Below target'} | ${result.incompleteBottom} |`),
   '', '## Reachability', '',
   `- Full mode, unseen in top 3: ${list(full.neverTop)}`,
