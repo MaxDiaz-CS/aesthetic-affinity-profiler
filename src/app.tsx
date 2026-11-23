@@ -1,9 +1,9 @@
-const sheets = import.meta.glob<string>('./assets/*.webp', { eager: true, import: 'default', query: '?inline' });
+import { Preview, Inspector, describeAnswer, visualHints } from './intake-tools.tsx';
 import { useEffect, useRef, useState } from 'react';
 import { previews, styles, questions } from './data.ts';
 import { buildUserVector, cosine, pickDuel, pickNextQuestion, rank, scoreAesthetics, type Answer, type Answers, type Question } from './engine/scoring.ts';
 import { ResultView } from './results.tsx';
-import { bank, readSession, type Mode } from './session.ts';
+import { bank, readDraft, readSession, shareUrl, type Mode } from './session.ts';
 
 const sections: Record<string, string> = {
   A: 'Warm-up', B: 'Visual choices', C: 'Scenarios', D: 'Motif reactions', E: 'Preferences', F: 'Tie-breaks',
@@ -58,17 +58,6 @@ function Intake({ start }: { start: (mode: Mode) => void }) {
     </div>
     <p className="privacy-note">Based on the CARI index. Your answers stay in your browser unless you share a results link.</p>
   </main>;
-}
-
-function Preview({ id, textOnly }: { id: string; textOnly: boolean }) {
-  const item = previews.find(preview => preview.id === id);
-  if (!item || textOnly) return null;
-  const { asset, cols, rows, col, row } = item;
-  return <div className={`sample sample-${asset}`}>
-    <img alt={item.alt} src={sheets[`./assets/${asset}.webp`]}
-      style={{ width: `${cols * 100}%`, height: `${rows * 100}%`,
-        left: `${-col * 100}%`, top: `${-row * 100}%` }} />
-  </div>;
 }
 
 function QuestionOptions({ question, value, change, textOnly }: {
@@ -146,7 +135,7 @@ function QuestionOptions({ question, value, change, textOnly }: {
 function initialState() {
   const shared = readSession(window.location.hash);
   const base = bank(shared?.mode ?? 'full');
-  return { mode: shared?.mode ?? 'full' as Mode, answers: shared?.answers ?? {}, duels: shared?.duels ?? [],
+  return { mode: shared?.mode ?? 'full' as Mode, pick: shared?.pick ?? '', answers: shared?.answers ?? {}, duels: shared?.duels ?? [],
     steps: shared ? [...base, ...shared.duels] : base, stage: shared ? 'result' : 'intake' };
 }
 
@@ -157,6 +146,10 @@ export function App() {
   const [duels, setDuels] = useState(initial.duels);
   const [steps, setSteps] = useState(initial.steps);
   const [stage, setStage] = useState(initial.stage);
+  const [draft, setDraft] = useState(readDraft);
+  const [editing, setEditing] = useState(false);
+  const [inspect, setInspect] = useState<number | null>(null);
+  const [pick, setPick] = useState(initial.pick);
   const [index, setIndex] = useState(0);
   const [textOnly, setTextOnly] = useState(false);
   const [feedback, setFeedback] = useState('');
@@ -171,6 +164,7 @@ export function App() {
     const openSharedResult = () => {
       const shared = readSession(window.location.hash);
       if (!shared) return;
+      setPick(shared.pick);
       setMode(shared.mode);
       setAnswers(shared.answers);
       setDuels(shared.duels);
@@ -182,8 +176,27 @@ export function App() {
     return () => window.removeEventListener('hashchange', openSharedResult);
   }, []);
 
+  useEffect(() => {
+    if (stage !== 'quiz' && stage !== 'review') return;
+    try {
+      localStorage.setItem('intake-progress', JSON.stringify({ hash: new URL(shareUrl(mode, answers, duels)).hash,
+        order: steps.map(q => q.id), index, textOnly, stage, editing }));
+    } catch { /* Storage can be disabled. */ }
+  }, [stage, mode, answers, duels, steps, index, textOnly, editing]);
+
+  function pause() {
+    const saved = readDraft();
+    if (!saved) { setFeedback('This browser could not save your progress. Keep this tab open to continue.'); return; }
+    setDraft(saved); setStage('intake'); setFeedback('');
+  }
+  function resume() {
+    if (!draft) return;
+    setMode(draft.mode); setAnswers(draft.answers); setDuels(draft.duels); setSteps(draft.steps);
+    setIndex(draft.index); setTextOnly(draft.textOnly); setEditing(draft.editing); setStage(draft.stage);
+  }
   function start(nextMode: Mode) {
     window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    setEditing(false); setPick(''); setDraft(undefined);
     setMode(nextMode);
     setSteps(bank(nextMode));
     setIndex(0);
@@ -210,23 +223,34 @@ export function App() {
     if (duel) {
       setDuels([...earlierDuels, duel]);
       setSteps(previous => [...previous, duel]);
-      setIndex(index + 1);
+      setIndex(ordinary.length + earlierDuels.length);
+      setStage('quiz');
       return;
     }
-    setStage('result');
+    try { localStorage.removeItem('intake-progress'); } catch { /* Storage unavailable. */ }
+    setDraft(undefined); setStage('result');
   }
 
   function advance(skip = false) {
     setFeedback('');
     const question = steps[index];
     const nextAnswers = { ...answers };
-    if (skip) delete nextAnswers[question.id];
+    if (skip) {
+      delete nextAnswers[question.id];
+      if (question.type !== 'duel' && duels.length) {
+        duels.forEach(duel => delete nextAnswers[duel.id]);
+        setSteps(steps.filter(item => item.type !== 'duel')); setDuels([]);
+      }
+    }
     else if (nextAnswers[question.id] === undefined) {
       if (question.type === 'slider') nextAnswers[question.id] = 0;
       else if (question.type === 'motif' || question.type === 'era') nextAnswers[question.id] = question.type === 'motif' ? {} : [];
       else return;
     }
     setAnswers(nextAnswers);
+    if (editing || (index + 1 === bank(mode).length && question.type !== 'duel')) {
+      setEditing(false); setStage('review'); return;
+    }
     if (index + 1 < steps.length) {
       const next = steps[index + 1];
       if (adaptive && ['B', 'C', 'E'].includes(next.section)) {
@@ -261,8 +285,23 @@ export function App() {
   const baseCount = bank(mode).length;
   return <div className="app-shell">
     <Header textOnly={textOnly} setTextOnly={setTextOnly} />
-    {stage === 'intake' && <Intake start={start} />}
-    {stage === 'quiz' && question && <main className="quiz">
+    {stage === 'intake' && <>{draft && <aside className="resume"><button className="button" onClick={resume}>
+      {draft.stage === 'review' ? 'Resume answer review' : 'Continue at question ' + (draft.index + 1) + ' of ' + draft.steps.length}</button>
+      <button className="button secondary" onClick={() => start(draft.mode)}>Start over</button></aside>}<Intake start={start} /></>}
+    {stage === 'review' && <main className="quiz"><h1 tabIndex={-1} ref={heading}>Review your answers</h1>
+      <p>Change any answer before the final comparisons.</p><ol className="review-list">{steps.slice(0, baseCount).map((q, i) => {
+        const answer = answers[q.id];
+        const selected = typeof answer === 'number' && q.type !== 'slider' ? q.options[answer] : undefined;
+        return <li key={q.id}>{selected?.image && !textOnly && <Preview id={selected.image} textOnly={false} />}
+          <div><strong>{q.prompt}</strong><p>{describeAnswer(q, answer)}</p></div>
+          <button aria-label={'Edit question ' + (i + 1)} onClick={() => {setEditing(true); setIndex(i); setStage('quiz');}}>Edit</button></li>;
+      })}</ol>{feedback && <p role="alert">{feedback}</p>}<button className="button" onClick={() => results(answers, duels)}>Continue to results</button></main>}
+    {stage === 'quiz' && question && <main className="quiz" onClickCapture={event => {
+      const image = (event.target as HTMLElement).closest('.sample img');
+      if (!image || image.closest('dialog')) return;
+      const images = [...event.currentTarget.querySelectorAll('.sample img')];
+      event.preventDefault(); event.stopPropagation(); setInspect(images.indexOf(image));
+    }}>
       <div className="form-top">
         <p className="kicker">Form 01 / Section {question.section}</p>
         <span>{question.type === 'duel' ? `Tie-break ${index - baseCount + 1} of up to ${mode === 'quick-draft' ? 3 : 4}` : `Question ${index + 1} of ${baseCount}`}</span>
@@ -270,23 +309,28 @@ export function App() {
       <progress aria-label="Intake progress" value={Math.min(index + 1, baseCount)} max={baseCount} />
       <p className="section-title">{sections[question.section]}</p>
       <h1 ref={heading} tabIndex={-1}>{question.prompt}</h1>
-      <p className="question-help">{question.instruction}</p>
+      {question.id === 'context' && <p>Choose up to two settings.</p>}
+      {question.instruction && <details key={question.id} className="visual-hint"><summary>What should I look at?</summary><p>{visualHints[question.id] ?? question.instruction}</p></details>}
+      {!textOnly && question.options.some(o => o.image) && <button className="inspect-button" onClick={() => setInspect(0)}>Enlarge images</button>}
+      {inspect !== null && <Inspector question={question} index={inspect} close={() => setInspect(null)} />}
       <QuestionOptions question={question} value={answers[question.id]} change={change} textOnly={textOnly} />
       {feedback && <p role="alert" className="feedback">{feedback}</p>}
       <div className="quiz-actions">
         <button className="button secondary" onClick={() => {
           setFeedback('');
-          if (index) setIndex(index - 1);
-          else setStage('intake');
+          if (editing) {setEditing(false); setStage('review');}
+          else if (index) setIndex(index - 1);
+          else {setDraft(readDraft()); setStage('intake');}
         }}>Back</button>
         <div>
+          <button className="button text-button" onClick={pause}>Save &amp; exit</button>
           <button className="button text-button" onClick={() => advance(true)}>Skip</button>
           <button className="button" disabled={['scenario', 'pair', 'duel'].includes(question.type) && answers[question.id] === undefined}
-            onClick={() => advance()}>{index >= steps.length - 1 ? 'Finish section' : 'Continue'}</button>
+            onClick={() => advance()}>{editing ? 'Return to review' : index === baseCount - 1 ? 'Review answers' : index >= steps.length - 1 ? 'Finish section' : 'Continue'}</button>
         </div>
       </div>
     </main>}
-    {stage === 'result' && <ResultView mode={mode} answers={answers} duels={duels}
+    {stage === 'result' && <ResultView pick={pick} setPick={setPick} mode={mode} answers={answers} duels={duels}
       textOnly={textOnly} heading={heading} retake={() => {
         window.history.replaceState(null, '', window.location.pathname + window.location.search);
         setStage('intake');

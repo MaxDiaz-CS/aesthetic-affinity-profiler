@@ -23,7 +23,7 @@ function validatedAnswer(question: Question, raw: unknown): Answer | undefined {
   return question.options[raw] ? raw : undefined;
 }
 
-export function readSession(hash: string) {
+export function readSession(hash: string, allowEmpty = false) {
   const data = new URLSearchParams(hash.slice(1)).get('result');
   if (!data || data.length > 16000) return;
   try {
@@ -47,16 +47,31 @@ export function readSession(hash: string) {
       const answer = validatedAnswer(question, decoded.answers[question.id]);
       if (answer !== undefined) answers[question.id] = answer;
     }
-    if (Object.keys(answers).length) return { mode, answers, duels };
+    if (allowEmpty || Object.keys(answers).length) return { mode, answers, duels, pick: typeof decoded.pick === 'string' ? decoded.pick : '' };
   } catch {
     return undefined;
   }
 }
 
-export function shareUrl(mode: Mode, answers: Answers, duels: Question[]) {
+export function shareUrl(mode: Mode, answers: Answers, duels: Question[], pick?: string) {
   const url = new URL(window.location.href);
   url.hash = new URLSearchParams({
-    result: btoa(JSON.stringify({ version: 1, mode, answers, duels: duels.map(question => question.id) })),
+    result: btoa(JSON.stringify({ version: 1, mode, answers, pick: pick || undefined, duels: duels.map(question => question.id) })),
   }).toString();
   return url.href;
+}
+
+export function readDraft() {
+  try {
+    const raw = JSON.parse(localStorage.getItem('intake-progress') ?? 'null');
+    if (!raw || !['quiz', 'review'].includes(raw.stage) || !Array.isArray(raw.order)) return;
+    const session = readSession(raw.hash, true);
+    if (!session) return;
+    const base = bank(session.mode);
+    const ordinary = raw.order.slice(0, base.length).map((id: string) => base.find(q => q.id === id)) as Question[];
+    if (ordinary.length !== base.length || ordinary.some(q => !q) || new Set(ordinary).size !== base.length) return;
+    const steps = [...ordinary, ...session.duels];
+    if (!Number.isInteger(raw.index) || !steps[raw.index]) return;
+    return { ...session, steps, index: raw.index as number, stage: String(raw.stage), editing: raw.editing === true, textOnly: raw.textOnly === true };
+  } catch { return; }
 }

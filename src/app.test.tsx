@@ -28,23 +28,33 @@ it('completes Quick intake in text mode, shares results, and retakes the quiz', 
     }
     await click(rootNode.querySelector('.text-mode input'));
     expect(rootNode.querySelector('progress')?.getAttribute('max')).toBe('15');
+    await click(button('Save & exit'));
+    await click(button('Continue at question 1'));
+    expect(rootNode.querySelector('.sample img')).toBeNull();
     await click(button('Skip'));
     await click(rootNode.querySelector<HTMLInputElement>('main input[type="radio"], main input[type="checkbox"]'));
     await click(button('Continue'));
     expect(rootNode.querySelector('.sample img')).toBeNull();
-    for (let i = 0; i < 17 && rootNode.querySelector('main.quiz'); i++) {
+    for (let i = 0; i < 24 && rootNode.querySelector('main.quiz'); i++) {
+      if (rootNode.querySelector('h1')?.textContent === 'Review your answers') {
+        await click(rootNode.querySelector('button[aria-label="Edit question 1"]'));
+        await click(button('Return to review'));
+      }
       const radio = rootNode.querySelector<HTMLInputElement>('main input[type="radio"], main input[type="checkbox"]');
       if (radio) await click(radio);
       const vote = rootNode.querySelector<HTMLButtonElement>('main .vote-grid button');
       if (vote) await click(vote);
-      await click(button('Continue') ?? button('Finish section'));
+      await click(button('Continue') ?? button('Review answers') ?? button('Finish section'));
     }
     expect(rootNode.querySelector('h1')?.textContent).toBe('Your aesthetic profile');
     expect(rootNode.querySelectorAll('.result-card').length).toBe(6);
     const clipboard = { writeText: vi.fn().mockResolvedValue(undefined) };
     Object.defineProperty(navigator, 'clipboard', { value: clipboard, configurable: true });
+    const favorite = rootNode.querySelector('.personal-choice select') as HTMLSelectElement;
+    await act(() => { favorite.selectedIndex = 2; favorite.dispatchEvent(new Event('change', { bubbles: true })); });
     await click(button('Share results'));
     const link = (rootNode.querySelector('.share-field input') as HTMLInputElement).value;
+    expect(readSession(new URL(link).hash)?.pick).toBe(favorite.value);
     expect(clipboard.writeText).toHaveBeenCalledWith(link);
     expect(readSession(new URL(link).hash)?.mode).toBe('quick');
     const catalog = rootNode.querySelector('.catalog-controls');

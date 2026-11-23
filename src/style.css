@@ -190,3 +190,18 @@ progress::-moz-progress-bar { background: var(--ink); }
 .gallery-dialog header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
 .gallery-dialog h2, .gallery-dialog header p { margin: 0 0 .4rem; }
 .gallery-dialog iframe { display: block; width: 100%; height: min(62dvh, 42rem); border: 1px solid currentColor; margin: .75rem 0; }
+.inspection { width: min(92vw, 42rem); max-height: 94dvh; overflow: auto; padding: 1rem; background: #faf9f3; color: #21221f; }
+.inspection::backdrop { background: #151613bf; }
+.inspection header, .inspection footer, .resume { display:flex; gap:1rem; align-items:center; justify-content:space-between; }
+.inspection .sample { max-width:min(100%, 62dvh); margin:.75rem auto; }
+.inspection button, .review-list button, .inspect-button { padding:.6rem .9rem; cursor:pointer; }
+.quiz .sample img { cursor:zoom-in; }
+.visual-hint,.inspect-button,.resume,.personal-choice { margin:1rem 0; }
+.visual-hint summary { cursor:pointer; }
+.review-list { list-style:none; padding:0; }
+.review-list li { display:flex; align-items:center; gap:1rem; border-top:1px solid var(--rule); padding:1rem 0; }
+.review-list .sample { width:4rem; flex:none; }
+.review-list button { margin-left:auto; }
+.personal-choice { display:grid; gap:.5rem; max-width:28rem; }
+.personal-choice select { font:inherit; padding:.6rem; }
+.comparison-panels { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr)); }

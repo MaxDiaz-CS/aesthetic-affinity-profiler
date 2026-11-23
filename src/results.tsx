@@ -1,6 +1,7 @@
+import { describeAnswer } from './intake-tools.tsx';
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type RefObject } from 'react';
-import { axes, styles } from './data.ts';
-import { buildUserVector, explain, rank, scoreAesthetics, ties, type Answers, type Profile, type Question, type Result } from './engine/scoring.ts';
+import { axes, styles, motifs } from './data.ts';
+import { buildUserVector, explain, rank, scoreAesthetic, scoreAesthetics, ties, type Answers, type Profile, type Question, type Result } from './engine/scoring.ts';
 import { bank, shareUrl, type Mode } from './session.ts';
 import { resultTheme } from './theme.ts';
 import { Gallery } from './gallery.tsx';
@@ -91,7 +92,7 @@ function Radar({ profile, theme, textOnly }: { profile: Profile; theme: ReturnTy
   </div>;
 }
 
-async function downloadCard(top: Result[], bottom: Result[], theme: ReturnType<typeof resultTheme>) {
+async function downloadCard(top: Result[], bottom: Result[], theme: ReturnType<typeof resultTheme>, favorite?: string) {
   const canvas = document.createElement('canvas');
   canvas.width = 1200;
   canvas.height = 825;
@@ -130,6 +131,7 @@ async function downloadCard(top: Result[], bottom: Result[], theme: ReturnType<t
   print(bottom, 650);
   ctx.fillStyle = theme.ink;
   ctx.font = '20px monospace';
+  if (favorite) ctx.fillText('Personal pick · ' + favorite, 75, 684, 1050);
   ctx.fillText('Catalog: CARI · cari.institute/aesthetics', 75, 738);
   const blob = await new Promise<Blob>((resolve, reject) =>
     canvas.toBlob(result => result ? resolve(result) : reject(new Error('Unable to export the card')), 'image/png'));
@@ -141,9 +143,9 @@ async function downloadCard(top: Result[], bottom: Result[], theme: ReturnType<t
   window.setTimeout(() => URL.revokeObjectURL(href), 1000);
 }
 
-export function ResultView({ mode, answers, duels, textOnly, heading, retake }: {
+export function ResultView({ mode, answers, duels, textOnly, heading, retake, pick, setPick }: {
   mode: Mode; answers: Answers; duels: Question[]; textOnly: boolean;
-  heading: RefObject<HTMLHeadingElement | null>; retake: () => void;
+  pick: string; setPick: (value: string) => void; heading: RefObject<HTMLHeadingElement | null>; retake: () => void;
 }) {
   const [message, setMessage] = useState('');
   const [share, setShare] = useState('');
@@ -154,6 +156,7 @@ export function ResultView({ mode, answers, duels, textOnly, heading, retake }: 
     return { profile, ranking, questions };
   }, [mode, duels, answers]);
   const { ranking, profile, questions } = computed;
+  const personal = ranking.top.find(r => r.aesthetic.slug === pick)?.aesthetic;
   const theme = resultTheme(ranking.top[0]?.aesthetic);
   const topTies = ties(ranking.topPool);
   const bottomTies = ties(ranking.bottomPool);
@@ -168,11 +171,11 @@ export function ResultView({ mode, answers, duels, textOnly, heading, retake }: 
       <p>Your closest CARI match is <strong>{ranking.top[0]?.aesthetic.name}</strong>.</p>
       <div className="result-actions">
         <button className="button" onClick={async () => {
-          try { await downloadCard(ranking.top, ranking.bottom, theme); setMessage('Accession card downloaded.'); }
+          try { await downloadCard(ranking.top, ranking.bottom, theme, personal?.name); setMessage('Accession card downloaded.'); }
           catch { setMessage('The accession card could not be downloaded.'); }
         }}>Download accession card</button>
         <button className="button secondary" onClick={async () => {
-          const url = shareUrl(mode, answers, duels);
+          const url = shareUrl(mode, answers, duels, personal?.slug);
           setShare(url);
           try { await navigator.clipboard.writeText(url); setMessage('Results link copied.'); }
           catch { setMessage('Copy the results link below.'); }
@@ -189,6 +192,12 @@ export function ResultView({ mode, answers, duels, textOnly, heading, retake }: 
       <div className="result-grid">{ranking.top.map((result, index) => <ResultCard key={result.aesthetic.slug}
         result={result} textOnly={textOnly} position={index + 1} explanations={explain(questions, answers, result.aesthetic)} />)}</div>
     </section>
+    <label className="personal-choice">My personal pick
+      <select value={personal?.slug ?? ''} onChange={e => {setPick(e.target.value); setShare(''); setMessage('');}}>
+        <option value="">Choose after exploring the galleries</option>
+        {ranking.top.map(({ aesthetic }) => <option value={aesthetic.slug} key={aesthetic.slug}>{aesthetic.name}</option>)}
+      </select></label>
+    <MatchComparison top={ranking.top} questions={questions} answers={answers} textOnly={textOnly} />
     <section className="result-section">
       <div className="section-heading"><h2>Lowest affinity</h2><span>Bottom 3</span></div>
       {bottomTies.length > 0 && <p className="tie-note">Third place tied with {bottomTies.join(', ')}.</p>}
@@ -204,4 +213,37 @@ export function ResultView({ mode, answers, duels, textOnly, heading, retake }: 
     <CompareProfiles original={ranking} />
     {new URLSearchParams(window.location.search).get('playtest') === '1' && <Playtest ranking={ranking.top} mode={mode} />}
   </main>;
+}
+
+function MatchComparison({ top, questions, answers, textOnly }: {
+  top: Result[]; questions: Question[]; answers: Answers; textOnly: boolean;
+}) {
+  const [first, second] = top;
+  const comparison = useMemo(() => {
+    if (!first || !second) return;
+    let influence = 0;
+    let strongest = '';
+    for (const q of questions) {
+      if (answers[q.id] === undefined) continue;
+      const rest = { ...answers };
+      delete rest[q.id];
+      const profile = buildUserVector(questions, rest);
+      const gapWithout = scoreAesthetic(profile, first.aesthetic).score - scoreAesthetic(profile, second.aesthetic).score;
+      const effect = first.score - second.score - gapWithout;
+      if (effect > influence + 0.000001) {
+        influence = effect;
+        strongest = q.prompt + ' — ' + describeAnswer(q, answers[q.id]);
+      }
+    }
+    const shared = motifs.filter(m => first.aesthetic.motifIds.includes(m.id) && second.aesthetic.motifIds.includes(m.id));
+    return { strongest, shared };
+  }, [first, second, questions, answers]);
+  if (!comparison) return null;
+  return <details className="full-ranking"><summary>Why these two?</summary>
+    <p>{comparison.shared.length ? 'Shared details include ' + comparison.shared.map(m => m.label.toLowerCase()).join(', ') + '.' : 'These matches have distinct signature details.'}</p>
+    <div className="comparison-panels">{[first, second].map(r => <article key={r.aesthetic.slug}>
+      <h3>{r.aesthetic.name} · {r.match}%</h3><p>{r.aesthetic.summary}</p>
+      <Gallery aesthetic={r.aesthetic} textOnly={textOnly} /></article>)}</div>
+    {comparison.strongest && <p><strong>Answer that most favored {first.aesthetic.name} over {second.aesthetic.name}</strong><br />{comparison.strongest}</p>}
+  </details>;
 }
