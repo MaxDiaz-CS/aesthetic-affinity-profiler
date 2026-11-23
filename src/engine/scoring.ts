@@ -2,7 +2,7 @@ export type Vector = Record<string, number>;
 export type Option = { label: string; vector: Vector; motifs: string[]; image?: string; detail?: string };
 export type Question = {
   id: string; section: string; type: 'era' | 'pair' | 'scenario' | 'motif' | 'slider' | 'duel';
-  prompt: string; options: Option[]; quick?: boolean; quickDraft?: boolean; axis?: string; maxChoices?: number; avoid?: boolean;
+  prompt: string; instruction?: string; options: Option[]; quick?: boolean; quickDraft?: boolean; axis?: string; maxChoices?: number; avoid?: boolean;
 };
 export type Answer = number | number[] | Record<string, -1 | 0 | 1>;
 export type Answers = Record<string, Answer>;
@@ -184,7 +184,7 @@ export function makeDuel(styles: Aesthetic[], avoid: boolean): Question {
   const images = splitters[styles.map(style => style.slug).join(':')];
   return { id, section: 'F', type: 'duel', avoid,
     prompt: avoid ? 'Imagine these designs on your wall for a year. Which would you take down first?' : 'Imagine these designs on your wall for a year. Which would you keep?',
-    options: styles.map((style, i) => ({ image: images?.[i], label: style.summary, vector: style.vector, motifs: style.motifIds })) };
+    options: styles.map((style, i) => ({ label: `Direction ${i + 1}`, detail: style.summary, vector: style.vector, motifs: style.motifIds })) };
 }
 
 export function pickNextQuestion(questions: Question[], answers: Answers, top: Aesthetic[]) {

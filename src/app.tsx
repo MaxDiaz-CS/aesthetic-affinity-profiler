@@ -46,7 +46,7 @@ function Intake({ start }: { start: (mode: Mode) => void }) {
     <div className="mode-heading"><h2>Choose your intake</h2><span>Pick the length that suits you</span></div>
     <div className="mode-grid">
       <button className="mode-card primary" onClick={() => start('full')}>
-        <span className="mode-meta">34 questions + tie-breaks</span>
+        <span className="mode-meta">36 questions + tie-breaks</span>
         <strong>Full intake</strong><span>More visual choices and scenarios.</span>
         <span className="mode-action">Start full intake <span aria-hidden="true">↗</span></span>
       </button>
@@ -121,6 +121,7 @@ function QuestionOptions({ question, value, change, textOnly }: {
   const used = new Set<string>();
   const optionImages = question.options.map(option => {
     if (option.image) return option.image;
+    if (question.type === 'duel') return undefined;
     const candidates = questions.filter(q => q.type === 'motif' || q.section === 'C')
       .flatMap(q => q.options).filter(sample => sample.image && !used.has(sample.image));
     const affinity = (sample: typeof option) => cosine(option.vector, sample.vector)
@@ -135,7 +136,7 @@ function QuestionOptions({ question, value, change, textOnly }: {
         {optionImages[index] && <Preview id={optionImages[index]} textOnly={textOnly} />}
         <span className="option-label">
           <input type="radio" name={question.id} checked={value === index} onChange={() => change(index)} />
-          <span>{option.label}</span>
+          <span>{option.label}{option.detail && <small>{option.detail}</small>}</span>
         </span>
       </label>)}
     {question.type === 'pair' && <label className="option neither"><span className="option-label">
@@ -271,7 +272,7 @@ export function App() {
       <progress aria-label="Intake progress" value={Math.min(index + 1, baseCount)} max={baseCount} />
       <p className="section-title">{sections[question.section]}</p>
       <h1 ref={heading} tabIndex={-1}>{question.prompt}</h1>
-      {question.type === 'pair' && <p className="question-help">Go with your first instinct. Choose either option or select neither.</p>}
+      <p className="question-help">{question.instruction}</p>
       <QuestionOptions question={question} value={answers[question.id]} change={change} textOnly={textOnly} />
       {feedback && <p role="alert" className="feedback">{feedback}</p>}
       <div className="quiz-actions">

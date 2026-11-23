@@ -178,6 +178,7 @@ progress::-moz-progress-bar { background: var(--ink); }
 .slider-images { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: .8rem; }
 .slider-images .sample { max-width: 20rem; justify-self: center; }
 .option-label small { display: block; font-size: .875rem; margin-top: .25rem; }
+.option-label:has(small) { align-items: flex-start; }
 .visual-options .neither, .neither { grid-column: 1 / -1; }
 .motif .sample { margin-bottom: .5rem; }
 

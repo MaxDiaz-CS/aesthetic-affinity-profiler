@@ -3,7 +3,7 @@
     "id": "decades",
     "section": "A",
     "type": "era",
-    "prompt": "Think of objects you remember fondly, from a family radio to your first phone. Which decades bring back that feeling?",
+    "prompt": "Think of a familiar object from each period, such as a radio, computer or phone. Which decades bring back a particular look or feeling you enjoy?",
     "quick": true,
     "options": [
       {
@@ -61,13 +61,14 @@
         "image": "decades-5"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Choose a decade only if its objects or visual references feel nostalgic to you. This is optional and does not mean you prefer every design from that time."
   },
   {
     "id": "context",
     "section": "A",
     "type": "scenario",
-    "prompt": "Think about the last time a design caught your eye. Where do you tend to notice details like the shape, lettering or materials?",
+    "prompt": "Recall the last time you paused to notice a design. Where were you, and what kind of designed thing caught your eye?",
     "quick": true,
     "options": [
       {
@@ -120,13 +121,14 @@
       }
     ],
     "maxChoices": 2,
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "space-mood",
     "section": "A",
     "type": "scenario",
-    "prompt": "You are making a corner of your home your own. Which mood would you most like to come home to?",
+    "prompt": "Imagine making one corner of your home feel more like yours. What should it feel like when you walk in and look around?",
     "quick": false,
     "options": [
       {
@@ -178,13 +180,14 @@
         "image": "attitude-a"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "finish",
     "section": "B",
     "type": "pair",
-    "prompt": "You can wrap a notebook in either finish. Which surface would you want under your hand every day?",
+    "prompt": "Imagine choosing a notebook you will carry every day. Which cover would feel better in your hands and look better after months of use?",
     "quick": true,
     "options": [
       {
@@ -210,13 +213,14 @@
         "image": "finish-b"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "chroma",
     "section": "B",
     "type": "pair",
-    "prompt": "Imagine hanging this print above your desk. Would you keep the colors dusty or turn up their intensity?",
+    "prompt": "You can keep the same poster layout and change only its colors. Would you rather see a restrained, dusty palette or colors that feel vivid from across the room?",
     "quick": true,
     "options": [
       {
@@ -240,13 +244,14 @@
         "image": "chroma-b"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "temperature",
     "section": "B",
     "type": "pair",
-    "prompt": "The furniture stays in place. Which color of light would you choose for an evening in this room?",
+    "prompt": "Picture the same room at dusk with the same furniture and layout. Which color of light and atmosphere would you rather spend an evening in?",
     "quick": true,
     "options": [
       {
@@ -268,13 +273,14 @@
         "image": "temperature-b"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "composition",
     "section": "B",
     "type": "pair",
-    "prompt": "You have room for one poster above your desk. How much of the page would you fill?",
+    "prompt": "You are commissioning a poster for an empty wall. Would you want one clear focal point surrounded by breathing room, or a surface filled with overlapping forms?",
     "quick": true,
     "options": [
       {
@@ -298,13 +304,14 @@
         "image": "composition-b"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "outline",
     "section": "B",
     "type": "pair",
-    "prompt": "These two objects take up the same shelf space. Which outline would you enjoy seeing in silhouette?",
+    "prompt": "Two lamps occupy the same amount of space and give the same light. Which silhouette would you rather see on a side table?",
     "quick": true,
     "options": [
       {
@@ -328,13 +335,14 @@
         "image": "outline-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "light",
     "section": "B",
     "type": "pair",
-    "prompt": "The same raised circle appears on both book covers. Which cover would catch your eye across a table?",
+    "prompt": "The same raised circular emblem appears on two book covers. One is surrounded by deep shadow, the other by pale daylight. Which cover would draw you closer?",
     "quick": false,
     "options": [
       {
@@ -354,13 +362,14 @@
         "image": "light-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "signal",
     "section": "B",
     "type": "pair",
-    "prompt": "A diner scene is going on a record sleeve. Would you print it with film grain or build it out of visible pixels?",
+    "prompt": "A photograph of a neighborhood diner is being printed on a record sleeve. Would you prefer the uneven grain of a printed photograph or the crisp, visible squares of a pixel image?",
     "quick": false,
     "options": [
       {
@@ -386,13 +395,14 @@
         "image": "signal-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "letter",
     "section": "B",
     "type": "pair",
-    "prompt": "Your notebook gets a single letter on its cover. Which shape should that letter take?",
+    "prompt": "A notebook cover will show one large initial and nothing else. Would you choose delicate letterforms with small finishing strokes or heavy, plain lettering?",
     "quick": false,
     "options": [
       {
@@ -418,13 +428,14 @@
         "image": "letter-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "pace",
     "section": "B",
     "type": "pair",
-    "prompt": "These poster designs use repeating stripes. Which rhythm would you put on your wall?",
+    "prompt": "A poster repeats the same stripe across the page. Would you prefer generous gaps and an even rhythm, or tight repetition that creates speed and movement?",
     "quick": false,
     "options": [
       {
@@ -446,13 +457,14 @@
         "image": "pace-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "touch",
     "section": "B",
     "type": "pair",
-    "prompt": "Imagine both sofas are equally comfortable. Which upholstery and shape would you bring home?",
+    "prompt": "Imagine both sofas are equally comfortable and fit the room equally well. Which one feels more at home to you: soft, relaxed upholstery or crisp, precisely tailored surfaces?",
     "quick": false,
     "options": [
       {
@@ -476,13 +488,14 @@
         "image": "touch-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "attitude",
     "section": "B",
     "type": "pair",
-    "prompt": "An illustrator has drawn the same face two ways. Which drawing would you keep on a book cover?",
+    "prompt": "An illustrator draws the same friendly face in two styles. Which would you keep on a book cover: rounded and gentle marks, or sharp, abrasive shapes?",
     "quick": false,
     "options": [
       {
@@ -506,13 +519,14 @@
         "image": "attitude-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "future",
     "section": "B",
     "type": "pair",
-    "prompt": "A film opens on a city walkway years from now. Which version would you want as a print?",
+    "prompt": "Picture a public walkway in a city set fifty years from now. Would you rather see a future that feels welcoming and cared for, or one that feels uncertain and abandoned?",
     "quick": false,
     "options": [
       {
@@ -534,13 +548,14 @@
         "image": "future-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Compare the pictures themselves. Focus on the named difference and choose the one you would rather keep seeing. Choose Neither if both miss the mark."
   },
   {
     "id": "lobby",
     "section": "C",
     "type": "scenario",
-    "prompt": "You arrive at a hotel an hour before check-in. Which lobby would you settle into while you wait?",
+    "prompt": "You arrive early for a stay and will wait in the hotel lobby for an hour. Look at the room’s light, scale, seating, finishes and sense of formality. Which place would you choose?",
     "quick": true,
     "options": [
       {
@@ -554,7 +569,8 @@
           "wood",
           "plush"
         ],
-        "image": "lobby-0"
+        "image": "lobby-0",
+        "detail": "Warm timber, soft couches, palms and late afternoon light. Large, welcoming lounge scale."
       },
       {
         "label": "A dim fireside room with worn velvet",
@@ -567,7 +583,8 @@
           "plush",
           "gothic"
         ],
-        "image": "lobby-1"
+        "image": "lobby-1",
+        "detail": "Worn velvet, low lamps and a small fire. Intimate seating with deep shadows."
       },
       {
         "label": "Airy glass and slim white seating",
@@ -580,7 +597,8 @@
           "glass",
           "minimal"
         ],
-        "image": "lobby-2"
+        "image": "lobby-2",
+        "detail": "An airy glass atrium, pale curved walls and slim white chairs. Open sightlines and cool daylight."
       },
       {
         "label": "A cold, low-lit lobby in brushed steel",
@@ -593,16 +611,18 @@
           "industrial",
           "chrome"
         ],
-        "image": "lobby-3"
+        "image": "lobby-3",
+        "detail": "Brushed steel, dark surfaces and narrow beams of blue light. A spare, controlled atmosphere."
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "flyer",
     "section": "C",
     "type": "scenario",
-    "prompt": "Your band has one flyer to put in a record shop. Which lettering would you use for its name?",
+    "prompt": "Your band is putting its first flyer on a record-store wall. The words and event are the same in every version. Which lettering has the right voice for the band?",
     "quick": true,
     "options": [
       {
@@ -653,13 +673,14 @@
         "image": "flyer-3"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "device",
     "section": "C",
     "type": "scenario",
-    "prompt": "There is space for one object beside your keyboard. Which design would you enjoy looking at every day?",
+    "prompt": "Choose one object to keep beside your keyboard for the next few years. Think about its silhouette, finish, material and how it would sit among your everyday things.",
     "quick": true,
     "options": [
       {
@@ -712,13 +733,14 @@
         "image": "device-3"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "cafe",
     "section": "C",
     "type": "scenario",
-    "prompt": "It is raining and you have an hour to read. Which café interior makes you want to stay?",
+    "prompt": "Rain is tapping on the windows and you have an hour to read. Which café would make you settle in? Notice its light, seating, surfaces and overall sense of bustle.",
     "quick": false,
     "options": [
       {
@@ -732,7 +754,8 @@
           "wood",
           "brush"
         ],
-        "image": "cafe-0"
+        "image": "cafe-0",
+        "detail": "Honey-colored wood, hand-painted menus and mismatched chairs. Familiar, informal and warm."
       },
       {
         "label": "Warm-toned tiles and polished brass",
@@ -745,7 +768,8 @@
           "lux",
           "retro"
         ],
-        "image": "cafe-1"
+        "image": "cafe-1",
+        "detail": "Warm tile, polished brass and reflective counters. A more dressed-up, decorative room."
       },
       {
         "label": "Cool gray textiles and fogged-up windows",
@@ -757,7 +781,8 @@
         "motifs": [
           "plush"
         ],
-        "image": "cafe-2"
+        "image": "cafe-2",
+        "detail": "Gray upholstery and fogged windows. A quiet, cool-toned place with soft diffuse light."
       },
       {
         "label": "A blue steel counter and precisely aligned lights",
@@ -769,16 +794,18 @@
         "motifs": [
           "industrial"
         ],
-        "image": "cafe-3"
+        "image": "cafe-3",
+        "detail": "A blue steel counter under evenly spaced lights. Bright, crisp and deliberately orderly."
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "cover",
     "section": "C",
     "type": "scenario",
-    "prompt": "Four magazines cover the same story. Which cover would you pick up first at the newsstand?",
+    "prompt": "Four magazines cover the same subject. Imagine seeing them together at a newsstand. Which cover would make you reach out and pick it up?",
     "quick": false,
     "options": [
       {
@@ -834,13 +861,14 @@
         "image": "cover-3"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "jacket",
     "section": "C",
     "type": "scenario",
-    "prompt": "All four jackets fit equally well. Which fabric and detailing would you wear on a night out?",
+    "prompt": "All four jackets fit and feel equally warm. Which material, surface and pattern would you feel most like yourself wearing on a night out?",
     "quick": false,
     "options": [
       {
@@ -895,13 +923,14 @@
         "image": "jacket-3"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "shop",
     "section": "C",
     "type": "scenario",
-    "prompt": "You pass four shops selling the same things. Which window display would make you stop?",
+    "prompt": "You pass four storefronts selling the same kind of goods. Which entrance and window display would make you slow down, look in, and step across the threshold?",
     "quick": false,
     "options": [
       {
@@ -914,7 +943,8 @@
           "retro",
           "minimal"
         ],
-        "image": "shop-0"
+        "image": "shop-0",
+        "detail": "Painted sign, a few carefully spaced objects and an easy-to-read entrance."
       },
       {
         "label": "A colorful discount window with novelty packaging",
@@ -927,7 +957,8 @@
           "word-art",
           "retro"
         ],
-        "image": "shop-1"
+        "image": "shop-1",
+        "detail": "Bright packages fill the window from edge to edge. Dense, playful and full of small discoveries."
       },
       {
         "label": "A crisp digital sign above one spotlighted object",
@@ -939,7 +970,8 @@
           "tech",
           "minimal"
         ],
-        "image": "shop-2"
+        "image": "shop-2",
+        "detail": "One object sits in a pool of light beneath a clean digital sign. A simple, gallery-like display."
       },
       {
         "label": "Animated LED lettering surrounded by geometric props",
@@ -951,16 +983,18 @@
           "tech",
           "laser"
         ],
-        "image": "shop-3"
+        "image": "shop-3",
+        "detail": "Animated LED lettering, bright geometric props and repeated color. A high-energy street presence."
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "album",
     "section": "C",
     "type": "scenario",
-    "prompt": "You have never heard this record. Which sleeve would make you curious enough to press play?",
+    "prompt": "You know nothing about this record except its sleeve. Which visual composition would make you curious enough to listen?",
     "quick": false,
     "options": [
       {
@@ -1014,13 +1048,161 @@
         "image": "album-3"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
+  },
+  {
+    "id": "threshold",
+    "section": "C",
+    "type": "scenario",
+    "quick": false,
+    "prompt": "You are deciding how visitors should arrive at a small public library. Which entrance makes you want to cross the threshold?",
+    "instruction": "Imagine approaching each building from the sidewalk. Notice the scale of the doorway, the path that leads to it, the materials, and whether the entrance feels open, formal, sheltered, or precise. Choose the place you would feel most drawn to enter.",
+    "options": [
+      {
+        "label": "A quiet path toward a bright courtyard",
+        "detail": "A narrow passage gives you a clear view ahead and opens into daylight.",
+        "vector": {
+          "complexity": -1,
+          "geometry": 1,
+          "comfort": -1,
+          "subject:nature": 1,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "plants"
+        ],
+        "image": "architecture-0"
+      },
+      {
+        "label": "A monumental, symmetrical front stair",
+        "detail": "Oversized steps, columns, and a centered doorway make the building feel ceremonial.",
+        "vector": {
+          "geometry": 2,
+          "complexity": 1,
+          "tone": -1,
+          "subject:academic": 1,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "classical"
+        ],
+        "image": "architecture-1"
+      },
+      {
+        "label": "A low timber doorway among plants",
+        "detail": "Natural wood and filtered light make the entrance feel sheltered and informal.",
+        "vector": {
+          "temperature": -1,
+          "geometry": -2,
+          "comfort": -2,
+          "texture:organic": 1,
+          "subject:nature": 1,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "wood",
+          "plants"
+        ],
+        "image": "architecture-2"
+      },
+      {
+        "label": "A glass-and-steel entry with precise lines",
+        "detail": "Bright glazing and a direct path make the entrance feel crisp and controlled.",
+        "vector": {
+          "surface": 2,
+          "geometry": 2,
+          "comfort": 2,
+          "texture:metallic": 1,
+          "subject:corporate": 1,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "chrome"
+        ],
+        "image": "architecture-3"
+      }
+    ]
+  },
+  {
+    "id": "interior-volume",
+    "section": "C",
+    "type": "scenario",
+    "quick": false,
+    "prompt": "Picture a neighborhood arts center where you might spend a free afternoon. Which interior would you most want to explore?",
+    "instruction": "Think about how the room feels at human scale: how high it rises, where the light comes from, how you move through it, and whether decoration or open space sets the mood.",
+    "options": [
+      {
+        "label": "A tall, skylit atrium with balconies",
+        "detail": "Daylight reaches deep into a large open room, with views between levels.",
+        "vector": {
+          "value": 2,
+          "complexity": -1,
+          "geometry": 2,
+          "energy": 1,
+          "outlook": -1,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "glass",
+          "minimal"
+        ],
+        "image": "architecture-4"
+      },
+      {
+        "label": "A low lounge with layered lamps and timber",
+        "detail": "Close seating, warm wood, and pools of light make a smaller room feel intimate.",
+        "vector": {
+          "temperature": -1,
+          "complexity": 1,
+          "energy": -1,
+          "comfort": -2,
+          "texture:organic": 1,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "wood"
+        ],
+        "image": "architecture-5"
+      },
+      {
+        "label": "A shadowed gallery with one lit artwork",
+        "detail": "A restrained room uses darkness and a focused spotlight to direct your attention.",
+        "vector": {
+          "value": -2,
+          "complexity": -1,
+          "energy": -2,
+          "tone": 1,
+          "subject:academic": 1,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "minimal"
+        ],
+        "image": "architecture-6"
+      },
+      {
+        "label": "A bright stair hall in bold blocks of color",
+        "detail": "A visible staircase, saturated planes, and a graphic wall make movement part of the experience.",
+        "vector": {
+          "saturation": 2,
+          "complexity": 1,
+          "geometry": 2,
+          "energy": 2,
+          "context:interiors": 1
+        },
+        "motifs": [
+          "chunky"
+        ],
+        "image": "architecture-7"
+      }
+    ]
   },
   {
     "id": "paperback",
     "type": "scenario",
     "section": "C",
-    "prompt": "You are browsing used paperbacks. Which cover illustration would you frame?",
+    "prompt": "You are browsing secondhand books and spot these four imagined cover illustrations. Which image would you want to live with, perhaps even frame?",
     "quick": false,
     "options": [
       {
@@ -1069,13 +1251,14 @@
         "image": "paperback-3"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "record-art",
     "type": "scenario",
     "section": "C",
-    "prompt": "You get to choose the artwork for a record reissue. Which scene should fill the sleeve?",
+    "prompt": "A record is being reissued with new artwork. Which sleeve image best sets a mood you would want to hear for a whole album?",
     "quick": false,
     "options": [
       {
@@ -1124,13 +1307,14 @@
         "image": "record-art-3"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Choose the setting or object you would personally spend time with or bring home. There is no design knowledge required."
   },
   {
     "id": "motifs-1",
     "section": "D",
     "type": "motif",
-    "prompt": "Imagine these colors and materials on something you use daily. Which would you seek out or avoid?",
+    "prompt": "Consider how these surfaces and materials feel to use and live around. Mark a detail you would seek out with Love, one you would avoid with Dislike, and leave the rest unanswered.",
     "quick": true,
     "options": [
       {
@@ -1266,13 +1450,14 @@
         "image": "motif-pastel"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Use Love for a detail you would seek out, Dislike for one you would avoid, and leave the rest neutral."
   },
   {
     "id": "motifs-2",
     "section": "D",
     "type": "motif",
-    "prompt": "Look at the lettering, symbols and decorative details. Which would you keep on a poster or deliberately leave off?",
+    "prompt": "Look at the lettering, symbols and decorative details as if they were on a poster or sign you see every day. Mark what you would welcome or avoid. Leave anything you feel neutral about untouched.",
     "quick": true,
     "options": [
       {
@@ -1408,13 +1593,14 @@
         "image": "motif-industrial"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Use Love for a detail you would seek out, Dislike for one you would avoid, and leave the rest neutral."
   },
   {
     "id": "motifs-3",
     "section": "D",
     "type": "motif",
-    "prompt": "Imagine living with these objects and patterns. Which would you enjoy seeing again, and which would wear on you?",
+    "prompt": "Imagine these objects and scenes appearing in your home, on your clothes or in places you visit. Mark what you would enjoy seeing repeatedly and what you would rather not have around.",
     "quick": true,
     "options": [
       {
@@ -1552,13 +1738,14 @@
         "image": "motif-word-art"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Use Love for a detail you would seek out, Dislike for one you would avoid, and leave the rest neutral."
   },
   {
     "id": "slider-saturation",
     "section": "E",
     "type": "slider",
-    "prompt": "You are choosing colors for an everyday notebook. How muted or vivid would you make its cover?",
+    "prompt": "Think of things you see and use every day, from a phone case to a mug. Where should their colors sit between soft and muted and loud and saturated?",
     "quick": true,
     "axis": "saturation",
     "options": [
@@ -1579,13 +1766,14 @@
         "image": "chroma-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Move toward the side that better describes your taste. The middle is a valid neutral answer."
   },
   {
     "id": "slider-complexity",
     "section": "E",
     "type": "slider",
-    "prompt": "Imagine arranging a shelf in your living room. How much open space would you leave around the objects?",
+    "prompt": "Imagine arranging your ideal room, including what is on the walls and shelves. How much open, uncluttered space do you want compared with layered detail?",
     "quick": true,
     "axis": "complexity",
     "options": [
@@ -1606,13 +1794,14 @@
         "image": "composition-b"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Move toward the side that better describes your taste. The middle is a valid neutral answer."
   },
   {
     "id": "slider-tone",
     "section": "E",
     "type": "slider",
-    "prompt": "An illustrator is designing a face for a patch on your bag. How gentle or abrasive should it look?",
+    "prompt": "Think about the graphics, characters and symbols you tend to save or revisit. Should their mood feel more wholesome and gentle, or more edgy and confrontational?",
     "quick": false,
     "axis": "tone",
     "options": [
@@ -1633,13 +1822,14 @@
         "image": "attitude-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Move toward the side that better describes your taste. The middle is a valid neutral answer."
   },
   {
     "id": "slider-outlook",
     "section": "E",
     "type": "slider",
-    "prompt": "Picture a city in a film set fifty years from now. What mood do you want the opening shot to leave you with?",
+    "prompt": "Picture a future city in a film, game or illustration. Should it feel bright with possibility, or uneasy and bleak?",
     "quick": false,
     "axis": "outlook",
     "options": [
@@ -1660,13 +1850,14 @@
         "image": "future-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Move toward the side that better describes your taste. The middle is a valid neutral answer."
   },
   {
     "id": "slider-comfort",
     "section": "E",
     "type": "slider",
-    "prompt": "You are furnishing a favorite reading corner. How soft and lived-in or crisp and tailored should it look?",
+    "prompt": "Consider the spaces where you like to linger. Should their materials and furniture feel soft and lived-in, or crisp, streamlined and sleek?",
     "quick": false,
     "axis": "comfort",
     "options": [
@@ -1687,13 +1878,14 @@
         "image": "touch-b"
       }
     ],
-    "quickDraft": false
+    "quickDraft": false,
+    "instruction": "Move toward the side that better describes your taste. The middle is a valid neutral answer."
   },
   {
     "id": "slider-value",
     "section": "E",
     "type": "slider",
-    "prompt": "You are choosing a book cover in one color. How dark or light would you want it?",
+    "prompt": "Imagine choosing a one-color poster for a room. Would you prefer a dark field with deep shadows, or a light field with open, bright space?",
     "quick": false,
     "axis": "value",
     "options": [
@@ -1714,6 +1906,7 @@
         "image": "light-b"
       }
     ],
-    "quickDraft": true
+    "quickDraft": true,
+    "instruction": "Move toward the side that better describes your taste. The middle is a valid neutral answer."
   }
 ]

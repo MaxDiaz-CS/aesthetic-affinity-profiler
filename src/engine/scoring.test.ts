@@ -82,7 +82,7 @@ describe('preference scoring', () => {
 
 describe('release data', () => {
   it('has complete quiz modes, motif tiles and sourced-image placeholder entries', () => {
-    expect(bank('full')).toHaveLength(34);
+    expect(bank('full')).toHaveLength(36);
     expect(bank('quick')).toHaveLength(15);
     expect(bank('quick-draft')).toHaveLength(12);
     expect(bank('quick').filter(question => question.type === 'motif')).toHaveLength(3);

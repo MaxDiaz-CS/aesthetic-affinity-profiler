@@ -62,7 +62,7 @@ the closest match appears after scoring.
 
 ### Question method
 
-Full intake contains 34 fixed questions. The default Quick intake has 15, including three 12-tile motif grids. Both add up to four conditional tie-breaks. The 12-screen Quick proposal has one motif grid and up to three top tie-breaks. It is available for review with `?quickDraft=1`. The optional `?adaptive=1` flag reorders remaining scored choices within a section.
+Full intake contains 36 fixed questions. Two scenarios explore architectural decisions about a public entrance and an arts-center interior. Visitors consider thresholds, circulation, scale, daylight, material, and ornament through pictured examples and plain-language descriptions. The default Quick intake has 15, including three 12-tile motif grids. Both add up to four conditional tie-breaks. The 12-screen Quick proposal has one motif grid and up to three top tie-breaks. It is available for review with `?quickDraft=1`. The optional `?adaptive=1` flag reorders remaining scored choices within a section.
 
 Every fixed question has illustrated choices or slider endpoints, including the first warm-up. The 12 visual pairs isolate one or two scored differences. Selecting “Neither” contributes zero evidence. Visitors may choose two design contexts. The scorer averages those selections so answering twice gives the context screen the same weight as a single selection.
 
